@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<netcatml>
+  <subdivisions>
+    <subdivision subdivision_id="592" catalogue_id="1" parent_sub_id="121">
+      <Subdivision_Name>Девяткино</Subdivision_Name>
+      <EnglishName>elektrik-devyatkino1</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+  </subdivisions>
+  <sub_classes>
+    <sub_class sub_class_id="533" subdivision_id="592" class_id="190">
+      <Sub_Class_Name>Девяткино</Sub_Class_Name>
+      <EnglishName>elektrik-devyatkino</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+  </sub_classes>
+  <fields>
+    <field field_id="1575" type_of_data_id="3">
+      <Field_Name>TextContent</Field_Name>
+      <Description>Текст</Description>
+    </field>
+  </fields>
+  <messages>
+    <message message_id="3" class_id="190" subdivision_id="592" sub_class_id="533">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2017-03-27 20:45:05</Created>
+      <LastUpdated>2017-03-27 20:56:17</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>31.134.137.34</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Firefox/52.0</LastUserAgent>
+      <Keyword></Keyword>
+      <TextContent><![CDATA[<h1>Электрик: метро Девяткино</h1><p style="text-align: justify;">Установка счетчика энергии, ремонт выключателя или подключение люстры &mdash; это только краткий список работ, которые производит компания&nbsp;<strong><span style="color: rgb(0, 128, 0);">БРИГАДИР</span></strong>&nbsp;и ее электрик: Девяткино, как и весь Всеволожский район, к которому относится эта станция метро, специалист знает еще с момента своего переезда. Его дом стоит рядом с подземкой &mdash; буквально через дорогу.</p><p>Нужно, чтобы мастер срочно приехал на дом? Номера службы сервиса в СПб &ndash;&nbsp;<strong style="text-align: justify;"><span style="color: rgb(0, 128, 0);">300-20-20</span></strong><span style="text-align: justify;">&nbsp;и&nbsp;</span><strong style="text-align: justify;"><span style="color: rgb(0, 128, 0);">929-09-82</span></strong>. Как правило, во все кварталы, расположенные около ст. м., электромонтер приезжает за четверть часа. Для более удаленных ЖК может потребоваться несколько больше времени.</p><h2>Цены &ndash; электрик у метро Девяткино</h2><table border="0" class="price_table"><tbody><tr><th rowspan="2" style="text-align: center;"><strong>Наименование</strong></th><th rowspan="2" colspan="2" style="text-align: center;"><strong>Стоимость, руб.</strong></th></tr><tr></tr><tr><td style="text-align: justify;">Все расценки</td><td colspan="2" style="text-align: center;"><a href="/prices/electrician/"><span style="color: rgb(0, 128, 0);"><strong>ПРАЙС-ЛИСТ</strong></span></a></td></tr><tr><td style="text-align: justify;">Минимальная стоимость работ (в т.ч. выезд)</td><td colspan="2" style="text-align: center;"><strong style="text-align: justify;"><span style="color: rgb(0, 128, 0);">1200</span></strong></td></tr></tbody></table><p style="text-align: justify;">В случае если у вас нет понимания того, какой материал использовать и где его покупать, электромонтажник нашей фирмы возьмет эту проблему на себя: он знает хорошие магазины, где продается продукция достойного качества. А чтобы просто выяснить, сколько стоит монтаж, достаточно пригласить его на консультацию.</p><h2>Почему мы:</h2><ul><li>электромонтажные работы с серьезным опытом;</li><li>районное распределение: монтажник у метро около вас;</li><li>опытные ребята-<font color="#008000" face="Arial, Verdana, sans-serif"><b>СЛАВЯНЕ</b></font>;</li><li>все необходимые документы:&nbsp;<b style="color: rgb(0, 128, 0);">ДОГОВОР&nbsp;</b>и&nbsp;<a href="/about/warranties/"><strong><span style="color: rgb(0, 128, 0);">ГАРАНТИЯ</span></strong></a>;</li><li>конкурентный прейскурант.</li></ul><p>Телефоны организации в Девяткино &ndash;&nbsp;<strong style="text-align: justify;"><span style="color: rgb(0, 128, 0);">300-20-20</span></strong><span style="text-align: justify;">&nbsp;и&nbsp;</span><strong style="text-align: justify;"><span style="color: rgb(0, 128, 0);">929-09-82</span></strong>.</p>]]></TextContent>
+    </message>
+  </messages>
+  <comments/>
+</netcatml>

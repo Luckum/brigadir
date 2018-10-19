@@ -1,0 +1,7 @@
+<!-- FormPrefix --><?= $f_AdminCommon ;?><!-- /FormPrefix -->
+
+<!-- RecordTemplate --><?= $f_AdminButtons ;?>
+<?= $f_Name ;?><br>
+<?= ($f_Sub_ID == 0 ? 'По умолчанию для всех разделов' : db_get(db_val, 'Subdivision_Name', 'Subdivision', "Subdivision_ID = ".$f_Sub_ID."")) ;?><!-- /RecordTemplate -->
+
+<!-- FormSuffix --><!-- /FormSuffix -->

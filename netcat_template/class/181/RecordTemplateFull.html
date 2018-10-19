@@ -1,0 +1,12 @@
+<p class="date"><?= $f_Date_day."".$f_Date_month."".$f_Date_year ;?></p>
+<div class="news-inner">
+<div class="news-short"><?= $f_Short ;?></div>
+<div class="news-text">
+<?= $f_TextContent ;?>
+<?= ($f_Letter_ID ? s_list_class(83, 203, "&oid=$f_Letter_ID") : '') ;?>
+
+<p class="tar">
+    <a class="button_blue" href="/news/">Все новости</a>
+</p>
+</div>
+</div>

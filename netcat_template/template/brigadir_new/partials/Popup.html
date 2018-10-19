@@ -1,0 +1,135 @@
+<noindex>
+    <div id="popup2-call" class="popup2 popup-window">
+        <div class="inner">
+            <h3>Заявка на обратный звонок</h3>
+            <div class="popup2-content">
+                <form action="/ajax2/callback/" method="post" name="callback-form" id="callback-form">
+                    <div class="text-field" style="border-bottom:none; padding-bottom:10px;">
+                        <span style="width:45px; display:inline-block;">Имя:</span>
+                        <input type="text" name="field2" value="" class="styleInput required" id="field2" style="width:167px; margin-left:0px;">
+                        <p class="f-right phoneInput"><label for="">Телефон: </label> +7 (<input type="text" name="field4" value="" class="styleInput phone_1 required" style="margin-left:0px;">)<input type="text" name="field5" value="" class="styleInput phone_1 required" style="margin-left:10px;">-
+                            <input
+                            type="text" name="field6" value="" class="styleInput phone_2 required">-<input type="text" name="field7" value="" class="styleInput phone_2 nomargin required">
+                        </p>
+                    </div>
+                    <div class="text-field">
+                        <span style="width:45px; display:inline-block;">Город:</span>
+                        <select name="field8" class="required" id="field8" style="width:172px; margin-left:0px;">
+                            <option value="0">- Не выбрано -</option>
+                            <option value="Москва">Москва</option>
+                            <option value="Санкт-Петербург">Санкт-Петербург</option>
+
+                        </select>
+                        <p class="f-right">
+                            <span>Примечание:</span>
+                            <input type="text" name="field9" value="" class="styleInput" id="field9" style="width:160px; margin-left:0px;">
+                        </p>
+                    </div>
+
+                    <ul class="\&quot;list_dot">
+                        <li>Нажимая «Отправить», вы соглашаетесь с правилами <a href="empty.html">обработки персональных данных</a>;</li>
+                        <li>После оформления заявки консультант компании свяжется с вами в течение 10-15 минут;</li>
+                        <li>Если заявка отправлена после 22:00, менеджер перезвонит до 10:00 следующего дня.</li>
+                    </ul>
+                    <a href="#" class="button_blue_big button_blue_big_disabled order-send button order-send">Отправить</a>
+                    <!--a href="#" class="button_blue_big_2 close-popup">Закрыть</a-->
+                </form>
+            </div>
+            <div class="popup2-after" style="display:none">
+                <p class="popup-send">
+                    Спасибо за обращение. Консультант компании свяжется с вами в течение 10-15 минут.
+                </p>
+                <a href="#" class="button order-send">Закрыть</a>
+            </div>
+        </div>
+    </div>
+</noindex>
+
+<div id="overlay"></div>
+
+<noindex>
+    <div id="popup2-order" class="popup2">
+        <div class="inner">
+            <h1>Оформление заявки</h1>
+
+            <div class="popup2-content">
+                <form action="/ajax2/order-send/" method="post" id="sendFeedback" enctype="multipart/form-data" name="fileForm">
+                    <input type="hidden" name="action" value="sended">
+                    <p class="oz">
+                        <span class="w170 pad">Заказчик<span class="blue">*</span>: </span>
+                        <span class=""><span class="w170 btnCompany"><input type="radio" name="field1" value="Физическое лицо" class="aw " id="field1_fizicheskoelitso" checked="checked" /><span class="radiobut"><label for="field1_fizicheskoelitso">Физическое лицо</label></span></span>
+                        <span
+                        class="w170 btnCompany fr"><input type="radio" name="field1" value="Юридическое лицо" class="aw " id="field1_yuridicheskoelitso" /><span class="radiobut"><label for="field1_yuridicheskoelitso">Юридическое лицо</label></span></span>
+                    </span>
+                </p>
+                <p class="oz">
+                    <span class="w170 pad">
+                        Имя<span class="blue">*</span><span class="ctlCompany" style="display: none;"> / Компания</span>: </span><span class=""><span class="w170 tar"><input type="text" name="field2" value="" class="styleInput required" id="field2" /></span>
+                        <span
+                        class="ctlCompany" style="display: none;"><span class="w170 fr"><input type="text" name="field3" value="" class="styleInput" id="field3" /></span></span>
+                    </span>
+                </p>
+                <p class="oz">
+                    <span class="w170 pad">
+                      <label for="">Телефон</label>
+                      <span class="blue">*</span>: </span>
+                      <span class="">
+                        <span class="w175 tar phoneInput">+7 (<input type="text" name="field4" value="" class="styleInput field4 required" />)<input type="text" name="field5" value="" class="styleInput field5 required" />-<input type="text" name="field6" value="" class="styleInput field6 required" />-<input type="text" name="field7" value="" class="styleInput field7 required" />
+                        </span>
+                    </span>
+                </p>
+                <h2 style="clear: both;"><label for="">Сообщение</label></h2>
+                <div class="list_dot f10">
+                    <ul>
+                        <li>После оформления заявки специалист компании свяжется с Вами в течение 30 минут;</li>
+                        <li>Если заявка оформлена после 21:00, мастер подтвердит заказ в первой половине следующего дня.</li>
+                    </ul>
+                </div>
+                <p class="oz textarea">
+                    <span class="w170 pad"><label for="">Сообщение</label><span class="blue">*</span>: </span><span class="w352 tar"><textarea name="field10" rows="5" cols="5" class="styleTextarea required" id="field10"></textarea></span>
+                </p>
+                <p class="oz">
+                    <span class="w170 pad"><label for="">Файл</label>: </span><span class="w352 tar"><span class="fileInput"><input type="file" name="field11" class="fakefile" size="40" onchange="document.forms[&quot;fileForm&quot;].elements[&quot;field11_text&quot;].value=this.value" /><span class="faketext"><input name="field11_text" type="text" class="browsetext" readonly="readonly" /></span>
+                    <span
+                    class="fakebtn"><img src="/img/btn_browse.gif" alt="" /></span>
+                </span>
+            </span>
+        </p>
+        <h2 style="clear: both;"><label for="">Координаты объекта</label></h2>
+        <p class="oz">
+            <span class="w170 pad">Адрес работ:</span>
+            <span class="w140">Город:</span>
+            <span class="w340">
+                <select name="field13" class="styleSelect" id="field13">
+                  <option value="0">- Не выбрано -</option>
+                  <option value="Москва">Москва</option>
+                  <option value="Санкт-Петербург">Санкт-Петербург</option>
+
+              </select>
+          </span>
+      </p>
+      <p class="oz">
+        <span class="w170 pad">&nbsp;</span><span class="w140">Улица:</span><span class="w340"><input type="text" name="field14" value="" class="styleInput" id="field14" /></span>
+    </p>
+    <p class="oz">
+        <span class="w170 pad">&nbsp;</span><span class="w140">Дом:</span><span class="w119"><input type="text" name="field15" value="" class="styleInput" id="field15" /></span><span class="w120">Корпус: <input type="text" name="field16" value="" class="styleInput" id="field16" /></span>
+        <span
+        class="w120 fr">Квартира: <input type="text" name="field17" value="" class="styleInput" id="field17" /></span>
+    </p>
+    <p class="fl blue p10">
+        * <small>поля, обязательные для заполнения</small>
+    </p>
+    <input type="submit" name="submit" value="Отправить заявку" id="feedbackButton" style="display: none;" />
+    <p class="tar p10">
+        <a href="#" class="button_blue_big button_blue_big_disabled order-send">Отправить заявку</a>
+    </p>
+</form>
+</div>
+<div class="popup2-after" style="display:none">
+    <p>Спасибо за обращение в ремонтную компанию <span class="col08"><strong>БРИГАДИР</strong></span>.</p>
+    <p>Ваше сообщение успешно отправлено. Консультант свяжется с вами в течение 30 минут.</p>
+</div>
+
+</div>
+</div>
+</noindex>

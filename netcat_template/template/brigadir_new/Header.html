@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>
+<? if($title) {?>
+    <?= $title ;?>
+<? }else{ ?>
+    <?= ($nc_core->page->get_title() ? $nc_core->page->get_title() : $current_sub['Subdivision_Name']) ;?>
+<? } ?>
+</title>
+<meta name="keywords" content="<?= ($keyw ? $keyw : $nc_core->page->get_keywords()) ;?>" />
+<meta name="description" content='<?= ($descr ? $descr : $nc_core->page->get_description()) ;?>' />
+<?= $this->partial('CssBlock') ;?>
+</head>
+<body>
+<?= $this->partial('ScriptAdaptiv') ;?>
+
+<div class="desktop">
+    <div class="main">
+        <div class="main_resize">
+<?= $this->partial('HeaderDesktop') ;?>
+        <div class="content">
+<?= $this->partial('Plashka') ;?>
+
+<? if($tpl == 'index') { ?>
+    <? if(!$current_sub['LeftOff']) :?>
+          <div class="sidebar fl">
+              <div class="gadget js_6_bl">
+                  <div class='h2'>Новости</div>
+	<?= nc_objects_list(100, 44, "&recNum=5&isBlock=1") ;?>
+                    <div class="clearfix"></div>
+                    <a class="button" href="/news/">Все новости</a>
+                    <div class="clearfix"></div>
+             </div>
+          </div>
+    <? endif ;?>
+    <? if($sub != 83) { ?>
+          <div class="mainbar fl<?= ($current_sub['LeftOff'] ? " wide" : NULL) ;?>">
+              <div class="article taj">
+    <? }else{ ?>
+          <!--Начало блока-->
+          <div class="mainbar_two">
+    <? } ?>
+<? }else{ ?>
+          <div class="fullbar">
+              <div class="article" style="padding-bottom:0;">
+<? } ?>
+

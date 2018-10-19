@@ -1,0 +1,11 @@
+<?= $f_AdminCommon ;?>
+<?
+$item = array(
+    'name' => 'menu',
+    'caption' => '',
+    'query' => 'select Message_ID as value, Name as name from Message201 order by Name',
+    'sprav' => ''
+);
+?>
+
+<?= parent_filter_form('Меню', $item) ;?>

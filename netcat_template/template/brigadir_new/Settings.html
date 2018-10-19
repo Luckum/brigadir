@@ -1,0 +1,42 @@
+<?php
+
+$links['prefix'] = "";
+$links['suffix'] = "";
+$links['active'] = "<a href='%URL'>%NAME</a>\n";
+$links['unactive'] = "<a href='%URL'>%NAME</a>\n";
+
+$linksUL['prefix'] = "<ul class='second-menu'>";
+$linksUL['suffix'] = "</ul>";
+$linksUL['active'] = "<li><a href='%URL'>%NAME</a></li>\n";
+$linksUL['unactive'] = "<li><a href='%URL'>%NAME</a></li>\n";
+
+// Анализируем оригинальные данные
+$u = mysql_real_escape_string($_SERVER['REQUEST_URI']);
+if (substr($u, -1) == '/' and $u != '/') {
+    $u = substr($u, 0, -1);
+}
+if ($message or (!$message and $current_cc['Class_ID'] == 1)) {
+    $where = "Message_ID = $message";
+    if (!$message) {
+        $where = "Subdivision_ID = {$current_sub['Subdivision_ID']}";
+    }
+    $data = db_get(db_row, '*', "Message{$current_cc['Class_ID']}", $where);
+}
+// По умолчанию 3 колонки
+$tpl = 'index';
+if ($data) {
+    $tpl = trim($data['Original_Tpl']) ? trim($data['Original_Tpl']) : $tpl;
+    $title = $data['ncTitle'];
+    $keyw = $data['ncKeywords'];
+    $descr = $data['ncDescription'];
+}
+if ($current_sub[SubTpl_id] == 1) {
+    $tpl = 'inside';
+}
+
+$device = $nc_core->return_device();
+$settings = db_get(db_row, '*', 'Message197');
+$sub1 = $parent_sub_tree[$sub_level_count-1]['Subdivision_ID'];
+
+
+?>

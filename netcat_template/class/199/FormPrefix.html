@@ -1,0 +1,63 @@
+<?= $f_AdminCommon ;?>
+    <div class="popup2-content">
+<form action="/ajax2/order-send/" method="post" id="sendFeedback" enctype="multipart/form-data" name="fileForm">
+    <input type="hidden" name="action" value="sended">
+	<p class="oz">
+		<span class="w170 pad">Заказчик<span class="blue">*</span>: </span>
+		<span class=""><span class="w170 btnCompany"><input type="radio" name="field1" value="Физическое лицо" class="aw " id="field1_fizicheskoelitso" checked="checked" /><span class="radiobut"><label for="field1_fizicheskoelitso">Физическое лицо</label></span></span><span class="w170 btnCompany fr"><input type="radio" name="field1" value="Юридическое лицо" class="aw " id="field1_yuridicheskoelitso" /><span class="radiobut"><label for="field1_yuridicheskoelitso">Юридическое лицо</label></span></span></span>
+	</p>
+	<p class="oz">
+		<span class="w170 pad">
+		Имя<span class="blue">*</span><span class="ctlCompany" style="display: none;"> / Компания</span>: </span><span class=""><span class="w170 tar"><input type="text" name="field2" value="" class="styleInput required" id="field2" /></span><span class="ctlCompany" style="display: none;"><span class="w170 fr"><input type="text" name="field3" value="" class="styleInput" id="field3" /></span></span></span>
+	</p>
+	<p class="oz">
+		<span class="w170 pad">
+                    <label for="">Телефон</label>
+                    <span class="blue">*</span>: </span>
+                    <span class="">
+                        <span class="w175 tar phoneInput">+7 (<input type="text" name="field4" value="" class="styleInput field4 required" />)<input type="text" name="field5" value="" class="styleInput field5 required" />-<input type="text" name="field6" value="" class="styleInput field6 required" />-<input type="text" name="field7" value="" class="styleInput field7 required" />
+                    </span>
+		</span>
+	</p>
+	<h2 style="clear: both;"><label for="">Сообщение</label></h2>
+	<div class="list_dot f10">
+		<ul>
+			<li>После оформления заявки специалист компании свяжется с Вами в течение 30 минут;</li>
+			<li>Если заявка оформлена после 21:00, мастер подтвердит заказ в первой половине следующего дня.</li>
+		</ul>
+	</div>
+	<p class="oz textarea">
+		<span class="w170 pad"><label for="">Сообщение</label><span class="blue">*</span>: </span><span class="w352 tar"><textarea name="field10" rows="5" cols="5" class="styleTextarea required" id="field10"></textarea></span>
+	</p>
+	<p class="oz">
+		<span class="w170 pad"><label for="">Файл</label>: </span><span class="w352 tar"><span class="fileInput"><input type="file" name="field11" class="fakefile" size="40" onchange="document.forms[&quot;fileForm&quot;].elements[&quot;field11_text&quot;].value=this.value" /><span class="faketext"><input name="field11_text" type="text" class="browsetext" readonly="readonly" /></span><span class="fakebtn"><img src="/img/btn_browse.gif" alt="" /></span></span></span>
+	</p>
+	<h2 style="clear: both;"><label for="">Координаты объекта</label></h2>
+	<p class="oz">
+		<span class="w170 pad">Адрес работ:</span>
+                <span class="w140">Город:</span>
+                <span class="w340">
+		<select name="field13" class="styleSelect" id="field13">
+			<option value="0">- Не выбрано -</option>
+                        <?= options_out("select Towns_Name as name, Towns_Name as value from Classificator_Towns order by Towns_Name", -1) ;?>
+ 		</select>
+		</span>
+	</p>
+	<p class="oz">
+		<span class="w170 pad">&nbsp;</span><span class="w140">Улица:</span><span class="w340"><input type="text" name="field14" value="" class="styleInput" id="field14" /></span>
+	</p>
+	<p class="oz">
+		<span class="w170 pad">&nbsp;</span><span class="w140">Дом:</span><span class="w119"><input type="text" name="field15" value="" class="styleInput" id="field15" /></span><span class="w120">Корпус: <input type="text" name="field16" value="" class="styleInput" id="field16" /></span><span class="w120 fr">Квартира: <input type="text" name="field17" value="" class="styleInput" id="field17" /></span>
+	</p>
+	<p class="fl blue p10">
+		* <small>поля, обязательные для заполнения</small>
+	</p>
+	<input type="submit" name="submit" value="Отправить заявку" id="feedbackButton" style="display: none;" />
+	<p class="tar p10">
+		<a href="#" class="button_blue_big button_blue_big_disabled order-send">Отправить заявку</a>
+	</p>
+</form>
+</div>
+<div class="popup2-after" style="display:none">
+    <?= db_get(db_val, 'OrderAfter', 'Message197') ;?>
+</div>

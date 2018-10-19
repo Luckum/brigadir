@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Demo - experimmment</title>
+<script type="text/javascript" src="../../jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery.exmmm.js"></script>
+<style type="text/stylesheet">
+</style>
+</head>
+<body>
+
+	<table>
+	<tr><td>
+	    Один
+	</td><td>
+	   <div id="block"></div>
+	</td></tr>
+	<tr><td>
+        Два
+    </td><td>
+       <div id="block2"></div>
+    </td></tr>
+	</table>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#block').experimmment({
+				currency: 'RUR', // Валюта вложений и пересчета
+				money: [
+					{dt:'2012-03-08', sum:25000, dep:40}
+				], // Массив вложений
+				additional: [
+					{dt:'2012-03-14', sum:4750, dep:40},
+                    {dt:'2012-03-14', sum:4750, dep:40},
+                    {dt:'2012-04-11', sum:11500, dep:40},
+                    {dt:'2012-04-11', sum:2875, dep:40},
+                    {dt:'2012-04-11', sum:2875, dep:40},
+                    {dt:'2012-04-12', sum:20000, dep:40},
+                    {dt:'2012-04-12', sum:5000, dep:40},
+                    {dt:'2012-04-12', sum:5000, dep:40},
+                    {dt:'2012-04-28', sum:30000, dep:40},
+                    {dt:'2012-04-28', sum:15000, dep:40}
+				], // Массив дополнительного притока
+				dtRegistration: '2012-03-08', // Дата регистрации
+				dtCash: '2012-04-27', // Дата вывода
+				realtime: true
+			});
+			
+			$('#block2').experimmment({
+                currency: 'RUR', // Валюта вложений и пересчета
+                money: [
+                    {dt:'2012-05-10', sum:20000, dep:40},
+                    
+                ], // Массив вложений
+                additional: [                    
+                ], // Массив дополнительного притока
+                dtRegistration: '2012-05-10', // Дата регистрации
+                dtCash: '2012-08-11', // Дата вывода
+                realtime: true
+            });
+		});
+	</script>
+
+<!--
+
+// Массив вложений
+// ДатаВремя, Сумма, Депозит
+// Относительно времени вложения рассчитываем бонусы, побираем курс
+money = [
+	{'2012-03-01', 25000, 45}	
+]
+
+// Массив дополнительных МАВРО
+// ДатаВремя, Сумма, Депозит
+// Относителььно времени вложения определяем дату вывода, подбираем курс
+additional = [
+	{'2012-03-01', 25000, 45}	
+]
+
+
+
+-->
+	
+</body>
+</html>

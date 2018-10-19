@@ -1,0 +1,90 @@
+<?= $f_AdminCommon ;?>
+
+<? if($admin_mode) :?>
+<style type="text/css">
+.mainbar_two {
+	width: 726px;
+	float: right;
+	padding: 0 12px 8px;
+	background: #fff url(/img/gradi_top.png) repeat-x left top;
+	border: 1px solid #fff;
+	border-radius: 6px;
+	box-shadow: #ccc 0 0 5px;
+	behavior: url(/js/PIE.htc);
+	margin-bottom:3px;
+}
+.mainbar_two h2{
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+.mainbar_two_article h3 {
+	border-top: 1px solid #dbdbdb;
+	padding-top: 1px;
+	margin-bottom: 1px;
+	position:relative;
+}
+.mainbar_two_article h3 span{
+	display: block;
+	height: 21px;
+	line-height: 21px;
+	color: #fff;
+	text-shadow: 0 1px 0 #1174af;
+	padding: 0 10px;
+	background: #5bc5ed;
+	background: -moz-linear-gradient(top,  #5bc5ed 0%, #2281c1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5bc5ed), color-stop(100%,#2281c1));
+	background: -webkit-linear-gradient(top,  #5bc5ed 0%,#2281c1 100%);
+	background: -o-linear-gradient(top,  #5bc5ed 0%,#2281c1 100%);
+	background: -ms-linear-gradient(top,  #5bc5ed 0%,#2281c1 100%);
+	background: linear-gradient(to bottom,  #5bc5ed 0%,#2281c1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bc5ed', endColorstr='#2281c1',GradientType=0 );
+}
+
+.mainbar_two_article h3 div{
+	position:absolute;
+	top:2px;
+	right:8px;
+	width:100px;
+	height:20px;
+	text-align:right;
+	color:#fff;
+	
+}
+
+.mainbar_two_article_inner { 
+	border: 1px solid #dbdbdb;
+	border-radius: 0 0 6px 6px;
+	margin-bottom: 4px;
+	font-size: 10px;
+	overflow: hidden;
+	background: url(/img/article-bg.png) repeat-x bottom left;
+}
+.mainbar_two_article_inner p{ 
+	font-size: 11px;
+	line-height: 1.7em;
+	text-align: justify;
+	padding: 0;
+	margin-bottom:7px;
+
+}
+.mainbar_two_article_inner > div{ 
+	border: 1px solid #fff;
+	padding: 10px 10px 5px 10px;
+	overflow: hidden;
+}
+.mainbar_two_article_inner .f-left{
+	float: left;
+	border: 1px solid #dbdbdb;
+	margin: 0 10px 0 0
+}
+.mainbar_two_article_inner .signature {
+	margin-top: 6px;
+	width: 130px;
+	float: right;
+	text-align:right;
+}
+
+
+</style>
+<? endif ;?>
+<? if($oid) :?> <h2 class="letter">Благодарственное письмо</h2> <? endif ;?>

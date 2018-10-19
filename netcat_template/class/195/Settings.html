@@ -1,0 +1,7 @@
+<?php $h = '';
+if ($admin_mode) {
+    $query_order = "a.Created desc";
+}
+if ($oid) {
+    $query_where = "a.Message_ID = $oid";
+} ?>

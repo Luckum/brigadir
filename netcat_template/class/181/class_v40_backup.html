@@ -1,0 +1,118 @@
+<!-- FormPrefix -->$f_AdminCommon<!-- /FormPrefix -->
+
+<!-- RecordTemplate -->$f_AdminButtons
+                  <div class=\"newsbox".opt($isBlock and ($f_RowNum + 1) == $recNum, ' last')."\"".opt($f_RowNum == 0, " style=\"padding-top:0;\"").">
+                      <p class=\"date\">$f_Date_day.$f_Date_month.$f_Date_year</p>
+                      <h3><a href=\"$fullDateLink\">$f_Header</a></h3>
+                      $f_Short
+                  </div><!-- /RecordTemplate -->
+
+<!-- FormSuffix -->".(($prevLink || $nextLink) && !$isBlock ? browse_messages($cc_env, 10) : '')."<!-- /FormSuffix -->
+
+<!-- RecordTemplateFull --><p class=\"date\">$f_Date_day.$f_Date_month.$f_Date_year</p>
+<div class=\"news-inner\">
+<div class=\"news-short\">$f_Short</div>
+<div class=\"news-text\">
+$f_TextContent
+".($f_Letter_ID ? s_list_class(83, 203, "&oid=$f_Letter_ID") : '')."
+
+<p class=\"tar\">
+    <a class=\"button_blue\" href=\"/news/\">Все новости</a>
+</p>
+</div>
+</div><!-- /RecordTemplateFull -->
+
+<!-- Settings --><!-- /Settings -->
+
+<!-- AddTemplate -->".( $warnText ? "<div class='warnText'>$warnText</div>" : NULL )."
+<form name='adminForm' id='adminForm' enctype='multipart/form-data' method='post' action='".$SUB_FOLDER.$HTTP_ROOT_PATH."add.php'>
+<div id='nc_moderate_form'>
+<div class='nc_clear'></div>
+<input name='admin_mode' type='hidden' value='$admin_mode' />
+".$nc_core->token->get_input()." 
+<input name='catalogue' type='hidden' value='$catalogue' />
+<input name='cc' type='hidden' value='$cc' />
+<input name='sub' type='hidden' value='$sub' />
+<input name='posting' type='hidden' value='1' />
+<input name='curPos' type='hidden' value='$curPos' />
+<input name='f_Parent_Message_ID' type='hidden' value='$f_Parent_Message_ID' />
+".nc_form_moderate('add', $admin_mode, 0, $systemTableID, $current_cc, (isset($f_Checked) ? $f_Checked  : null), $f_Priority , $f_Keyword, $f_ncTitle, $f_ncKeywords, $f_ncDescription )."
+</div>
+
+".nc_string_field("Header", "maxlength='255' size='50'", $classID, 1)."<br />
+<br />
+".nc_date_field("Date", "", $classID, 1)."<br />
+<br />
+".nc_text_field("Short", "", $classID, 1)."<br />
+<br />
+".nc_text_field("TextContent", "", $classID, 1)."<br />
+<br />
+".nc_int_field("Original_ID", "maxlength='12' size='12'", $classID, 1)."<br />
+<br />
+Привязать благодарственное письмо:<br>
+<select name=\"f_Letter_ID\">
+    <option value=\"0\">- не привязано-</option>
+    ".letters_option()."
+</select>
+<br />
+<br />
+".(!$AUTH_USER_ID && $current_cc['UseCaptcha'] && $MODULE_VARS['captcha'] ? nc_captcha_formfield()."<br/><br/>".NETCAT_MODERATION_CAPTCHA." (*):<br/><input type='text' name='nc_captcha_code' size='10'><br/><br/>" : "")."
+<br/>".NETCAT_MODERATION_INFO_REQFIELDS."<br/><br/>
+".nc_submit_button(NETCAT_MODERATION_BUTTON_ADD)."
+</form><!-- /AddTemplate -->
+
+<!-- AddCond --><!-- /AddCond -->
+
+<!-- AddActionTemplate --><!-- /AddActionTemplate -->
+
+<!-- EditTemplate -->".( $warnText ? "<div class='warnText'>$warnText</div>" : NULL )."
+<form name='adminForm' id='adminForm' enctype='multipart/form-data' method='post' action='".$SUB_FOLDER.$HTTP_ROOT_PATH."message.php'>
+<div id='nc_moderate_form'>
+<div class='nc_clear'></div>
+<input name='admin_mode' type='hidden' value='$admin_mode' />
+".$nc_core->token->get_input()." 
+<input name='catalogue' type='hidden' value='$catalogue' />
+<input name='cc' type='hidden' value='$cc' />
+<input name='sub' type='hidden' value='$sub' />
+<input name='message' type='hidden' value='$message' />
+<input name='posting' type='hidden' value='1' />
+<input name='curPos' type='hidden' value='$curPos' />
+<input name='f_Parent_Message_ID' type='hidden' value='$f_Parent_Message_ID' />
+".nc_form_moderate('change', $admin_mode, 0, $systemTableID, $current_cc, (isset($f_Checked) ? $f_Checked  : null), $f_Priority , $f_Keyword, $f_ncTitle, $f_ncKeywords, $f_ncDescription )."
+</div>
+
+".nc_string_field("Header", "maxlength='255' size='50'", $classID, 1)."<br />
+<br />
+".nc_date_field("Date", "", $classID, 1)."<br />
+<br />
+".nc_text_field("Short", "", $classID, 1)."<br />
+<br />
+".nc_text_field("TextContent", "", $classID, 1)."<br />
+<br />
+".nc_int_field("Original_ID", "maxlength='12' size='12'", $classID, 1)."<br />
+<br />
+Привязать благодарственное письмо:<br>
+<select name=\"f_Letter_ID\">
+    <option value=\"0\">- не привязано-</option>
+    ".letters_option($f_Letter_ID)."
+</select>
+<br />
+<br/>".NETCAT_MODERATION_INFO_REQFIELDS."<br/><br/>
+".nc_submit_button(NETCAT_MODERATION_BUTTON_CHANGE)."
+</form><!-- /EditTemplate -->
+
+<!-- EditCond --><!-- /EditCond -->
+
+<!-- EditActionTemplate --><!-- /EditActionTemplate -->
+
+<!-- CheckActionTemplate --><!-- /CheckActionTemplate -->
+
+<!-- DeleteTemplate --><!-- /DeleteTemplate -->
+
+<!-- DeleteCond --><!-- /DeleteCond -->
+
+<!-- DeleteActionTemplate --><!-- /DeleteActionTemplate -->
+
+<!-- FullSearchTemplate --><!-- /FullSearchTemplate -->
+
+<!-- SearchTemplate --><!-- /SearchTemplate -->

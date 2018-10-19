@@ -1,0 +1,10 @@
+<!-- FormPrefix --><?= $f_AdminCommon ;?><!-- /FormPrefix -->
+
+<!-- RecordTemplate --><?= $f_AdminButtons ;?>
+                  <div class="newsbox<? if($isBlock and ($f_RowNum + 1) == $recNum) :?> last <? endif ;?>" <? if($f_RowNum == 0) :?> style="padding-top:0;" <? endif ;?>>
+                      <p class="date"><?= $f_Date_day.".".$f_Date_month.".".$f_Date_year ;?></p>
+                      <h3><a href="<?= $fullDateLink ;?>"><?= $f_Header ;?></a></h3>
+                      <?= $f_Short ;?>
+                  </div><!-- /RecordTemplate -->
+
+<!-- FormSuffix --><?= (($prevLink || $nextLink) && !$isBlock ? browse_messages($cc_env, 10) : '') ;?><!-- /FormSuffix -->

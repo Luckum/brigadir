@@ -1,0 +1,26 @@
+/* CSS Document */
+.nc_edit_objects #tovar_admin {border-collapse:collapse;}
+.nc_edit_objects #tovar_admin td a,
+.nc_edit_objects #tovar_admin th a {color:black;}
+.nc_edit_objects #tovar_admin th a.active {color:#F96}
+
+
+.nc_edit_objects #tovar_admin td, .nc_edit_objects #tovar_admin th {padding:8px 6px; border:1px Solid #fff;}
+.nc_edit_objects #tovar_admin tr {background-color:#E1E1E1; text-align:center; vertical-align:middle}
+
+.nc_edit_objects #tovar_admin td .actions td {border:none; padding:4px;}
+.sortableRow td {border:1px Solid #000;}
+.sortableRow td {padding:5px 5px;}
+
+.ui-sortable .sortableRow .caption {
+    cursor: move;
+}
+td.caption {width:35%}
+table#tprops {border-collapse:collapse;}
+table#tprops td input {width:90%}
+
+.ready_to_change {border-bottom:1px Dotted Black; text-decoration:none}
+
+table#sort-table {border-collapse:collapse;}
+#sort-table tr td {vertical-align:middle;}
+#sort-table tr.sort td {background-color:#CCC; border:1px Solid Black; height:38px;}

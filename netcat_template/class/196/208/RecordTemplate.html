@@ -1,0 +1,32 @@
+<?/* Служебная часть */for ($f_RowNum = 0; $f_RowNum < $rowCount; $f_RowNum++) {    if($fetch_row[$f_RowNum] instanceof Iterator) {        extract($fetch_row[$f_RowNum]->to_array(), EXTR_PREFIX_ALL, "f");    } else {        extract($fetch_row[$f_RowNum], EXTR_PREFIX_ALL, "f");    }    foreach($iteration_RecordTemplate[$f_RowNum] as $value) {        extract($value);    }    eval($cc_env["convert2txt"]);    ob_start();/* Конец служебной части */?>
+<div class="bloc">
+	<div id="h1" class="head active"><img src="/brigada/images/menu1.svg">
+		<h5><?= $f_Header1 ;?></h5>
+	</div>	
+</div>
+<div class="bloc">
+	<div id="h2" class="head"><img src="/brigada/images/menu2.svg">
+		<h5><?= $f_Header2 ;?></h5>
+	</div>	
+</div>
+<div class="bloc">
+	<div id="h3" class="head"><img src="/brigada/images/menu3.svg">
+		<h5><?= $f_Header3 ;?></h5>
+	</div>	
+</div>
+<div id="m1" class="bloc bloc-menu">
+	<div class="menu">
+        <?= strip_tags($f_Text1,'<a>') ;?>
+	</div>	
+</div>
+<div id="m2" class="bloc bloc-menu">
+	<div class="menu">
+        <?= strip_tags($f_Text2,'<a>') ;?>
+	</div>	
+</div>
+<div id="m3" class="bloc bloc-menu">
+	<div class="menu">
+        <?= strip_tags($f_Text3,'<a>') ;?>
+	</div>	
+</div>
+<?/* Служебная часть */    echo nc_finishing_RecordTemplate(ob_get_clean(), $inside_admin, $classID, $f_RowID, $parent_message, $cc, $cc_env["Class_Name"], $no_cache_marks);}/* Конец служебной части */?>

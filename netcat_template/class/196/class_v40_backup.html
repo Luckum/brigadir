@@ -1,0 +1,43 @@
+<!-- FormPrefix -->$f_AdminCommon<!-- /FormPrefix -->
+
+<!-- RecordTemplate -->$f_AdminButtons";
+for($i = 1; $i <= 3; $i++) {
+   $h = ${'f_Header'.$i};
+   $t = ${'f_Text'.$i};
+   $result .= "
+          <div class=\"col col{$i}\">
+          <div class=\"h2 h2-icon{$i}\">{$h}</div>
+          {$t}
+          </div>\n";
+}
+$result .= "<!-- /RecordTemplate -->
+
+<!-- FormSuffix --><!-- /FormSuffix -->
+
+<!-- RecordTemplateFull --><!-- /RecordTemplateFull -->
+
+<!-- Settings --><!-- /Settings -->
+
+<!-- AddTemplate --><!-- /AddTemplate -->
+
+<!-- AddCond --><!-- /AddCond -->
+
+<!-- AddActionTemplate --><!-- /AddActionTemplate -->
+
+<!-- EditTemplate --><!-- /EditTemplate -->
+
+<!-- EditCond --><!-- /EditCond -->
+
+<!-- EditActionTemplate --><!-- /EditActionTemplate -->
+
+<!-- CheckActionTemplate --><!-- /CheckActionTemplate -->
+
+<!-- DeleteTemplate --><!-- /DeleteTemplate -->
+
+<!-- DeleteCond --><!-- /DeleteCond -->
+
+<!-- DeleteActionTemplate --><!-- /DeleteActionTemplate -->
+
+<!-- FullSearchTemplate --><!-- /FullSearchTemplate -->
+
+<!-- SearchTemplate --><!-- /SearchTemplate -->

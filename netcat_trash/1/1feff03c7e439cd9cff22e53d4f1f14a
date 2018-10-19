@@ -1,0 +1,3123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<netcatml>
+  <subdivisions>
+    <subdivision subdivision_id="229" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Интернет-магазин</Subdivision_Name>
+      <EnglishName>store</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="230" catalogue_id="1" parent_sub_id="229">
+      <Subdivision_Name>Корзина</Subdivision_Name>
+      <EnglishName>cart</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="282" catalogue_id="1" parent_sub_id="118">
+      <Subdivision_Name>test</Subdivision_Name>
+      <EnglishName>test</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="235" catalogue_id="1" parent_sub_id="234">
+      <Subdivision_Name>Автомобиль</Subdivision_Name>
+      <EnglishName>car</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="310" catalogue_id="1" parent_sub_id="152">
+      <Subdivision_Name>Мастер по сборке кухни</Subdivision_Name>
+      <EnglishName>master-po-sborke-kuhni</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="318" catalogue_id="1" parent_sub_id="157">
+      <Subdivision_Name>Шкаф ПАКС</Subdivision_Name>
+      <EnglishName>sborka-shkafa-paks</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="433" catalogue_id="1" parent_sub_id="191">
+      <Subdivision_Name>Стальная ванна</Subdivision_Name>
+      <EnglishName>ustanovka-stalnoy-vanny</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="432" catalogue_id="1" parent_sub_id="191">
+      <Subdivision_Name>Стальная ваннаaaa</Subdivision_Name>
+      <EnglishName>ustanovka-stalnoi-vanni</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="216" catalogue_id="1" parent_sub_id="215">
+      <Subdivision_Name>Продажа</Subdivision_Name>
+      <EnglishName>watermeter_sale</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="490" catalogue_id="1" parent_sub_id="121">
+      <Subdivision_Name>Электрик - ПОМОЩЬ</Subdivision_Name>
+      <EnglishName>pomoshch-elektrika1</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="463" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Демонтаж</Subdivision_Name>
+      <EnglishName>disassembling</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="121" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Электрики</Subdivision_Name>
+      <EnglishName>electrician</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="95" catalogue_id="1" parent_sub_id="82">
+      <Subdivision_Name>Пол</Subdivision_Name>
+      <EnglishName>floor</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="302" catalogue_id="1" parent_sub_id="148">
+      <Subdivision_Name>Вызов сборщика мебели</Subdivision_Name>
+      <EnglishName>vyzvat-sborshika-mebeli</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="583" catalogue_id="1" parent_sub_id="189">
+      <Subdivision_Name>Удельная</Subdivision_Name>
+      <EnglishName>santehnik-udelnaya</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="419" catalogue_id="1" parent_sub_id="82">
+      <Subdivision_Name>Отопление</Subdivision_Name>
+      <EnglishName>heating</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="80" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Карта сайта</Subdivision_Name>
+      <EnglishName>map</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="103" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Импортированные тексты</Subdivision_Name>
+      <EnglishName>imported</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="270" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Проверка2</Subdivision_Name>
+      <EnglishName>test2</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="173" catalogue_id="1" parent_sub_id="161">
+      <Subdivision_Name>Муниципальные образования</Subdivision_Name>
+      <EnglishName>municipal</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="160" catalogue_id="1" parent_sub_id="159">
+      <Subdivision_Name>FAQ</Subdivision_Name>
+      <EnglishName>faq</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="638" catalogue_id="1" parent_sub_id="121">
+      <Subdivision_Name>Автово</Subdivision_Name>
+      <EnglishName>elektrik-avtovo</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="706" catalogue_id="1" parent_sub_id="189">
+      <Subdivision_Name>Калининский</Subdivision_Name>
+      <EnglishName>santehnik-kalininskii-raion-spb</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="733" catalogue_id="1" parent_sub_id="121">
+      <Subdivision_Name>Васильевский остров</Subdivision_Name>
+      <EnglishName>elektrik-vasilevskii-ostrov</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="223" catalogue_id="1" parent_sub_id="82">
+      <Subdivision_Name>Грузчики</Subdivision_Name>
+      <EnglishName>loaders</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="418" catalogue_id="1" parent_sub_id="189">
+      <Subdivision_Name>Гибкая подводка - УСТАНОВКА</Subdivision_Name>
+      <EnglishName>ustanovka-gibkoi-podvodki</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="206" catalogue_id="1" parent_sub_id="189">
+      <Subdivision_Name>Установка радиаторов</Subdivision_Name>
+      <EnglishName>radiator</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="751" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Столярные работы</Subdivision_Name>
+      <EnglishName>stolyarnye-raboty</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="120" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Демонтажные работы</Subdivision_Name>
+      <EnglishName>demontazhnye-raboty</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+    <subdivision subdivision_id="94" catalogue_id="1" parent_sub_id="82">
+      <Subdivision_Name>Стены</Subdivision_Name>
+      <EnglishName>wall</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+  </subdivisions>
+  <sub_classes>
+    <sub_class sub_class_id="174" subdivision_id="229" class_id="1">
+      <Sub_Class_Name>Интернет-магазин</Sub_Class_Name>
+      <EnglishName>store</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="175" subdivision_id="230" class_id="1">
+      <Sub_Class_Name>Корзина</Sub_Class_Name>
+      <EnglishName>cart</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="224" subdivision_id="282" class_id="1">
+      <Sub_Class_Name>test</Sub_Class_Name>
+      <EnglishName>test</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="180" subdivision_id="235" class_id="1">
+      <Sub_Class_Name>Автомобиль</Sub_Class_Name>
+      <EnglishName>car</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="252" subdivision_id="310" class_id="1">
+      <Sub_Class_Name>Мастер по сборке кухни</Sub_Class_Name>
+      <EnglishName>master-po-sborke-kuhni</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="260" subdivision_id="318" class_id="1">
+      <Sub_Class_Name>Шкаф ПАКС</Sub_Class_Name>
+      <EnglishName>sborka-shkafa-paks</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="374" subdivision_id="433" class_id="1">
+      <Sub_Class_Name>Стальная ванна</Sub_Class_Name>
+      <EnglishName>ustanovka-stalnoi-vanny</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="375" subdivision_id="432" class_id="1">
+      <Sub_Class_Name>Стальная ванна</Sub_Class_Name>
+      <EnglishName>ustanovka-stalnoi-vanny</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="160" subdivision_id="216" class_id="1">
+      <Sub_Class_Name>Продажа</Sub_Class_Name>
+      <EnglishName>watermeter_sale</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="432" subdivision_id="490" class_id="1">
+      <Sub_Class_Name>Электрик - ПОМОЩЬ</Sub_Class_Name>
+      <EnglishName>pomoshch-elektrika</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="405" subdivision_id="463" class_id="1">
+      <Sub_Class_Name>Демонтаж</Sub_Class_Name>
+      <EnglishName>disassembling</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="63" subdivision_id="121" class_id="1">
+      <Sub_Class_Name>Электрики</Sub_Class_Name>
+      <EnglishName>electrician</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="40" subdivision_id="95" class_id="1">
+      <Sub_Class_Name>Пол</Sub_Class_Name>
+      <EnglishName>floor</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="244" subdivision_id="302" class_id="1">
+      <Sub_Class_Name>Вызов сборщика мебели</Sub_Class_Name>
+      <EnglishName>vyzvat-sborshika-mebeli</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="524" subdivision_id="583" class_id="1">
+      <Sub_Class_Name>Удельная</Sub_Class_Name>
+      <EnglishName>santehnik-udelnaya</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="361" subdivision_id="419" class_id="1">
+      <Sub_Class_Name>Отопление</Sub_Class_Name>
+      <EnglishName>heating</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="128" subdivision_id="80" class_id="1">
+      <Sub_Class_Name>Карта сайта</Sub_Class_Name>
+      <EnglishName>map</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="43" subdivision_id="103" class_id="1">
+      <Sub_Class_Name>Импортированные тексты</Sub_Class_Name>
+      <EnglishName>imported</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="211" subdivision_id="270" class_id="1">
+      <Sub_Class_Name>Проверка2</Sub_Class_Name>
+      <EnglishName>test2</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="115" subdivision_id="173" class_id="1">
+      <Sub_Class_Name>Муниципальные образования</Sub_Class_Name>
+      <EnglishName>municipal</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="102" subdivision_id="160" class_id="1">
+      <Sub_Class_Name>Вопрос-ответ</Sub_Class_Name>
+      <EnglishName>faq</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="579" subdivision_id="638" class_id="1">
+      <Sub_Class_Name>Автово</Sub_Class_Name>
+      <EnglishName>elektrik-avtovo</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="648" subdivision_id="706" class_id="1">
+      <Sub_Class_Name>Калининский</Sub_Class_Name>
+      <EnglishName>santehnik-kalininskii-raion-spb</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="675" subdivision_id="733" class_id="1">
+      <Sub_Class_Name>Васильевский остров</Sub_Class_Name>
+      <EnglishName>elektrik-vasilevskii-ostrov</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="168" subdivision_id="223" class_id="1">
+      <Sub_Class_Name>Грузчики</Sub_Class_Name>
+      <EnglishName>loaders</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="360" subdivision_id="418" class_id="1">
+      <Sub_Class_Name>Гибкая подводка - УСТАНОВКА</Sub_Class_Name>
+      <EnglishName>ustanovka-gibkoi-podvodki</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="150" subdivision_id="206" class_id="1">
+      <Sub_Class_Name>Радиатор</Sub_Class_Name>
+      <EnglishName>radiator</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="693" subdivision_id="751" class_id="1">
+      <Sub_Class_Name>Столярные работы</Sub_Class_Name>
+      <EnglishName>stolyarnye-raboty</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="62" subdivision_id="120" class_id="1">
+      <Sub_Class_Name>Демонтаж</Sub_Class_Name>
+      <EnglishName>disassembling</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="39" subdivision_id="94" class_id="1">
+      <Sub_Class_Name>Стены</Sub_Class_Name>
+      <EnglishName>wall</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+  </sub_classes>
+  <fields>
+    <field field_id="611" type_of_data_id="3">
+      <Field_Name>TextContent</Field_Name>
+      <Description>Текст</Description>
+    </field>
+    <field field_id="1513" type_of_data_id="2">
+      <Field_Name>Original_ID</Field_Name>
+      <Description>ID</Description>
+    </field>
+    <field field_id="1514" type_of_data_id="1">
+      <Field_Name>Original_Name</Field_Name>
+      <Description>Имя</Description>
+    </field>
+    <field field_id="1515" type_of_data_id="3">
+      <Field_Name>Original_Right</Field_Name>
+      <Description>Правая колонка</Description>
+    </field>
+    <field field_id="1516" type_of_data_id="1">
+      <Field_Name>Original_URL</Field_Name>
+      <Description>Оригинальный URL</Description>
+    </field>
+    <field field_id="1517" type_of_data_id="1">
+      <Field_Name>Original_Tpl</Field_Name>
+      <Description>Название макета</Description>
+    </field>
+    <field field_id="1524" type_of_data_id="1">
+      <Field_Name>Original_Title</Field_Name>
+      <Description>Оригинальное значение title</Description>
+    </field>
+  </fields>
+  <messages>
+    <message message_id="85" class_id="1" subdivision_id="229" sub_class_id="174">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>0</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-04-01 19:34:33</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[]]></TextContent>
+      <Original_ID>561</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/store]]></Original_URL>
+      <Original_Tpl><![CDATA[shop]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="86" class_id="1" subdivision_id="230" sub_class_id="175">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-04-01 19:34:33</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[]]></TextContent>
+      <Original_ID>562</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/store/cart]]></Original_URL>
+      <Original_Tpl><![CDATA[shop]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="172" class_id="1" subdivision_id="282" sub_class_id="224">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>91.211.144.5</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-08-08 13:40:15</Created>
+      <LastUpdated>2013-08-08 15:46:01</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>91.211.144.5</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:22.0) Gecko/20100101 Firefox/22.0</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1 style="text-align: justify;">Установка заборов из профнастила (профлиста).</h1>
+<p style="text-align: justify;">Компания &laquo;Бригадир&raquo; поможет установить забор из профлиста в Санкт-Петербурге и Ленинградской области.&nbsp;</p>
+<p style="text-align: justify;">Для простоты расчета мы предлагаем  готовое и удобное решение, а именно &laquo;забор из профлиста под ключ&raquo;, - как  правило, это типовой забор для дачи из профнастила, однако если у вас  есть собственный проект или пожелания, опытные русские мастера без труда  их реализуют.</p>
+<h2>Установка заборов из профнастила цена</h2>
+<table border="0" class="price_table">
+    <tbody>
+        <tr>
+            <th><strong>Высота</strong></th>
+            <th><strong>Столб</strong></th>
+            <th><strong>Лаги, 2 шт.</strong></th>
+            <th><strong>Профлист</strong></th>
+            <th><strong>Цена, М.П.</strong></th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">2,0 м.</td>
+            <td style="text-align: center;">60*60 мм.</td>
+            <td style="text-align: center;">40*20 мм.</td>
+            <td style="text-align: center;">С8, толщиной 0,40 мм.</td>
+            <td style="text-align: center;">1700</td>
+        </tr>
+        <tr>
+            <th style="text-align: center;" colspan="5"><strong>Глубина бетонирования - 150 см.; Шаг - 3 метра.</strong></th>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Несмотря на то, что используется <strong>увеличенная глубина бетонирован</strong><strong>ия</strong> (почти на 25% больше глубины промерзания),  у нас стоимость установки забора из профнастила невысока: это  объясняется тем, что изготовление заборов из профлиста мы осуществляем  на собственном производстве. Заборы из профнастила под ключ от  компании&nbsp;&laquo;Бригадир&raquo; - это выгодно!</p>
+<h2>Характеристики заборов из профнастила</h2>
+<p><img width="509" height="289" src="/netcat_files/Image/4.jpg" alt="" /></p>
+<p>Установка заборов из профнастила, иными  словами &ndash; профлиста, находит  все большее применение, как в традиционном  загородном строительстве,  так и в городской среде.</p>
+<p style="text-align: justify;">Традиционный профилированный лист &ndash; это   тонкий лист металла с периодическими углублениями различной геометрии.   Грамотная установка опор, а также монтажные характеристики профлиста   позволяют с легкостью монтировать его на любые конструкции без   использования дополнительных каркасов и направляющих.</p>
+<h2>Наши заборы</h2>
+<p><img width="509" height="369" src="/netcat_files/Image/2.jpg" alt="" /></p>
+<p><img width="509" height="422" src="/netcat_files/Image/5.jpg" alt="" /></p>
+<p><img width="509" height="274" alt="" src="/netcat_files/Image/6.png" /></p>
+<h2>Распашные ворота и калитка</h2>
+<p><img width="509" height="382" alt="" src="/netcat_files/Image/7.jpg" /></p>
+<p><img width="509" height="382" alt="" src="/netcat_files/Image/8.jpg" /></p>
+<p><img width="509" height="382" alt="" src="/netcat_files/Image/9.jpg" /></p>
+<p style="text-align: justify;"><strong>Установка заборов из профлиста: основные преимущества:</strong></p>
+<ul style="text-align: justify;">
+    <li>высокая прочность и износостойкость;</li>
+    <li>невысокая цена (установка заборов из профлиста дешево - реальность!);</li>
+    <li>эстетичность;</li>
+    <li>долговечность.</li>
+</ul>
+<p style="text-align: justify;">Помимо всего прочего, монтаж заборов из  профлиста не требует привлечения дорогого строительного оборудования &ndash;  для надежной установки опор достаточно современного мотобура.</p>
+<p style="text-align: justify;">Позвоните по телефонам в Петербурге - <span style="color: #008000;"><strong>300-20-20</strong><span style="color: rgb(0, 0, 0);"><span style="background-color: rgb(255, 255, 255);"> или </span></span><strong>929-09-82</strong></span> &ndash; наши менеджеры с удовольствием подскажут как поставить забор из профнастила недорого на вашем объекте.</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="136" class_id="1" subdivision_id="235" sub_class_id="180">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>0</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-08-19 15:10:12</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>94.19.109.225</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1 style="text-align: justify;">Сварка автомобиля</h1>
+<p style="text-align: justify;"><img src="/files/welding/car_welding.jpg" alt="сварка автомобиля" width="165" height="220" />При ремонте кузова автомобиля <strong>сварочные работы</strong> выходят на первое место, как наиболее надежный способ соединения металлических частей. На сегодняшний день в этой сфере применяются практически все виды сварки.</p>
+<p style="text-align: justify;">Как правило, выбор способа сварки зависит от материала конструктивных элементов автомобиля, их месторасположения, а также удобства использования оборудования.</p>
+<p style="text-align: justify;">Ремонтная компания <strong>&laquo;Бригадир&raquo;</strong> проводит профессиональную сварку автомобилей в Санкт-Петербурге и Ленинградской области.</p>
+<p><strong>Нами выполняется:</strong></p>
+<ul>
+    <li><span style="color: #000000;">сварка кузова;</span></li>
+    <li><span style="color: #000000;">сварка глушителя;</span></li>
+    <li><span style="color: #000000;">сварка порогов;</span></li>
+    <li><span style="color: #000000;">сварка бамперов;</span></li>
+    <li><span style="color: #000000;">сварка рамы автомобиля (в т.ч. ее усиление);</span></li>
+    <li><span style="color: #000000;">сварка днища;</span></li>
+    <li><span style="color: #000000;">усиление ковшей, захватов и других элементов.</span></li>
+</ul>
+<p style="text-align: justify;">Сварной шов, образующийся в процессе работ, представляет собой монолитное и герметичное соединение, а также имеет высокие прочностные характеристики.</p>
+<p style="text-align: justify;">Все сварочные работы проводятся в <strong>собственном цеху</strong> компании <strong>&laquo;Бригадир&raquo;</strong>. В отдельных случаях возможен выезд на объект Заказчику.</p>
+<p><strong>Наши преимущества:</strong></p>
+<ul>
+    <li><a title="сварочные работы" href="/welding/">сварочные работы</a> <span style="color: #000000;">с опытом более 10 лет;</span></li>
+    <li><span style="color: #000000;">современное оборудование и материалы;</span></li>
+    <li><span style="color: #000000;">работа в удобное для Клиента время.</span></li>
+</ul>
+<p style="text-align: justify;">Чтобы получить более подробную информацию, пожалуйста, позвоните нам:&nbsp;<strong>300-20-20 | 929-09-82 в Санкт-Петербурге</strong>&nbsp;- менеджеры с удовольствием ответят на ваши вопросы.</p>]]></TextContent>
+      <Original_ID>532</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/welding/car]]></Original_URL>
+      <Original_Tpl><![CDATA[index]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="198" class_id="1" subdivision_id="310" sub_class_id="252">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>213.149.12.103</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2014-01-06 17:48:56</Created>
+      <LastUpdated>2014-01-06 17:48:56</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Мастер по сборке кухни. Мастер по установке кухонь</h1>
+<p>&nbsp;</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="207" class_id="1" subdivision_id="318" sub_class_id="260">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>213.149.12.103</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2014-01-09 01:37:26</Created>
+      <LastUpdated>2014-01-09 01:37:26</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Сборка шкафа ПАКС ИКЕА</h1>
+<p>тест</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="320" class_id="1" subdivision_id="433" sub_class_id="374">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>5.18.142.57</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2014-07-08 17:03:30</Created>
+      <LastUpdated>2014-07-08 17:03:30</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Монтаж и установка стальной ванны</h1>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="321" class_id="1" subdivision_id="432" sub_class_id="375">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>5.18.142.57</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2014-07-08 17:07:01</Created>
+      <LastUpdated>2014-07-08 17:14:14</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>5.18.142.57</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Монтаж и установка стальной ванны</h1>
+<p style="text-align: justify;">Подходящим вариантом для малогабаритных санузлов является установка стальной ванны: специалист службы <span style="color: #008000;"><strong>БРИГАДИР</strong></span> недорого и с должным качеством осуществит ее подключение к сливу и воде.</p>
+<p style="text-align: justify;">Узнать, сколько стоит монтаж, удобнее всего по тел.: <strong><span style="color: #008000;">300-20-20 | 929-09-82</span></strong> <strong>в СПб</strong> и <strong><span style="color: #008000;">8 (499) 653-74-87</span></strong> <strong>в Москве</strong> &ndash; при вашем согласии заказать услуги сантехника можно прямо в день обращения.</p>
+<h2><span style="line-height: 20px;">Цены:<br />
+</span></h2>
+<table border="0" class="price_table">
+    <tbody>
+        <tr>
+            <th rowspan="2"><strong>Наименование<br />
+            </strong></th>
+            <th colspan="2"><strong>Стоимость, руб.</strong></th>
+        </tr>
+        <tr>
+            <th><strong>Петербург</strong></th>
+            <th><strong>Москва</strong></th>
+        </tr>
+        <tr>
+            <td>Демонтаж<strong><span style="color: #008000;">*</span></strong> (расценки зав. от типа)</td>
+            <td style="text-align: center;">от 500 до 900</td>
+            <td style="text-align: center;">от 1000 до 1200</td>
+        </tr>
+        <tr>
+            <td>Монтаж стальной ванны</td>
+            <td style="text-align: center;">1800</td>
+            <td style="text-align: center;">2800</td>
+        </tr>
+        <tr>
+            <td><a href="/plumber/bathtub/obvyazka/">Обвязка</a> и <a href="/plumber/bathtub/germetizaciya/">герметизация</a> вдоль стены</td>
+            <td style="text-align: center;">1200</td>
+            <td style="text-align: center;">1500</td>
+        </tr>
+        <tr>
+            <td>Косметический экран (по треб.)</td>
+            <td style="text-align: center;">1500</td>
+            <td style="text-align: center;">1500</td>
+        </tr>
+        <tr>
+            <td>Прайс-лист на все сантехуслуги</td>
+            <td colspan="2" style="text-align: center;"><a href="/prices/plumber/"><span style="color: #008000;"><strong>ДЕТАЛЬНЫЙ&nbsp;ПРЕЙСКУРАНТ</strong></span></a></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="3"><span style="color: #008000;"><strong>Тарифы НЕ УЧИТЫВАЮТ материал</strong></span></td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;"><strong><span style="color: #008000;">*</span></strong>слесарь выполняет только отключение от домовых коммуникаций, поэтому перемещение до мусорного контейнера или иной точки сбора в стоимость не входит: многие компании по скупке черного лома выполнят данные работы очень дешево или даже бесплатно.</p>
+<h2>Установка стальной ванны и ее подключение &ndash; это:</h2>
+<ul>
+    <li>опытный <span style="color: #008000;"><strong>РУССКИЙ</strong></span> мастер в каждом районе;</li>
+    <li>сотрудничество на основании <span style="color: #008000;"><strong>ДОГОВОРА</strong></span> с <a href="/about/warranties/"><span style="color: #008000;"><strong>ГАРАНТИЕЙ</strong></span></a>;</li>
+    <li>приятные расценки и регулярные акции;</li>
+    <li>фирмы: <strong>Kaldewei, Estap, BLB, Bette, JIKA, Roca, Artex, Zodiak</strong> и прочие.</li>
+</ul>
+<p style="text-align: justify;">Рассматривая ванны из стали, не стоит забывать, что их преимущества во многих случаях явно перекрывают общеизвестные минусы &ndash; низкая цена, небольшой вес и высокая устойчивость к ударам выгодно отличают данный прибор от чугуна.</p>
+<p style="text-align: justify;">Помимо этого, гладкое покрытие конструкции позволяет легко поддерживать гигиену в нужное время, а многообразие форм и размеров ставят ее в один ряд с акриловыми конкурентами.</p>
+<p style="text-align: justify;">В ванной комнате любой площади мы сможем установить не только санфаянс &ndash; водопроводчик и отделочник без труда возьмут весь объект &laquo;под ключ&raquo;: положить кафельную плитку, вывести трубы, а также поставить и подключить стиральную машину с  водогреем &ndash; это тоже к нам.</p>
+<p style="text-align: justify;">Контактные номера нашей организации: <strong><span style="color: #008000;">300-20-20 | 929-09-82</span> в Санкт-Петербурге и <span style="color: #008000;">8 (499) 653-74-87</span> в Москве</strong> &ndash; вызов по адресу возможен с 09.00 до 22.00.</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="70" class_id="1" subdivision_id="216" sub_class_id="160">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-06-25 13:46:32</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>94.19.109.225</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1 style="text-align: justify;">Продажа счетчиков воды</h1>
+<p style="text-align: justify;">Компания <strong>&laquo;Бригадир&raquo;</strong> предлагает квартирные счетчики воды жителям и обслуживающим организациям Санкт-Петербурга.</p>
+<p style="text-align: justify;">В результате исследования различных производителей приборов учета, мы сделали выбор в пользу двух компаний, зарекомендовавших себя за долгое время работы.</p>
+<p style="text-align: justify;"><strong>Сегодня мы предлагаем:</strong></p>
+<table class="table_border" border="0" frame="border" rules="all">
+    <tbody>
+        <tr style="text-align: center;">
+            <th style="text-align: center;"><strong>&quot;Метер&quot; (Россия)<br />
+            </strong></th>
+            <th><strong>Описание</strong></th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><img style="vertical-align: middle; border: 0;" src="/files/plumbing/meter.jpg" alt="Счетчик Метер" /></p>
+            </td>
+            <td style="text-align: justify;">
+            <p>Счетчики воды крыльчатые <strong>СВ-15Х</strong> и <strong>СВ-15Г</strong> (одноструйные, сухоходные) предназначены для измерения объема воды, температурой 5-40?С (для холодной воды) и 5-90&deg;С (для горячей воды) и рабочем давлении не более 1,0 МПа (10 кгс/см&sup2;).</p>
+            <p>Межповерочный интервал составляет: 6 лет для холодной и 5 лет для горячей воды.</p>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: center;"><strong>&quot;Миномесс&quot; (Германия)</strong></th>
+            <th style="text-align: center;"><strong>Описание</strong></th>
+        </tr>
+        <tr style="text-align: justify;">
+            <td>
+            <p><img style="vertical-align: middle; border: 0;" src="/files/plumbing/minol.jpg" alt="Счетчик Меномес" width="210" height="133" /></p>
+            </td>
+            <td>
+            <p>Счетчики воды <strong>Minomess</strong> <strong>ДУ-15</strong>, одноструйные сухоходные, предназначены для учета холодной (до 40?С) и горячей (до 90?С) воды.</p>
+            <p>Имеется антимагнитная защита. Межповерочный интервал составляет: для холодной воды - 6 лет, горячей - 4 года.</p>
+            <p>Отличаются повышенной точностью измерений и высокой надежностью.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Стоимость приборов учета зависит от требуемого количества, а также формы оплаты.</p>
+<table class="price_table" border="0">
+    <caption><span style="font-size: large;"><span style="color: #1966b1;">Стоимость счетчиков воды</span></span></caption>
+    <tbody>
+        <tr style="text-align: center;">
+            <td style="text-align: center;"><strong>Наименование</strong></td>
+            <td><strong>Количество, шт.<br />
+            </strong></td>
+            <td><strong>Стоимость, руб. (нал.)</strong></td>
+            <td><strong>Стоимость, руб. (безнал.)</strong></td>
+        </tr>
+        <tr style="text-align: center;">
+            <td style="width: 140px; text-align: center;" rowspan="3"><strong>&quot;Метер&quot;<br />
+            </strong></td>
+            <td>1-4</td>
+            <td>600</td>
+            <td>700</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">5-10</td>
+            <td style="text-align: center;">550</td>
+            <td style="text-align: center;">650</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">10-20</td>
+            <td style="text-align: center;">500</td>
+            <td style="text-align: center;">600</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" rowspan="3"><strong>&quot;Миномесс&quot;<br />
+            </strong></td>
+            <td style="text-align: center;">1-4</td>
+            <td style="text-align: center;">800</td>
+            <td style="text-align: center;">950</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">5-10</td>
+            <td style="text-align: center;">750</td>
+            <td style="text-align: center;">900</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">10-20</td>
+            <td style="text-align: center;">700</td>
+            <td style="text-align: center;">850</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;"><strong>Особые условия продажи:</strong></p>
+<p style="text-align: justify;">Для <strong>Управляющих Компаний (УК), Товариществ Собственников Жилья (ТСЖ), Жилищно-Строительных коооперативов (ЖСК) и Жилкомсервисов (ЖКС) районов</strong> действуют особые, договорные условия на продажу.</p>
+<p style="text-align: justify;"><strong>Уважаемые Петербуржцы,</strong></p>
+<p style="text-align: justify;">в случае, если требуется последующая <a title="Установка счетчиков воды" href="/plumber/watermeter/">установка водосчетчиков</a>, компания <strong>&laquo;Бригадир&raquo;</strong> произведет все необходимые работы с обязательной гарантией&nbsp; и оформлением необходимых документов.</p>
+<p style="text-align: justify;">Для получения дополнительной информации, Вы можете связаться с нашими менеджерами по телефону <strong>929-09-82</strong> или оформить заказ в специальной <a title="оформить заказ" href="/order/">форме</a>.</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 378px; width: 1px; height: 1px; overflow: hidden;">Для <strong>Управляющих Компаний, ТСЖ и ЖСК и ЖЭКов</strong> действуют особые условия на установку приборов учета.</div>]]></TextContent>
+      <Original_ID>443</Original_ID>
+      <Original_Name><![CDATA[Продажа счетчиков воды]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/plumber/watermeter/watermeter_sale]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[Продажа счетчиков воды]]></Original_Title>
+    </message>
+    <message message_id="375" class_id="1" subdivision_id="490" sub_class_id="432">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2015-02-05 14:18:32</Created>
+      <LastUpdated>2015-02-05 14:18:32</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Помощь электрика на дому</h1>
+<p>тест</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="349" class_id="1" subdivision_id="463" sub_class_id="405">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>0</Checked>
+      <IP>109.111.131.2</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2015-01-07 02:05:05</Created>
+      <LastUpdated>2015-01-11 02:47:14</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>213.149.8.249</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1 style="text-align: justify;">Демонтажные работы</h1>
+<p style="text-align: justify;">Любое строительство или ремонт &ndash; это  обновление, при котором сложно обойтись без предварительной подготовки и  очистки выбранного нами места. Очень часто, прежде чем что-то  построить, строителям приходится немало сломать, и, несмотря на  кажущуюся легкость демонтажа, его проведение требует грамотного подхода и  квалифицированных исполнителей.</p>
+<p style="text-align: justify;">Ремонтная компания <strong>&laquo;Бригадир&raquo;</strong> профессионально занимается демонтажными работами в жилых и производственных помещениях в Санкт-Петербурге.</p>
+<p style="text-align: justify;"><strong>При строительстве или реконструкции мы выполняем:</strong></p>
+<ul style="text-align: justify;">
+    <li><span style="color: #000000;">демонтаж потолков;</span></li>
+    <li><span style="color: #000000;">демонтаж стен и перегородок;</span></li>
+    <li><span style="color: #000000;">демонтаж полов и стяжки;</span></li>
+    <li><span style="color: #000000;">демонтаж дверей и окон;</span></li>
+    <li><span style="color: #000000;">демонтаж внутренней отделки (плитки, паркета, штукатурки),</span></li>
+</ul>
+<p style="text-align: justify;">Отдельным направлением нашей деятельности является демонтаж металлоконструкций и&nbsp; небольших строений.</p>
+<p style="text-align: justify;"><strong>Как правило, порядок проведения работ выглядит следующим образом:</strong></p>
+<ul style="text-align: justify;">
+    <li><span style="color: #000000;">выезд на место, составление сметы и плана работ;</span></li>
+    <li><span style="color: #000000;">проведение демонтажных работ;</span></li>
+    <li><span style="color: #000000;">уборка помещений и вывоз мусора.</span></li>
+</ul>
+<p style="text-align: justify;">Специалисты компании <strong>&laquo;Бригадир&raquo;</strong>  - мастера с опытом более 15 лет. В нашем арсенале есть все необходимое  оборудование и профессиональные знания. Мы готовы предложить свои услуги  жителям нашего города, а так же строительным и эксплуатирующим  организациям. Все работы проводятся с оформлением договора. Возможна  любая форма оплаты.</p>
+<p style="text-align: justify;">Стоимость демонтажных работ зависит от  многих факторов, поэтому цены на демонтажные работы лучше уточнить у  менеджеров по телефону.</p>
+<p style="text-align: justify;">Для получения более подробной информации, пожалуйста, свяжитесь с нами по телефонам в Санкт-Петербурге: <strong>300-20-20 или&nbsp;929-09-82</strong>&nbsp;&ndash; менеджеры с удовольствием ответят на Ваши вопросы.</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="423" class_id="1" subdivision_id="121" sub_class_id="63">
+      <User_ID>1</User_ID>
+      <Priority>2</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2016-06-23 01:49:24</Created>
+      <LastUpdated>2016-06-23 01:49:24</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>31.134.137.34</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Подготовка ИТП к отопительному сезону</h1>
+<p>Для своевременной подачи тепла в любом здании необходима предварительная подготовка ИТП к отопительному сезону: компания <span style="color: rgb(0, 128, 0);"><strong>БРИГАДИР</strong></span> в лице грамотного инженера сможет недорого и по звонку привести в порядок любой индивидуальный пункт.<br />
+<br />
+Оставить заявку на вызов мастера можно ежедневно по тел.: <strong><span style="color: #008000;">300-20-20 | 929-09-82</span> в Санкт-Петербурге и </strong><strong><span style="color: #008000;">8 (499) 653-74-87</span></strong><strong> в Москве</strong>.  Чтобы узнать, сколько стоят услуги фирмы, не нужно ждать долго &ndash;  зачастую специалист выезжает на осмотр объекта уже в день обращения.</p>
+<h2 style="text-align: justify;">Цены:</h2>
+<table border="0" class="price_table">
+    <tbody>
+        <tr>
+            <th rowspan="2" style="text-align: center;"><strong>Наименование<br />
+            </strong></th>
+            <th colspan="2" style="text-align: center;"><strong>Стоимость, руб.</strong></th>
+        </tr>
+        <tr>
+            <th style="text-align: center;"><strong>Петербург</strong></th>
+            <th style="text-align: center;"><strong>Москва</strong></th>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">Подготовка ИТП</td>
+            <td colspan="2" style="text-align: center;">по результату обследования<span style="color: rgb(0, 128, 0);"><strong>*</strong></span></td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;"><span style="color: rgb(0, 128, 0);"><strong>*</strong></span>в   течение 1-2 дней после осмотра мы предоставляем КП, где сантехник  указывает стоимость работ и их подробный  список, перечень материала,  кадровый состав, сроки исполнения и  гарантию.</p>
+<h2>Сотрудничать с нами &ndash; выгодно:</h2>
+<ul>
+    <li>служба полного цикла &ndash; подготовка, ремонт и сервисное обслуживание;</li>
+    <li>приятные расценки и высокое качество;</li>
+    <li><span style="color: rgb(0, 128, 0);"><strong>РУССКИЕ</strong></span> ребята с профильным образованием;</li>
+    <li>вся документация: <span style="color: rgb(0, 128, 0);"><strong>ДОГОВОР</strong></span> и <a href="/about/warranties/"><strong><span style="color: rgb(0, 128, 0);">ГАРАНТИЙНЫЕ ОБЯЗАТЕЛЬСТВА</span></strong></a>;</li>
+    <li>выезд в каждый район города и ближайшую Область.</li>
+</ul>
+<h2>Подготовка ИТП к отопительному сезону под ключ:</h2>
+<p style="text-align: justify;">Все инженерные мероприятия проводятся с оглядкой на внутренний прайс-лист, а также требования и регламент <strong>ГУП &laquo;ТЭК СПб&raquo;</strong>:  анализируя нормативные документы и возможные предписания для жилого  дома или коммерции, теплотехник сможет правильно подготовить ИТП к  отопительному сезону. <br />
+<br />
+Если ситуация потребует замены задвижек или некоторых других  комплектующих, мы сможем дешево купить все необходимое на крупных  оптовых базах &ndash; надежные поставщики, с которыми мы работаем много лет,  предлагают специальные тарифы.<br />
+<br />
+Телефоны для справок в обоих филиалах: <strong><span style="color: #008000;">300-20-20 | 929-09-82</span> в Санкт-Петербурге и </strong><strong><span style="color: #008000;">8 (499) 653-74-87</span></strong><strong> в Москве</strong>.</p>]]></TextContent>
+      <Original_ID>0</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="307" class_id="1" subdivision_id="419" sub_class_id="361">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>5.18.142.57</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2014-06-21 22:20:59</Created>
+      <LastUpdated>2015-01-11 02:46:20</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>213.149.8.249</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Расценки на работы по отоплению 2014</h1>
+<table cellspacing="0" cellpadding="0" border="0" class="price_table">
+    <tbody>
+        <tr>
+            <th>
+            <p lang="en-US"><strong>№</strong></p>
+            </th>
+            <th>
+            <p><strong>Наименование услуги</strong></p>
+            </th>
+            <th colspan="2">
+            <p><strong>Стоимость, руб</strong><strong>.</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <th height="25" colspan="2">
+            <p><strong>ВЫЕЗД&nbsp;МАСТЕРА НА ОСМОТР И&nbsp;КОНСУЛЬТАЦИЮ<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Санкт-Петербург</strong></p>
+            </th>
+            <th>
+            <p><strong>Москва</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td height="25" class="price_table_name">До 20 км от КАД</td>
+            <td style="text-align: center;">бесплатно</td>
+            <td class="price_table_last">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p>От 20 до 30 км от КАД</p>
+            </td>
+            <td style="text-align: center;">
+            <p>500</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">450</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p>От 30 до 50 км от КАД</p>
+            </td>
+            <td style="text-align: center;">
+            <p>700</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">900</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>4</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p>От 50 до 70 км от КАД</p>
+            </td>
+            <td style="text-align: center;">
+            <p>1000</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">200</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td height="25" class="price_table_name">От 70 до 100 км от КАД</td>
+            <td style="text-align: center;">1</td>
+            <td class="price_table_last">&nbsp;</td>
+        </tr>
+        <tr>
+            <th height="25" colspan="2">
+            <p><strong>УСТАНОВКА И ПОДКЛЮЧЕНИЕ </strong><strong>РАКОВИНЫ И МОЙКИ</strong></p>
+            </th>
+            <th>
+            <p><strong>Санкт-Петербург</strong></p>
+            </th>
+            <th>
+            <p><strong>Москва</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>4</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p>Демонтаж старой раковины или мойки</p>
+            </td>
+            <td style="text-align: center;">
+            <p>250</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>5</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p><span style="text-decoration: underline;"><a title="Установка раковины" href="/plumber/sink/">Установка раковины и мойки</a></span></p>
+            </td>
+            <td style="text-align: center;">
+            <p>500</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">от 1500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>6</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p>Сборка тумбы под мойку</p>
+            </td>
+            <td>
+            <p style="text-align: center;">800</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>7</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p>Установка тумбы под мойку</p>
+            </td>
+            <td>
+            <p style="text-align: center;">800</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>8</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p>Демонтаж старого сифона слива</p>
+            </td>
+            <td>
+            <p style="text-align: center;">150</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">150</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>9</strong></p>
+            </td>
+            <td height="25" class="price_table_name">
+            <p><span style="text-decoration: underline;"><a title="Установка сифона" href="/plumber/siphon/">Установка сифона слива</a></span></p>
+            </td>
+            <td>
+            <p style="text-align: center;">400</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">400</p>
+            </td>
+        </tr>
+        <tr>
+            <th height="25" colspan="2">
+            <p><strong>ЗАМЕНА / </strong><strong>УСТАНОВКА УНИТАЗА</strong></p>
+            </th>
+            <th>
+            <p><strong>Санкт-Петербург</strong></p>
+            </th>
+            <th>
+            <p><strong>Москва</strong></p>
+            </th>
+        </tr>
+    </tbody>
+</table>
+<h2>Примечания: <span style="color: #ff0000;"><span style="color: #000000;">&nbsp;</span></span></h2>
+<ul>
+    <li><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #000000;">на все<strong> </strong>водопроводные </span><span style="text-decoration: underline;"><a title="сантехнические работы" href="/plumber/santehnicheskie_raboti/">работы</a></span> <span style="color: #000000;">действует</span> </span></span><span style="text-decoration: underline;"><span style="color: #008000;"><a title="Гарантия" href="/about/warranties/"><strong><span style="color: #008000; text-decoration: underline;">гарантия 1 год</span></strong></a></span></span><strong><span style="color: #000000;">;</span></strong></li>
+    <li>цены на сантехнические работы <span style="color: #008000;"><strong>не включают</strong></span> в себя материалы (покупка материалов производится при 100% предоплате);</li>
+    <li>минимальные <strong>расценки на сантехнические работы</strong> в Санкт-Петербурге &ndash; 1200 рублей;</li>
+    <li>минимальный <strong>прайс на сантехнические работы</strong> в Москве &ndash; 1300 рублей;</li>
+    <li><span style="text-decoration: underline;"><a title="скидки льготникам" href="/sale/">льготным категориям граждан</a></span> действует скидка 10% от прейскуранта услуг (<span style="color: #008000;"><strong>НЕ распространяется</strong></span> на стоимость минимального заказа);</li>
+    <li>сантехник имеет право применять надбавку, если сантехническое оборудование и коммуникации находятся в труднодоступном месте;</li>
+    <li>при проведении работ в пригородах СПб и Москвы на услуги сантехника устанавливается транспортная надбавка;</li>
+</ul>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 795px; width: 1px; height: 1px; overflow: hidden;">, м.п.</div>
+<p style="text-align: justify;">Расценки являются базисом, возможно их  изменение в зависимости от  сложности  работ, таким образом, данный  прейскурант не является  публичной офертой,  определяемой положением <span style="color: #008000;"><strong>Статьи 437 ГК РФ</strong></span>.</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="27" class_id="1" subdivision_id="80" sub_class_id="128">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2017-04-19 01:11:14</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>31.134.137.34</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Карта сайта</h1> <ul class="siteMap"><li><a href="/">Главная страница</a>     <ul><li><a href="/about/">О компании</a>         <ul><li><a href="/about/mission/">Миссия</a></li><li><a href="/about/advantage/">Преимущества</a></li><li><a href="/about/cooperation/">Взаимодействие с клиентами</a></li><li><a href="/about/equipment/">Инструмент и материалы</a></li><li><a href="/about/warranties/">Гарантии</a></li><li><a href="/about/vacancies/">Вакансии</a></li><li><a href="/about/requisites/">Реквизиты</a></li><li><a href="/about/writeus/">Форма обратной связи</a></li></ul></li><li><a href="/trench/">Штробление под проводку и трубы</a></li><li>Электромонтажные работы<br /><ul><li><a href="/elektromontazhnye-raboty/prokladka-provodki/">Прокладка проводки</a>             <ul><li><a href="/elektromontazhnye-raboty/prokladka-provodki/prokladka-provodki-v-kvartire/">Прокладка проводки в квартире</a></li><li><a href="/elektromontazhnye-raboty/prokladka-provodki/prokladka-provodki-v-dome/">Прокладка проводки в доме</a></li></ul></li><li><a href="/elektromontazhnye-raboty/prokladka-elektroprovodki/">Прокладка электропроводки</a>             <ul><li><a href="/elektromontazhnye-raboty/prokladka-elektroprovodki/prokladka-elektroprovodki-v-kvartire/">Прокладка электропроводки в квартире</a></li></ul></li><li><a href="/elektromontazhnye-raboty/prokladka-elektriki/">Прокладка электрики</a><br />             <ul><li><a href="/elektromontazhnye-raboty/prokladka-elektriki/prokladka-elektriki-v-kvartire/">Прокладка электрики в квартире</a></li></ul></li><li><a href="/elektromontazhnye-raboty/provodka-elektriki/">Проводка электрики</a>             <ul><li><a href="/elektromontazhnye-raboty/provodka-elektriki/provodka-elektriki-v-kvartire/">Проводка электрики в квартире</a></li></ul></li><li><a href="/elektromontazhnye-raboty/provedenie-elektriki/">Проведение электрики</a></li><li><a href="/elektromontazhnye-raboty/perenos-rozetok-i-vykluchatelei/">Перенос розеток и выключателей</a>             <ul><li><a href="/elektromontazhnye-raboty/perenos-rozetok-i-vykluchatelei/perenos-rozetki/">Перенос розетки</a>                 <ul><li><a href="/elektromontazhnye-raboty/perenos-rozetok-i-vykluchatelei/perenos-rozetki/perenos-rozetok-na-kuhne/">Перенос розеток на кухне</a></li></ul></li></ul></li></ul></li><li><a href="/podkluchenie-tehniki/">Подключение техники</a>         <ul><li><a href="/podkluchenie-tehniki/podkluchenie-kuhonnoi-tehniki/">Подключение кухонной техники</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/">Подключение бытовой техники</a>             <ul><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-stiralnoi-mashiny/">Подключение стиральной машины</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-sushilnoi-mashiny/">Подключение сушильной машины</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-posudomoechnoi-mashiny/">Подключение посудомоечной машины</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-vodonagrevatelya/">Подключение водонагревателя</a>                 <ul><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-vodonagrevatelya/podkluchenie-nakopitelnogo-vodonagrevatelya/">Подключение накопительного водонагревателя</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-vodonagrevatelya/podkluchenie-protochnogo-vodonagrevatelya/">Подключение проточного водонагревателя</a></li></ul></li></ul></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-kanalizacionnogo-nasosa/">Подключение канализационного насоса</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-holodilnika/">Подключение холодильника</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-vinnogo-shkafa/">Подключение винного шкафа</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-kofemashiny/">Подключение кофемашины</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-gazovoi-kolonki/">Подключение газовой колонки</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-vytyazhki/">Подключение вытяжки</a>             <ul><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-vytyazhki/podkluchenie-kuhonnoi-vytyazhki/">Подключение кухонной вытяжки</a></li></ul></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-ventilyatora/">Подключение вентилятора</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-plity/">Подключение плиты</a>             <ul><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-plity/podkluchenie-elektricheskoi-plity/">Подключение электрической плиты</a>                 <ul><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-plity/podkluchenie-elektricheskoi-plity/podkluchenie-steklokeramicheskoi-plity/">Подключение стеклокерамической плиты</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-plity/podkluchenie-elektricheskoi-plity/podkluchenie-indukcionnoi-plity/">Подключение индукционной плиты</a></li></ul></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-plity/podkluchenie-gazovoi-plity/">Подключение газовой плиты</a></li></ul></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-varochnoi-paneli/">Подключение варочной панели</a>             <ul><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-varochnoi-paneli/podkluchenie-gazovoi-varochnoi-paneli/">Подключение газовой варочной панели</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-varochnoi-paneli/podkluchenie-elektricheskoi-varochnoi-paneli/">Подключение электрической варочной панели</a></li></ul></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-duhovogo-shkafa/">Подключение духового шкафа</a>             <ul><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-duhovogo-shkafa/podkluchenie-gazovogo-duhovogo-shkafa/">Подключение газового духового шкафа</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-duhovogo-shkafa/podkluchenie-elektricheskogo-duhovogo-shkafa/">Подключение электрического духового шкафа</a></li></ul></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-sushilki-dlya-ruk/">Подключение сушилки для рук</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-ldogeneratora/">Подключение льдогенератора</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-bytovoi-tehniki/podkluchenie-izmelchitelya-pishhevyh-othodov/">Подключение измельчителя пищевых отходов</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-tehniki/">Подключение встраиваемой техники</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/">Подключение встраиваемой бытовой техники</a>             <ul><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/podkluchenie-vstraivaemoi-stiralnoi-mashiny/">Подключение встраиваемой стиральной машины</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/podkluchenie-vstraivaemoi-posudomoechnoi-mashiny/">Подключение встраиваемой посудомоечной машины</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/podkluchenie-vstraivaemogo-holodilnika/">Подключение встраиваемого холодильника</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/podkluchenie-vstraivaemoi-mikrovolnovoi-pechi/">Подключение встраиваемой микроволновой печи</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/podkluchenie-vstraivaemoi-kofemashiny/">Подключение встраиваемой кофемашины</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/podkluchenie-vstraivaemoi-vytyazhki/">Подключение встраиваемой вытяжки</a></li><li><a href="/podkluchenie-tehniki/podkluchenie-vstraivaemoi-bytovoi-tehniki/podkluchenie-vstraivaemoi-varochnoi-paneli/">Подключение встраиваемой варочной панели</a></li></ul></li></ul></li><li><a href="/household_appliances/">Установка бытовой техники</a>         <ul><li><a href="/plumber/washing_machine/">Установка стиральной машины</a></li><li><a href="/plumber/dishwashing_machine/">Установка посудомоечной машины</a></li><li><a href="/plumber/water_heater/">Установка водонагревателя</a></li><li><a href="/plumber/podkluchenie-ledogeneratora/">Установка льдогенератора</a></li><li><a href="/plumber/geyser/">Установка газовой колонки</a></li><li><a href="/plumber/gas_stove/">Установка газовой плиты</a></li><li><a href="/plumber/shower/">Установка душевой кабины</a></li><li><a href="/plumber/ustanovka-i-podkluchenie-gidroboksa/">Установка гидробокса</a></li><li><a href="/plumber/ustanovka-dushevogo-ugolka/">Установка душевого уголка</a></li><li><a href="/plumber/ustanovka-i-podkluchenie-dushevogo-poddona/">Установка душевого поддона</a></li><li><a href="/electrician/electric_cooker/">Установка электроплиты</a></li><li><a href="/electrician/cooktop/">Установка варочной панели</a></li><li><a href="/electrician/oven/">Установка духового шкафа</a></li><li><a href="/electrician/ustanovka-zharochnogo-shkafa/">Установка жарочного шкафа</a></li><li><a href="/electrician/ustanovka-sushilok-dlya-ruk/">Установка сушилки для рук</a></li><li><a href="/electrician/ustanovka-ventilyatora/">Установка вентилятора</a></li><li><a href="/electrician/conditioner/">Установка кондиционера</a></li></ul></li><li><a href="/electrician/">Услуги электрика</a>         <ul><li><a href="/electrician/konsultaciya-elektrika/">Консультация электрика</a></li><li><a href="/electrician/pomoshch-elektrika/">Помощь электрика</a></li><li><a href="/electrician/elektrik-na-chas/">Электрик на час</a></li><li><a href="/electrician/platnyi-elektrik/">Платный электрик</a></li><li><a href="/electrician/vyzov-elektrika-zhek-zhkh/">Вызов электрика из ЖЭКа</a></li><li><a href="/electrician/electric_board/">Монтаж электрощита</a></li><li><a href="/electrician/electricmeter/">Установка электросчетчика</a></li><li><a href="/electrician/perenos-elektroschetchika-v-kvartiru/">Перенос электросчетчика в квартиру</a></li><li><a href="/electrician/perenos-schetchika-v-kvartiru/">Перенос счетчика электроэнергии в квартире</a></li><li><a href="/electrician/uzo/">Установка УЗО</a></li><li><a href="/electrician/power_outlet/">Установка розеток</a></li><li><a href="/electrician/switch/">Установка выключателей</a></li><li><a href="/electrician/dimmer/">Установка диммера</a></li><li><a href="/electrician/thermoregulatp��    p��                    ��            �    ���            ���     @      ���            ctrician/lustre/">Установка люстры</a></li><li><a href="/electrician/floor_heating/">Подключение теплого пола</a></li><li><a href="/electrician/elektromontazhnie_raboti/">Электромонтажные работы</a></li><li><a href="/electrician/installation/">Разводка электрики</a></li><li><a href="/electrician/zamena_elektroprovodki/">Замена электропроводки</a></li><li><a href="/electrician/ustanovka-dvernogo-zvonka/">Установка дверного звонка</a></li><li><a href="/electrician/prokladka-kabelya/">Прокладка кабеля</a>             <ul><li><a href="/electrician/prokladka-kabelya/prokladka-elektricheskogo-kabelya/">Прокладка электрического кабеля</a></li><li><a href="/electrician/prokladka-antennogo-kabelya-v-kvartire/">Прокладка антенного кабеля</a></li><li><a href="/electrician/prokladka-televizionnogo-kabelya-v-kvartire/">Прокладка телевизионного кабеля</a></li><li><a href="/electrician/prokladka-kabelya/prokladka-kabelya-vitaya-para/">Прокладка кабеля витая пара</a></li><li><a href="/electrician/prokladka-kabelya/prokladka-telefonnogo-kabelya/">Прокладка телефонного кабеля</a></li><li><a href="/electrician/prokladka-kabelya/prokladka-setevogo-kabelya/">Прокладка сетевого кабеля</a></li><li><a href="/electrician/prokladka-kabelya/prokladka-internet-kabelya/">Прокладка интернет кабеля</a></li><li><a href="/electrician/prokladka-kabelya/prokladka-akusticheskogo-kabelya/">Прокладка акустического кабеля</a></li></ul></li><li>Сантехнические работы<br /><ul><li>Установка сантехники<br />             <ul><li><a href="/santehnicheskie-raboty/ustanovka-santehniki/ustanovka-filtrov-dlya-ochistki-vody/">Установка фильтров для очистки воды</a>                 <ul><li><a href="/santehnicheskie-raboty/ustanovka-santehniki/ustanovka-filtrov-dlya-ochistki-vody/ustanovka-filtrov-tonkoi-ochistki/">Установка фильтров тонкой очистки</a></li><li><a href="/santehnicheskie-raboty/ustanovka-santehniki/ustanovka-filtrov-dlya-ochistki-vody/ustanovka-magistralnyh-filtrov/">Установка магистральных фильтров</a></li><li><a href="/santehnicheskie-raboty/ustanovka-santehniki/ustanovka-filtrov-dlya-ochistki-vody/ustanovka-filtrov-pitevoi-vody/">Установка фильтров питьевой воды</a></li><li><a href="/santehnicheskie-raboty/ustanovka-santehniki/ustanovka-filtrov-dlya-ochistki-vody/ustanovka-protochnyh-filtrov/">Установка проточных фильтров</a></li></ul></li></ul></li><li>Замена сантехники<br />             <ul><li><a href="/santehnicheskie-raboty/zamena-santehniki/zamena-filtrov-dlya-ochistki-vody/">Замена фильтров для очистки воды</a>                 <ul><li><a href="/santehnicheskie-raboty/zamena-santehniki/zamena-filtrov-dlya-ochistki-vody/zamena-filtrov-vody-akvafor/">Замена фильтров воды Аквафор</a><br />                     <ul><li><a href="/santehnicheskie-raboty/zamena-santehniki/zamena-filtrov-dlya-ochistki-vody/zamena-filtrov-vody-akvafor/zamena-kartridzhei-akvafor/">Замена картриджей в фильтре Аквафор</a></li></ul></li><li><a href="/santehnicheskie-raboty/zamena-santehniki/zamena-filtrov-dlya-ochistki-vody/zamena-filtrov-vody-geizer/">Замена фильтров воды Гейзер</a>                     <ul><li><a href="/santehnicheskie-raboty/zamena-santehniki/zamena-filtrov-dlya-ochistki-vody/zamena-filtrov-vody-geizer/zamena-kartridzhei-geizer/">Замена картриджей в фильтре Гейзер</a></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><a href="/plumber/">Услуги сантехника</a>         <ul><li><a href="/plumber/konsultaciya-santehnika/">Консультация сантехника</a></li><li><a href="/plumber/pomoshch-santehnika/">Помощь сантехника</a></li><li><a href="/plumber/santehnik-na-dom/">Сантехник на дом</a> - это удобно и недорого</li><li>Как <a href="/plumber/vyzvat-santehnika-na-dom/">вызвать сантехника на дом</a>?</li><li><a href="/plumber/srochnyi-vyzov-santehnika/">Вызов сантехника срочно</a></li><li><a href="/plumber/avariinyi-vyzov-santehnika/">Аварийный вызов сантехника</a></li><li><a href="/plumber/santehnik-na-chas/">Сантехник на час</a></li><li><a href="/plumber/telefon-nomera-santehnika/">Телефонные номера сантехника</a></li><li><a href="/plumber/platnyi-santehnik/">Платный сантехник</a></li><li><a href="/plumber/chastnyi-santehnik-obyavleniya-avito/">Частный сантехник - стоит ли рисковать?</a></li><li><a href="/plumber/vyzov-santehnika-zhek-zhkh/">Вызов сантехника из ЖЭКа</a>? - Зачем?</li><li><a href="/plumber/vyzov-slesarya-santehnika-na-dom/">Слесарь-сантехник</a></li><li><a href="/plumber/vyzov-vodoprovodchika-na-dom/">Вызов водопроводчика на дом</a></li><li><a href="/plumber/installation/">Установка сантехники</a></li><li><a href="/plumber/montazh-santehniki/">Монтаж инженерной сантехники</a></li><li><a href="/plumber/razvodka-santehniki/">Разводка сантехники в квартире</a></li><li><a href="/plumber/podkluchenie-santehniki/">Подключение сантехники</a></li><li><a href="/plumber/zamena-santehniki/">Замена сантехники</a></li><li><a href="/plumber/remont-santehniki/">Ремонт сантехники</a></li><li><a href="http://www.vash-brigadir.ru/plumber/ustanovka-santehnicheskogo-oborudovaniya/">Установка сантехнического оборудования</a></li><li><a href="/plumber/ustanovka-sanfayansa/">Установка санфаянса</a></li><li><a href="/plumber/ustanovka-santehpriborov/">Установка сантехприборов</a></li><li><a href="/plumber/sink/">Установка раковины</a></li><li><a href="/plumber/siphon/">Установка сифона для раковины, ванны и душевой кабины</a></li><li><a href="/plumber/water_mixer/">Установка смесителя</a></li><li><a href="/plumber/ustanovka-gigienicheskogo-dusha/">Установка гигиенического душа</a></li><li><a href="/plumber/filter/">Установка фильтров Аквафор и Гейзер</a></li><li><a href="/plumber/garbage_disposer/">Установка измельчителя пищевых отходов</a></li><li><a href="/plumber/ustanovka-gibkoi-podvodki/">Установка гибкой подводки</a></li><li><a href="/plumber/ystanovka_unitaza/">Установка унитаза</a></li><li><a href="/plumber/ustanovka-podvesnogo-unitaza/">Установка подвесного унитаза</a></li><li><a href="/plumber/wallhung_toilet/">Установка инсталляции унитаза или биде</a></li><li><a href="/plumber/cistern/">Установка бачка унитаза</a>             <ul><li><a href="/plumber/cistern/remont-bachka/">Ремонт бачка унитаза</a></li><li><a href="/plumber/cistern/ustanovka-armatury-bachka/">Установка арматуры бачка</a></li></ul></li><li><a href="/plumber/bathtub/">Установка ванны</a>             <ul><li><a href="/plumber/bathtub/ustanovka-akrilovoi-vanny/">Установка акриловой ванны</a></li><li><a href="/plumber/bathtub/ustanovka-chugunnoi-vanny/">Установка чугунной ванны</a></li><li><a href="/plumber/bathtub/ustanovka-stalnoi-vanny/">Установка стальной ванны</a></li><li><a href="/plumber/bathtub/obvyazka/">Установка обвязки на ванну</a></li><li><a href="/plumber/bathtub/germetizaciya/">Герметизация ванны и стены</a></li></ul></li><li><a href="/plumber/draincleaning/">Устранение засора канализации</a></li><li><a href="/plumber/ustranenie-zasora-v-vannoi/">Устранение засора в ванной</a></li><li><a href="/plumber/ustranenie-zasora-v-unitaze/">Устранение засора в унитазе</a></li><li><a href="/plumber/ustranenie-zasora-v-tualete/">Устранение засора в туалете</a></li><li><a href="/plumber/ustranenie-zasora-v-rakovine/">Устранение засора в раковине</a></li><li><a href="http://www.vash-brigadir.ru/plumber/ustranenie-zasora-v-moike/">Устранение засора в мойке</a></li><li><a href="/plumber/ustranenie-slozhnyh-zasorov-trub/">Устранение сложных засоров труб канализации</a></li><li><a href="/plumber/zamena_trub/">Замена труб</a>             <ul><li><a href="/plumber/zamena_trub/master-po-zamene-trub/">Мастер по замене труб и стояков</a></li><li><a href="/plumber/zamena_trub/zamena-trub-v-mnogokvartirnom-dome/">Плановая замена труб в многоквартирном доме</a></li><li><a href="/plumber/zamena_trub/zamena-trub-v-hruschevke/">Замена труб в хрущевке</a></li><li><a href="/plumber/zamena_trub/zamena-vodoprovodnyh-trub/">Замена водопроводных труб</a></li><li><a href="/plumber/zamena_trub/zamena-trub-vodosnabzheniya/">Замена труб водоснабжения</a></li><li><a href="/plumber/zamena_trub/zamena-trub-holodnoi-i-goryachei-vody/">Замена труб холодной и горячей воды</a></li><li><a href="/plumber/zamena_trub/zamena-trub-hvs-i-gvs/">Замена труб ХВС и ГВС</a></li><li><a href="/plumber/zamena_trub/zamena-kanalizacionnyh-trub/">Замена канализационных труб</a></li><li><a href="/plumber/zamena_trub/zamena-fanovyh-trub/">Замена фановых труб</a></li><li><a href="/plumber/zamena_trub/zamena-trub-na-plastikovye/">Замена труб на пластиковые</a></li><li><a href="/plumber/zamena_trub/zamena-trub-na-metalloplastikovye/">Замена труб на металлопластиковые</a></li><li><a href="/plumber/zamena_trub/zamena-trub-na-polipropilenovye/">Замена труб на полипропиленовые</a></li><li><a href="/plumber/zamena_trub/zamena-trub-v-vannoi/">Замена труб в ванной</a></li><li><a href="/plumber/zamena_trub/zamena-trub-v-tualete/">Замена труб в туалете</a></li><li><a href="/plumber/zamena_trub/zamena-trub-na-kuhne/">Замена труб на кухне</a></li><li><a href="/plumber/zamena_trub/zamena-santehnicheskih-trub/">Замена сантехнических труб</a></li></ul></li><li><a href="/plumber/montazh-trub/">Монтаж труб</a>             <ul><li><a href="/plumber/montazh-trub/montazh-pvh-trub/">Монтаж ПВХ труб</a></li><li><a href="/plumber/montazh-trub/montazh-plastikovyh-trub/">Монтаж пластиковых труб</a></li><li><a href="/plumber/montazh-trub/montazh-vodoprovodnyh-trub/">Монтаж водопроводных труб</a></li><li><a href="/plumber/montazh-trub/montazh-trub-vodosnabzheniya/">Монтаж труб водоснабжения</a></li><li><a href="/plumber/montazh-trub/montazh-trub-otopleniya/">Монтаж труб отопления</a></li><li><a href="/plumber/montazh-trub/montazh-kanalizacionnyh-trub/">Монтаж канализационных труб</a></li><li><a href="/plumber/montazh-trub/montazh-fanovyh-trub/">Монтаж фановых труб</a></li><li><a href="/plumber/montazh-trub/montazh-metalloplastikovyh-trub/">Монтаж металлопластиковых труб</a></li><li><a href="/plumber/montazh-trub/montazh-polipropilenovyh-trub/">Монтаж полипропиленовых труб</a></li><li><a href="/plumber/montazh-trub/montazh-polietilenovyh-trub/">Монтаж полиэтиленовых труб</a></li><li><a href="/plumber/montazh-trub/montazh-trub-rehau/">Монтаж труб Rehau (Рехау)</a></li></ul></li><li><a href="/plumber/razvodka-trub/">Разводка труб</a>             <ul><li><a href="/plumber/razvodka-trub/ustanovka-kollektora-dlya-vody/">Установка коллектора для воды</a></li><li><a href="/plumber/razvodka-trub/kollektornaya-razvodka-trub-vodosnabzheniya-v-kvartire/">Коллекторная разводка труб</a></li><li><a href="/plumber/razvodka-trub/troinikovaya-razvodka-trub/">Тройниковая разводка труб</a></li><li><a href="/plumber/razvodka-trub/razvodka-trub-vodosnabzheniya/">Разводка труб водоснабжения</a></li><li><a href="/plumber/razvodka-trub/razvodka-trub-v-vannoi/">Разводка труб в ванной комнате</a></li></ul></li><li><a href="/plumber/prokladka-trub/">Прокладка труб</a>             <ul><li><a href="/plumber/prokladka-trub/prokladka-trub-v-vannoi-komnate/">Прокладка труб в ванной комнате</a></li><li><a href="/plumber/prokladka-trub/prokladka-trub-vodosnabzheniya/">Прокладка труб водоснабжения</a></li></ul></li><li><a href="/plumber/remont-trub-v-kvartire/">Ремонт труб</a></li><li><a href="/plumber/zamena-stoyakov/">Замена стояков</a>             <ul><li><a href="/plumber/zamena-stoyakov/skolko-stoit-zamena-stoyakov/">Сколько стоит замена стояков?</a></li><li><a href="/plumber/zamena-stoyakov/zamena-stoyakov-otopleniya/">Замена стояков отопления</a></li><li><a href="/plumber/zamena-stoyakov/zamena-stoyakov-vodosnabzheniya/">Замена стояков водоснабжения</a></li><li><a href="/plumber/zamena-stoyakov/zamena-stoyaka-kanalizacii/">Замена стояков канализации</a></li><li><a href="/plumber/zamena-stoyakov/zamena-stoyakov-hvs-i-gvs/">Замена стояков ХВС и ГВС</a></li><li><a href="/plumber/zamena-stoyakov/zamena-stoyakov-holodnoi-i-goryachei-vody/">Замена стояков холодной и горячей воды</a></li><li><a href="/plumber/zamena-stoyakov/zamena-stoyakov-v-mnogokvartirnom-dome/">Замена стояков в многоквартирном доме</a></li></ul></li><li><a href="/plumber/ustanovka-stoyakov-vody/">Установка стояков воды</a></li><li><a href="/plumber/zamena-troinika-kanalizacii/">Замена тройника канализации</a></li><li><a href="/plumber/zamena-krestoviny-kanalizacii/">Замена крестовины канализации</a></li><li><a href="/plumber/radiator/">Установка радиаторов отопления</a>             <ul><li><a href="/plumber/radiator/ustanovka-bimetallicheskih-radiatorov-otopleniya/">Установка биметаллических радиаторов отопления</a></li><li><a href="/plumber/radiator/ustanovka-aluminievyh-radiatorov-otopleniya/">Установка алюминиевых радиаторов отопления</a></li><li><a href="/plumber/radiator/ustanovka-stalnyh-radiatorov-otopleniya/">Установка стальных радиаторов отопления</a></li><li><a href="/plumber/radiator/ustanovka-chugunnyh-radiatorov-otopleniya/">Установка чугунных радиаторов отопления</a></li><li><a href="/plumber/radiator/termoregulator/">Установка терморегулятора на радиатор</a></li><li><a href="/plumber/radiator/bypass/">Установка перемычки на батарею (байп�p��    p��                    ��            �    ���            ���     @      ���            отопления</a></li><li><a href="/plumber/montazh-radiatorov-otopleniya/">Монтаж радиаторов отопления</a></li><li><a href="/plumber/zamena-batarei-otopleniya/"><u>Замена батарей отопления</u></a></li><li><a href="/plumber/towelradiator/">Установка полотенцесушителя</a></li><li><a href="/plumber/ball_valve/">Установка шаровых кранов</a></li><li><a href="/plumber/pre-filter/">Установка фильтров грубой очистки</a></li><li><a href="/plumber/ustanovka-reduktora-davleniya-vody/">Установка редуктора давления воды</a></li><li><a href="/plumber/watermeter/">Установка счетчиков воды</a></li><li><a href="/plumber/santehnicheskie_raboti/">Сантехнические работы</a></li><li><a href="/plumber/polypropylene/">Сварка полипропиленовых труб</a></li><li><a href="/plumber/copper/">Пайка медных труб</a></li><li><a href="http://www.vash-brigadir.ru/plumber/sololift/">Подключение сололифта (Sololift)</a></li><li><a href="/plumber/water_gauge/">Установка водомерного узла</a></li><li><a href="/plumber/zamena-rozliva-hvs-i-gvs/">Замена розлива ХВС, ГВС и отопления</a></li><li><a href="/plumber/podgotovka-itp-k-otopitelnomu-sezonu/">Подготовка ИТП к отопительному сезону<br />             </a></li><li><a href="/plumber/podgotovka-itp-k-zime/">Подготовка ИТП к зиме</a></li><li><a href="/plumber/heating/">Отопление загородного дома</a></li><li><a href="/plumber/boiler/">Установка котла отопления</a>             <ul><li><a href="/plumber/boiler/ustanovka-dvuhkonturnogo-kotla/">Установка двухконтурного котла</a>                 <ul><li><a href="/plumber/boiler/ustanovka-dvuhkonturnogo-gazovogo-kotla/">Установка двухконтурного газового котла</a></li></ul></li><li><a href="/plumber/boiler/ustanovka-napolnogo-kotla-otopleniya/">Установка напольного котла отопления</a>                 <ul><li><a href="/plumber/boiler/ustanovka-napolnogo-gazovogo-kotla-otopleniya/">Установка напольного газового котла</a></li></ul></li><li><a href="/plumber/boiler/ustanovka-nastennogo-kotla-otopleniya/">Установка настенного котла отопления</a>                 <ul><li><a href="/plumber/boiler/ustanovka-nastennogo-gazovogo-kotla-otopleniya/">Установка настенного газового котла</a></li></ul></li><li><a href="/plumber/boiler/ustanovka-gazovogo-kotla-otopleniya/">Установка газового котла отопления</a></li><li><a href="/plumber/boiler/ustanovka-tverdotoplivnogo-kotla-otopleniya/">Установка твердотопливного котла отопления</a></li><li><a href="/plumber/boiler/ustanovka-dizelnogo-kotla-otopleniya/">Установка дизельного котла отопления</a></li><li><a href="/plumber/boiler/ustanovka-elektricheskogo-kotla-otopleniya/">Установка электрического котла отопления</a></li><li><a href="/plumber/boiler/ustanovka-elektrokotla/">Установка электрокотла</a></li><li><a href="/plumber/boiler/ustanovka-boilera-kosvennogo-nagreva/">Установка бойлера косвенного нагрева</a></li></ul></li><li><a href="/plumber/water_supply/">Водоснабжение загородного дома</a></li><li><a href="/plumber/canalization/">Канализация загородного дома</a></li></ul></li><li><a href="/woodworker/">Плотницкие работы</a>         <ul><li><a href="/woodworker/windowsill/">Установка подоконника</a></li><li><a href="/woodworker/door/">Установка межкомнатных дверей</a></li><li><a href="/woodworker/cornice/">Установка карнизов</a></li></ul></li><li><a href="/furniturepleat/">Сборка мебели</a></li><li><a href="/furniturepleat/skolko-stoit-sborka-mebeli/">Сколько стоит сборка мебели</a></li><li><a href="/furniturepleat/firma-po-sborke-mebeli/">Фирма по сборке мебели</a></li><li><a href="/furniturepleat/sborka-mebeli-ikea/">Сборка мебели ИКЕА</a></li><li><a href="/furniturepleat/sborka-mebeli-borovichi/">Сборка мебели Боровичи</a></li><li><a href="/furniturepleat/sborka-mebeli-shatura/">Сборка мебели ШАТУРА</a></li><li><a href="/furniturepleat/ustanovka-mebeli/">Установка мебели</a></li><li><a href="/furniturepleat/montazh-mebeli/">Монтаж мебели</a><br />         <ul><li><a href="/furniturepleat/kitchen/">Сборка кухни</a>             <ul><li><a href="http://www.vash-brigadir.ru/furniturepleat/kitchen/skolko-stoit-sborka-kuhni/">Сколько стоит сборка кухни</a></li><li><a href="/furniturepleat/kitchen/sborka-kuhonnogo-ugolka/">Сборка кухонного уголка</a></li><li><a href="/furniturepleat/kitchen/sborka-uglovoi-kuhni/">Сборка угловой кухни</a></li><li><a href="/furniturepleat/kitchen/sborka-vstroennoi-kuhni/">Сборка встроенной кухни</a></li><li><a href="/furniturepleat/kitchen/sborka-kuhni-ikea/">Сборка кухни ИКЕА</a></li><li><a href="/furniturepleat/kitchen/sborka-kuhni-lerua/">Сборка кухни Леруа Мерлен</a></li><li><a href="/furniturepleat/kitchen/sborka-kuhni-borovichi/">Сборка кухни Боровичи</a></li><li><a href="/furniturepleat/kitchen/sborshik-kuhni/">Сборщик кухни</a></li><li><a href="/furniturepleat/kitchen/master-po-sborke-kuhni/">Мастер по сборке кухни</a></li><li><a href="/furniturepleat/kitchen/worktop/">Установка столешницы</a></li><li><a href="/furniturepleat/kitchen/air_extraction/">Установка вытяжки</a></li></ul></li><li><a href="/furniturepleat/sborka-kuhonnogo-garnitura/">Сборка кухонного гарнитура</a></li><li><a href="/furniturepleat/corpus/">Сборка корпусной мебели</a></li><li><a href="/furniturepleat/office/">Сборка офисной мебели</a></li><li><a href="/furniturepleat/soft/">Сборка мягкой мебели</a>             <ul><li><a href="/furniturepleat/soft/sofa/">Сборка дивана и кресла</a></li></ul></li><li><a href="/furniturepleat/juvenile/">Сборка детской мебели</a>             <ul><li><a href="/furniturepleat/juvenile/crib/">Сборка детской кроватки</a></li></ul></li><li><a href="/furniturepleat/sborka-vstroennoi-mebeli/">Сборка встроенной мебели</a></li><li><a href="/furniturepleat/wardrobe/">Сборка шкафа-купе</a>             <ul><li><a href="/furniturepleat/wardrobe/sborka-shkafa-ikea/">Сборка шкафа ИКЕА</a></li><li><a href="/furniturepleat/wardrobe/sborka-shkafa-paks/">Сборка шкафа ПАКС ИКЕА</a></li></ul></li><li><a href="/furniturepleat/bed/">Сборка кровати (спальни)</a></li><li><a href="/furniturepleat/commode/">Сборка комода</a></li><li><a href="/furniturepleat/sborka-garderoba/">Сборка гардеробной</a>             <ul><li><a href="/furniturepleat/sborka-garderoba/sborka-garderoba-pax/">Сборка гардероба ПАКС</a></li></ul></li><li><a href="/furniturepleat/entry_bench/">Сборка прихожей</a></li><li><a href="/furniturepleat/wallcabinet/">Сборка стенки</a></li><li><a href="/furniturepleat/table/">Сборка стола</a></li><li><a href="/furniturepleat/box/">Сборка тумбы</a></li><li><a href="/furniturepleat/cabinet/">Сборка кабинета руководителя</a></li><li><a href="/furniturepleat/sborshik-mebeli/">Сборщик мебели</a></li><li><a href="/furniturepleat/sborshik-mebeli-avito/">Сборщик мебели с АВИТО</a></li><li><a href="/furniturepleat/master/">Мастер по сборке мебели</a></li><li><a href="/furniturepleat/vyzvat-sborshika-mebeli/">Вызов сборщика мебели</a></li><li><a href="/furniturepleat/stillage/">Сборка стеллажей</a></li><li><a href="/furniturepleat/sborka-vitrin/">Сборка витрин</a></li><li><a href="/furniturepleat/sborka-elitnoi-mebeli/">Сборка элитной мебели</a>             <ul><li><a href="/furniturepleat/sborka-elitnoi-mebeli/sborka-italyanskoi-mebeli/">Сборка итальянской мебели</a></li></ul></li><li><a href="/furniturepleat/razborka-mebeli/">Разборка мебели</a></li></ul></li><li><a href="/muzh-na-chas/">Муж на час</a></li><li><a href="/master-na-chas/">Мастер на час</a></li><li><a href="/loaders/">Грузчики</a>         <ul><li><a href="/loaders/outsourcing/">Грузчики на аутсорсинг</a></li></ul></li><li><a href="/unskilled/">Разнорабочие</a></li><li><a href="/interior_design/">Дизайн интерьера</a></li><li><a href="/coordination/">Согласование перепланировок квартир</a></li><li><a href="/flat/">Ремонт квартиры</a>         <ul><li><a href="/flat/drywall/">Монтаж гипсокартона</a></li><li><a href="/flat/tile/">Укладка плитки</a></li><li><a href="/flat/carpet/">Укладка ковролина</a></li><li><a href="/flat/linoleum/">Укладка линолеума</a></li><li><a href="/flat/laminate/">Укладка ламината</a></li><li><a href="/flat/parquet/">Укладка паркетной доски</a></li><li><a href="/flat/plastering/">Штукатурные работы</a></li><li><a href="/flat/painting/">Малярные работы</a></li><li><a href="/flat/wallpapers/">Поклейка обоев</a></li></ul></li><li><a href="/room/">Ремонт комнаты</a></li><li><a href="/kitchen/">Ремонт кухни</a></li><li><a href="/bathroom/">Ремонт ванной комнаты</a></li><li><a href="/office/">Ремонт офиса</a></li><li><a href="/cottage/">Ремонт коттеджа</a></li><li><a href="/ustanovka-zaborov/">Заборы и ограждения</a><br />         <ul><li><a href="/ustanovka-zaborov/zabory-iz-profnastila-pod-kluch/">Заборы из профнастила под ключ</a></li><li><a href="/ustanovka-zaborov/skolko-stoit-zabor-iz-profnastila/">Сколько стоит забор из профнастила</a></li><li><a href="/ustanovka-zaborov/zabory-iz-profnastila-stoimost-rabot/">Заборы из профнастила стоимость работ</a></li><li><a href="/ustanovka-zaborov/izgotovlenie-zaborov-iz-profnastila/">Изготовление заборов из профнастила</a></li><li><a href="/ustanovka-zaborov/stroitelstvo-zaborov-iz-profnastila/">Строительство заборов из профнастила</a></li><li><a href="/ustanovka-zaborov/ustanovka-zaborov-iz-profnastila/">Установка заборов из профнастила</a></li><li><a href="/ustanovka-zaborov/montazh-zaborov-iz-profnastila/">Монтаж заборов из профнастила</a></li><li><a href="/ustanovka-zaborov/zabor-iz-profnastila-nedorogo/">Дешевый забор из профнастила</a></li></ul></li><li><a href="/">Клиенты</a></li><li><a href="/welding/">Сварочные работы</a></li><li><a href="/block/">Прочистка канализации</a>         <ul><li><a href="/block/tube/">Прочистка труб</a></li><li><a href="/block/water/">Откачка воды</a></li><li><a href="/block/septic/">Откачка септиков</a></li><li><a href="/block/cesspool/">Откачка выгребных ям</a></li><li><a href="/block/disposal_truck/">Услуги илососа</a></li></ul></li><li><a href="/steel_consruction/">Изготовление металлоконструкций</a></li><li><a href="/demontazhnye-raboty/">Демонтажные работы</a>         <ul><li>Демонтаж мебели             <ul><li><a href="/demontazhnye-raboty/demontazh-mebeli/demontazh-kuhni/">Демонтаж кухни</a></li><li><a href="/demontazhnye-raboty/demontazh-mebeli/demontazh-kuhonnoi-mebeli/">Демонтаж кухонной мебели</a></li></ul></li></ul></li><li><a href="/prices/">Цены на ремонт квартиры</a>         <ul><li><a href="/prices/plumber/">Стоимость сантехнических работ</a></li><li><a href="/prices/electrician/">Стоимость электромонтажных работ</a></li><li><a href="/prices/wall/">Стоимость ремонта стен</a></li><li><a href="/prices/floor/">Стоимость ремонта пола</a></li><li><a href="/prices/ceiling/">Стоимость ремонта потолка</a></li><li><a href="/prices/other/">Стоимость плотницких работ</a></li><li><a href="/prices/loaders/">Стоимость услуг грузчиков</a></li></ul></li><li><a href="/partnership/">Председателю ТСЖ</a></li><li><a href="/vendor/">Информация для поставщиков</a></li><li><a href="/sale/">Информация для льготных категорий граждан</a></li><li><a href="/offer/">Партнерская программа</a></li><li><a href="/attendance/">Техническое обслуживание ТСЖ</a></li><li><a href="/plumber/santehnicheskoe-obsluzhivanie/">Сантехническое обслуживание</a></li><li><a href="/helpfulinfo/">Полезная информация</a>         <ul><li><a href="/helpfulinfo/petersburg/">Полезная информация Санкт-Петербурга</a>             <ul><li><a href="/helpfulinfo/petersburg/admiralteiskii/">Адмиралтейский район</a></li><li><a href="/helpfulinfo/petersburg/vasileostrovskii/">Василеостровский район</a></li><li><a href="/helpfulinfo/petersburg/vyborgskii/">Выборгский район</a></li><li><a href="/helpfulinfo/petersburg/kalininskii/">Калининский район</a></li><li><a href="/helpfulinfo/petersburg/kirovskii/">Кировский район</a></li><li><a href="/helpfulinfo/petersburg/kolpinskii/">Колпинский район</a></li><li><a href="/helpfulinfo/petersburg/krasnogvardeiskii/">Красногвардейский район</a></li><li><a href="/helpfulinfo/petersburg/krasnoselskii/">Красносельский район</a></li><li><a href="/helpfulinfo/petersburg/kronshtadtskii/">Кронштадтский район</a></li><li><a href="/helpfulinfo/petersburg/kurortnyi/">Курортный район</a></li><li><a href="/helpfulinfo/petersburg/moskovskii/">Московский район</a></li><li><a href="/helpfulinfo/petersburg/nevskii/">Невский район</a></li><li><a href="/helpfulinfo/petersburg/petrogradskii/">Петроградский район</a></li><li><a href="/helpfulinfo/petersburg/petrodvorcovyi/">Петродворцовый район</a></li><li><a href="/helpfulinfo/petersburg/primorskii/">Приморский район</a></li><li><a href="/helpfulinfo/petersburg/pushkinskii/">Пушкинский район</a></li><li><a href="/helpfulinfo/petersburg/frunzenskii/">Фрунзенский район</a></li><li><a href="/helpfulinfo/petersburg/centralnyi/">Центральный район</a></li><li><a href="/helpfulinfo/petersburg/vsevolozhskii/">Всеволожский район</a></li><li><a href="/helpfulinfo/petersburg/aviagorodok/">Авиагородок</a></li></ul></li><li><a href="/helpfulinfo/faq/">Вопрос-ответ (F.A.Q.)</a></li></ul></li><li><a href="/contactus/">Контакты</a></li><li><a href="/order/">Online заказ</a></li></ul></li></ul>]]></TextContent>
+      <Original_ID>346</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/map]]></Original_URL>
+      <Original_Tpl><![CDATA[index]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="12" class_id="1" subdivision_id="103" sub_class_id="43">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-06-10 18:11:52</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[111]]></TextContent>
+      <Original_ID>2</Original_ID>
+      <Original_Name><![CDATA[3]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[3]]></Original_Title>
+    </message>
+    <message message_id="13" class_id="1" subdivision_id="103" sub_class_id="43">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-06-10 18:11:52</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[<h1 style="text-align: justify;">Ремонтная компания</h1>
+<p style="text-align: justify;">Добро пожаловать на сайт ремонтной компании <strong>&laquo;Бригадир&raquo;</strong>! Данный ресурс объединяет в себе полный комплекс строительных услуг для жилой и коммерческой недвижимости.</p>
+<p style="text-align: justify;">С момента своего основания и по сегодняшний день, мы специализируемся на проведении ремонтных работ в Санкт-Петербурге и Москве. За это время наша компания заняла лидирующие позиции на строительном рынке и завоевала репутацию надежного партнера.</p>
+<p style="text-align: justify;">Наряду с <span style="text-decoration: underline;"><a title="ремонт квартир под ключ" href="/flat/">ремонтом квартир под ключ</a></span>, основными направлениями деятельности являются:</p>
+<div class="list_disk">
+<ul>
+<li><span style="text-decoration: underline;"><a title="сантехнические работы" href="/plumber/santehnicheskie_raboti/">сантехнические работы</a></span>;</li>
+<li><span style="text-decoration: underline;"><a title="электромонтажные работы" href="/electrician/elektromontazhnie_raboti/">электромонтажные работы</a></span>;</li>
+<li><span style="text-decoration: underline;"><a title="прочистка труб" href="/block/tube/">прочистка труб</a></span>, <span style="text-decoration: underline;"><a title="откачка септиков" href="/block/septic/">откачка септиков</a></span> и <a title="откачка воды" href="/block/water/">воды</a>;</li>
+<li><span style="text-decoration: underline;"><a title="сварочные работы" href="/welding/">сварочные работы</a></span>;</li>
+<li><span style="text-decoration: underline;"><a title="установка и подключение бытовой техники" href="/household_appliances/">подключение бытовой техники</a></span>;</li>
+<li><span style="text-decoration: underline;"><a title="установка межкомнатных дверей" href="/woodworker/door/">установка межкомнатных дверей</a></span>.</li>
+</ul>
+</div>
+<p style="text-align: justify;">Мы выполняем все виды работ, а <span style="text-decoration: underline;"><a title="замена труб" href="/plumber/zamena_trub/">замена труб</a></span><span>,&nbsp;</span><span style="text-decoration: underline;"><a title="установка радиаторов отопления" href="/plumber/radiator/">установка радиаторов отопления</a></span>, <span style="text-decoration: underline;"><a title="установка счетчиков воды" href="/plumber/watermeter/">установка счетчиков воды</a></span><span>&nbsp;и&nbsp;</span><span style="text-decoration: underline;"><a title="замена проводки" href="/electrician/zamena_elektroprovodki/">замена проводки в квартире</a></span><span>&nbsp;- то, на чем наши мастера <span>специализируются</span>&nbsp;в первую очередь.</span></p>
+<p style="text-align: justify;">Обладая знаниями об устройстве современного загородного дома, мы выполняем как <span style="text-decoration: underline;"><a title="ремонт коттеджа" href="/cottage/">полный ремонт коттеджа</a></span>, так и монтаж всех инженерных систем:</p>
+<div class="list_disk">
+<ul>
+<li><span style="text-decoration: underline;"><a title="монтаж водоснабжения загородного дома" href="/plumber/water_supply/">водоснабжение загородного дома</a></span>;</li>
+<li><span style="text-decoration: underline;"><a title="монтаж отопления загородного дома" href="/plumber/heating/">отопление загородного дома</a></span> (<span style="text-decoration: underline;"><a title="монтаж котла отопления" href="/plumber/boiler/">монтаж котла отопления</a></span>);</li>
+<li><span style="text-decoration: underline;"><a title="обслуживание котлов отопления" href="/plumber/service/">обслуживание котлов отопления</a></span> (сервис котлов и их ремонт);</li>
+<li><span style="text-decoration: underline;"><a title="монтаж канализации загородного дома" href="/plumber/canalization/">канализация загородного дома</a></span>.</li>
+</ul>
+</div>
+<p style="text-align: justify;">Для жилищно-коммунального сектора мы проводим техническое <span style="text-decoration: underline;"><a title="обслуживание тсж" href="/attendance/">обслуживание ТСЖ, ЖСК</a></span>, управляющих компаний, а также любых других зданий и сооружений. <span style="text-decoration: underline;"><a href="/electrician/">Вызов электрика</a></span> и <span style="text-decoration: underline;"><a title="вызов сантехника" href="/plumber/">вызов сантехника</a></span> осуществляется на выгодных условиях.</p>
+<p style="text-align: justify;"><strong>Сегодня компания &laquo;Бригадир&raquo; - это:</strong></p>
+<div class="list_disk">
+<ul>
+<li>специалисты с опытом работы более 15 лет;</li>
+<li>профессиональное оборудование и материалы мировых брендов;</li>
+<li>широкий перечень услуг.</li>
+</ul>
+</div>
+<p style="text-align: justify;">При работе с клиентом мы используем правила <strong>&laquo;Европейской модели&raquo;</strong> сотрудничества: уважительное отношение и обязательное соблюдение всех гарантийных обязательств.</p>]]></TextContent>
+      <Original_ID>1</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[<h2>Информация</h2>
+<p><a title="предложение тсж" href="/partnership/"><img src="/files/banners/2.jpg" alt="" /></a></p>
+<p><a title="Партнерская программа" href="/offer/"><img src="/files/banners/4.jpg" alt="" /></a></p>
+<p><a title="Поставщикам" href="/vendor/"><img src="/files/banners/1.jpg" alt="" /></a></p>
+<p><a title="Льготникам" href="/sale/"><img src="/files/banners/3.jpg" alt="" /></a></p>]]></Original_Right>
+      <Original_URL><![CDATA[/]]></Original_URL>
+      <Original_Tpl><![CDATA[index]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="130" class_id="1" subdivision_id="103" sub_class_id="43">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-06-10 18:11:52</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[]]></TextContent>
+      <Original_ID>519</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[<h2>ИНФОРМАЦИЯ</h2>
+<p><a title="предложение тсж" href="/partnership/"><img src="/files/banners/2.jpg" alt="" /></a></p>
+<p><a title="Партнерская программа" href="/offer/"><img src="/files/banners/4.jpg" alt="" /></a></p>
+<p><a title="Поставщикам" href="/vendor/"><img src="/files/banners/1.jpg" alt="" /></a></p>
+<p><a title="Льготникам" href="/sale/"><img src="/files/banners/3.jpg" alt="" /></a></p>]]></Original_Right>
+      <Original_URL><![CDATA[/news]]></Original_URL>
+      <Original_Tpl><![CDATA[index]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="165" class_id="1" subdivision_id="270" sub_class_id="211">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>212.109.7.78</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20100101 Firefox/21.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-06-17 13:54:32</Created>
+      <LastUpdated>2013-06-17 13:54:32</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[<p>444</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="54" class_id="1" subdivision_id="173" sub_class_id="115">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-06-25 12:34:07</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>94.19.109.225</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Муниципальные образования</h1>
+<p style="text-align: justify;">Уважаемые Петербуржцы, компания &quot;Бригадир&quot; выполняет весь комплекс <a title="Отделочные работы" href="/flat/">ремонтно-отделочных работ</a> любого объема и сложности.</p>
+<p style="text-align: justify;">Мы работаем во всех районах города и ближайшем пригороде. В случае необходимости, вызов мастера для проведения <a title="Электромонтажные работы" href="/electrician/elektromontazhnie_raboti/">электромонтажных</a>, <a title="Сантехнические работы" href="/plumber/santehnicheskie_raboti/">сантехнических</a> или отделочных работ, Вы можете осуществить в <a title="Контактная информация" href="/contactus/">этом разделе</a>.</p>
+<p style="text-align: justify;">Услуга по осмотру и составлению сметы - всего 200 рублей (в случае согласия клиента на проведение работ, эта сумма входит в итоговую стоимость);</p>
+<p style="text-align: justify;">Для Вашего удобства мы подготовили полный перечень муниципальных образований нашего города.</p>
+<table class="price_table" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <th>
+            <p lang="en-US"><strong>№</strong></p>
+            </th>
+            <th>
+            <p><strong>Наименование образования<br />
+            </strong></p>
+            </th>
+            <th colspan="3">
+            <p><strong>Координаты</strong><strong>&nbsp;</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <th style="width: 130px;" colspan="2"><strong>АДМИРАЛТЕЙСКИЙ РАЙОН<br />
+            </strong></th>
+            <th>
+            <p><strong>Глава муниципального образования<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">Муниципальный округ &quot;Коломна&quot;</td>
+            <td style="text-align: center;">Савёлов Владимир Александрович</td>
+            <td>
+            <p style="text-align: center;">Шубин Михаил Сергеевич</p>
+            </td>
+            <td class="price_table_last" style="width: 40px;">
+            <p style="text-align: center;">714-08-83</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">Муниципальный округ &quot;Сенной округ&quot;</td>
+            <td style="text-align: center;">Астахова Наталия Владимировна</td>
+            <td>
+            <p style="text-align: center;">Кузьмичева Ксения Ивановна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">310-16-96</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">Муниц. округ &quot;Адмиралтейский округ&quot;</td>
+            <td>
+            <p style="text-align: center;">Кебелеш Петр Михайлович</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Рудиков Владимир Викторович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">314-96-60</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ № 4</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Николаев Валерий Александрович</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Мацепуро Наталья Ивановна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">316-26-30</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>5</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Измайловское&quot;</p>
+            </td>
+            <td style="text-align: center;">Бубнова Ольга Владимировна</td>
+            <td>
+            <p style="text-align: center;">Гуськов Михаил Александрович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">316-53-69</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>6</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p style="text-align: left;">Муниципальный округ № 6</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Березин Владимир Александрович</p>
+            </td>
+            <td style="text-align: center;">Гуреев Владимир Сергеевич</td>
+            <td class="price_table_last">
+            <p style="text-align: center;">252-40-03</p>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ВАСИЛЕОСТРОВСКИЙ РАЙОН</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th><strong>Телефон</strong></th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ № 7</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Степанов Сергей Александрович</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Гоголкин Александр Алексеевич</p>
+            </td>
+            <td class="price_table_last" style="text-align: center;">321-20-46</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Васильевский&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Смоктий Николай Иванович</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Ляпакина Светлана Владимировна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">328-58-31</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Гавань&quot;</p>
+            </td>
+            <td style="text-align: center;">Прокопов Борис Иванович</td>
+            <td>
+            <p style="text-align: center;">Базан Иван Николаевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">355-87-30</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ округ &quot;Морской&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Не избран</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Кострова Елена Александровна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">356-65-03</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 11</td>
+            <td style="text-align: center;">Чичин Вячеслав Васильевич</td>
+            <td style="text-align: center;">Грашин Юрий Иванович</td>
+            <td class="price_table_last" style="text-align: center;">351-19-15</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ВЫБОРГСКИЙ РАЙОН</strong><strong>&nbsp;</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th><strong>Глава местной администрации</strong></th>
+            <th><strong>Телефон</strong></th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Сампсониевское&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Карфополитская Наталия Васильевна</p>
+            </td>
+            <td style="text-align: center;">Владимирова Наталья Васильевна</td>
+            <td class="price_table_last">
+            <p style="text-align: center;">596-32-78</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td style="text-align: left;">Муницип. округ &quot;Светлановское&quot;</td>
+            <td style="text-align: center;">Захаренкова Татьяна Яковлевна</td>
+            <td style="text-align: center;">Генералов Сергей Петрович</td>
+            <td class="price_table_last" style="text-align: center;">552-65-38</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Сосновское&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Загородникова Светлана Григорьевна</p>
+            </td>
+            <td style="text-align: center;">Генералов Сергей Петрович</td>
+            <td class="price_table_last">
+            <p style="text-align: center;">511-65-05</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">Муниципальный округ №15</td>
+            <td>
+            <p style="text-align: center;">Буянова Татьяна Глебовна</p>
+            </td>
+            <td>
+            <p style="text-align: center;" lang="en-US">Тимофеев Владимир Юрьевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">516-63-77</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>5</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Парнас&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Черезов Алексей Владимирович</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Шатов Владимир Васильевич</p>
+            </td>
+            <td class="price_table_last" style="text-align: center;">599-16-98</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>6</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Шувалово-Озерки&quot;</p>
+            </td>
+            <td style="text-align: center;">Аносов Владислав Игоревич</td>
+            <td>
+            <p style="text-align: center;">Штрек Павел Александрович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">510-81-95</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>7</strong></td>
+            <td style="text-align: left;">Муницип. образование п. Парголово</td>
+            <td style="text-align: center;">Кутыловская Ольга Алексеевна</td>
+            <td style="text-align: center;">Могильникова Галина</td>
+            <td class="price_table_last" style="text-align: center;">513-84-48</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>8</strong></td>
+            <td style="text-align: left;">Муницип. образование п. Левашово</td>
+            <td style="text-align: center;">Иванов Олег Дмитриевич</td>
+            <td style="text-align: center;">Федоров Сергей Иванович</td>
+            <td class="price_table_last" style="text-align: center;">594-96-24</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>КАЛИНИНСКИЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Гражданка&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Вайцехович Наталия Анатольевна</p>
+            </td>
+            <td style="text-align: center;">Фаер Андрей Николаевич</td>
+            <td class="price_table_last" style="text-align: center;">535-35-61</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Академическое&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;" lang="en-US">Дроздов Анатолий Владимирович</p>
+            </td>
+            <td>
+            <p style="text-align: center;" lang="en-US">Диденко Юрий Иванович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">555-26-59</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Финляндский округ&quot;</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Беликов Всеволод Федорович</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Кудинов Игорь Серафимович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">544-58-41</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ № 21</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Костина Валентина Дмитриевна</p>
+            </td>
+            <td>
+            <p style="text-align: center;">Кривошеенко Валерий Павлович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">532-35-62</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Пискаревка&quot;</td>
+            <td style="text-align: center;">Сергеева Вера Владимировна</td>
+            <td style="text-align: center;">Калиниченко Ирина Владимировна</td>
+            <td class="price_table_last" style="text-align: center;">298-33-90</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Северный&quot;</td>
+            <td style="text-align: center;">Романовский Сергей Анатольевич</td>
+            <td style="text-align: center;">Юхневич Виктор Александрович</td>
+            <td class="price_table_last" style="text-align: center;">558-56-05</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>7</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Прометей&quot;</td>
+            <td style="text-align: center;">Суворов Алексей Борисович</td>
+            <td style="text-align: center;">Кухарева Галина Викторовна</td>
+            <td class="price_table_last" style="text-align: center;">558-68-11</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>КИРОВСКИЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th><strong>Глава муниципального образования</strong></th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">Муниципальный округ №25</td>
+            <td>
+            <p>Пермяков Владимр Николаевич</p>
+            </td>
+            <td>
+            <p>Цивилев Алексей Николаевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">377-21-37</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">Муниципальный округ &quot;Ульянка&quot;</td>
+            <td>
+            <p>Киселев Николай Юрьевич</p>
+            </td>
+            <td>
+            <p lang="en-US">Шульга Леонид Петрович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;" lang="en-US">759-15-15</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>3</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Дачное&quot;</td>
+            <td>Сагалаев Вадим Александрович</td>
+            <td>Середкин Михаил Борисович</td>
+            <td class="price_table_last" style="text-align: center;">752-94-19</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>4</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Автово&quot;</td>
+            <td>&nbsp;</td>
+            <td>Рулев Игорь Владимирович</td>
+            <td class="price_table_last" style="text-align: center;">785-00-47</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муницип. округ &quot;Нарвский округ&quot;</td>
+            <td>Каптурович Александр Георгиевич</td>
+            <td>Мацко Елена Борисовна</td>
+            <td class="price_table_last" style="text-align: center;">786-77-66</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муницип. округ &quot;Красненькая речка&quot;</td>
+            <td>Невмержицкая Нина Васильевна</td>
+            <td>Степанова Надежда Павловна</td>
+            <td class="price_table_last" style="text-align: center;">757-27-83</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>7</strong></td>
+            <td style="text-align: left;">Муницип. округ &quot;Морские ворота&quot;</td>
+            <td>Рыбкин Андрей Алексеевич</td>
+            <td>Привалов Александр Алексеевич</td>
+            <td class="price_table_last" style="text-align: center;">746-90-45</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>КОЛПИНСКИЙ РАЙОН</strong><strong>&nbsp;</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td class="price_table_name">
+            <p>Муницип. образование г. Колпино</p>
+            </td>
+            <td>
+            <p>Иванов Вадим Петрович</p>
+            </td>
+            <td>
+            <p>Романенко Игорь Сергеевич</p>
+            </td>
+            <td class="price_table_last" style="text-align: center;">461-72-02</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">Муниц. образование п. Металлострой</td>
+            <td>
+            <p>Шипкова Татьяна Николаевна</p>
+            </td>
+            <td>
+            <p>Виноградов Владислав Викторович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;" lang="en-US">464-95-27</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>МО п. Петро-Славянка</p>
+            </td>
+            <td>
+            <p>Плотникова Жанна Анатольевна</p>
+            </td>
+            <td>
+            <p>Берсон Михаил Юрьевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">462-13-04</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Пантонный</p>
+            </td>
+            <td>
+            <p>Харитонов Олег Михайлович</p>
+            </td>
+            <td>
+            <p>Янюшкин Алексей Николаевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">462-40-39</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муницип. образование п. Саперный</td>
+            <td>Палшкова Евгения Анатольевна</td>
+            <td>Георгиев Николай Николаевич</td>
+            <td class="price_table_last" style="text-align: center;">462-16-31</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муницип. образование п.&nbsp; Усть-Ижора</td>
+            <td>Поречный Александр Михайлович</td>
+            <td>Костенко Станислав Викторович</td>
+            <td class="price_table_last" style="text-align: center;">462-33-96</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>КРАСНОГВАРДЕЙСКИЙ РАЙОН</strong><strong>&nbsp;</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>1<br />
+            </strong></p>
+            </td>
+            <td class="price_table_name">Муниципальный округ &quot;Полюстрово&quot;</td>
+            <td>
+            <p>Жабрев Андрей Анатольевич</p>
+            </td>
+            <td>
+            <p>Княжевич Михаил Леонович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">226-55-07</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td class="price_table_name">Муниципальный округ Малая &quot;Охта&quot;</td>
+            <td>
+            <p>Паялин Николай Львович</p>
+            </td>
+            <td>
+            <p>Балеста Татьяна Станиславовна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">224-12-88</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ Малая &quot;Охта&quot;</p>
+            </td>
+            <td>Монахов Дмитрий Иванович</td>
+            <td>
+            <p>Войтановский Михаил Васильевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">528-46-63</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>4</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Пороховые&quot;</td>
+            <td>Литвинов Валерий Александрович</td>
+            <td>Степанов Павел Тимофеевич</td>
+            <td class="price_table_last" style="text-align: center;">524-29-03</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Ржевка&quot;</td>
+            <td>Черевко Вячеслав Григорьевич</td>
+            <td>Кожанов Василий Владимирович</td>
+            <td class="price_table_last" style="text-align: center;">527-70-00</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>КРАСНОСЕЛЬСКИЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ № 37</p>
+            </td>
+            <td>
+            <p lang="en-US">Шарый Юрий Михайлович</p>
+            </td>
+            <td>
+            <p lang="en-US">Андреева Светлана Ивановна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;" lang="en-US">745-79-33</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ&nbsp; &quot;Южно-Приморский&quot;</p>
+            </td>
+            <td>
+            <p lang="en-US">Никитина Ирина Владимировна</p>
+            </td>
+            <td>
+            <p lang="en-US">Алескеров Андрей Энверович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;" lang="en-US">745-47-66</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Сосновая Поляна&quot;</p>
+            </td>
+            <td>
+            <p lang="en-US">Тарасов Михаил Михайлович</p>
+            </td>
+            <td>
+            <p lang="en-US">Пархоменко Вячеслав Николаевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;" lang="en-US">744-87-37</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Урицк&quot;</p>
+            </td>
+            <td>
+            <p>Прокопчик Николай Кузьмич</p>
+            </td>
+            <td>
+            <p>Миронов Иван Владимирович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">736-63-63</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муницип. округ &quot;Константиновское&quot;</td>
+            <td>Зыкова Татьяна Викторовна</td>
+            <td>Лавриненко Андрей Александрович</td>
+            <td class="price_table_last" style="text-align: center;">730-42-55</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муниципальный округ п. Горелово</td>
+            <td>Трофимов Владимир Степанович</td>
+            <td>Алексеев Евгений Анатольевич</td>
+            <td class="price_table_last" style="text-align: center;">746-25-65</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>7</strong></td>
+            <td style="text-align: left;">
+            <p>Муницип.образование г. Красное Село</p>
+            </td>
+            <td>Колошинский Николай Степанович</td>
+            <td>Галич Владимир Александрович</td>
+            <td class="price_table_last" style="text-align: center;">741-03-76</td>
+        </tr>
+        <tr>
+            <th colspan="2"><strong>КРОНШТАДТСКИЙ РАЙОН</strong></th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td style="text-align: left;">Муницип. образование г. Кронштадт</td>
+            <td>Кармазинова Янина Феликсовна</td>
+            <td>Турикин Александр Владимирович</td>
+            <td class="price_table_last" style="text-align: center;">311-21-76</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>КУРОРТНЫЙ РАЙОН</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">Муницип. образование п. Белоостров</td>
+            <td>
+            <p>Майстренко Елена Николаевна</p>
+            </td>
+            <td>
+            <p>Сергиенко Ирина Павловна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">434-03-28</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование г. Зеленогорск</p>
+            </td>
+            <td>Повелий Анатолий Анатольевич</td>
+            <td>Гладунов Юрий Николаевич</td>
+            <td class="price_table_last" style="text-align: center;">433-80-63</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p style="text-align: left;">Муницип. образование п. Комарово</p>
+            </td>
+            <td>
+            <p>Гуменников Владимир Аркадьевич</p>
+            </td>
+            <td>
+            <p>Пупков Игорь Павлович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">433-72-83</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Молодежное</p>
+            </td>
+            <td>
+            <p>Холодилова Ирина Александровна</p>
+            </td>
+            <td>
+            <p>Залесский Тимофей Юрьевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">433-25-96</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>5</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Песочный</p>
+            </td>
+            <td>
+            <p>Панасенко Надежда Петровна</p>
+            </td>
+            <td>
+            <p>Вошев Валерий Викторович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">596-87-06</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>6</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Репино</p>
+            </td>
+            <td>
+            <p>Алексеева Наталья Александровна</p>
+            </td>
+            <td>Гайкович Татьяна Моисеевна</td>
+            <td class="price_table_last">
+            <p style="text-align: center;">432-01-11</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>7</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Серово</p>
+            </td>
+            <td>
+            <p>Бабенко Андрей Васильевич</p>
+            </td>
+            <td>
+            <p>Федорова Галина Васильевна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">433-65-06</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>8</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование г. Сестрорецк</p>
+            </td>
+            <td>
+            <p>Вишневский Андрей Владимирович</p>
+            </td>
+            <td>
+            <p>Воднев Дмитрий Геннадьевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">437-15-35</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>9</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Смолячково</p>
+            </td>
+            <td>
+            <p>Гладченко Николай Владимирович</p>
+            </td>
+            <td>
+            <p>Гунина Татьяна Ивановна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">433-23-00</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>10</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Солнечное</p>
+            </td>
+            <td>
+            <p>Стариков Николай Иванович</p>
+            </td>
+            <td>
+            <p>Волохин Юрий Геннадьевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">432-95-69</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>11</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. образование п. Ушково</p>
+            </td>
+            <td>
+            <p>Просвирнина Марина Гавриловна</p>
+            </td>
+            <td>
+            <p>Каюков Александр Викторович</p>
+            </td>
+            <td class="price_table_last" style="text-align: center;">433-82-18</td>
+        </tr>
+        <tr>
+            <th colspan="2"><strong>МОСКОВСКИЙ РАЙОН</strong></th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p style="text-align: left;">Муницип. округ &quot;Московская застава&quot;</p>
+            </td>
+            <td>
+            <p>Афонькина Валентина Ивановна</p>
+            </td>
+            <td>
+            <p>Захаров Александр Анатольевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">387-88-78</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Гагаринское&quot;</p>
+            </td>
+            <td>
+            <p>Трифонова Галина Федоровна</p>
+            </td>
+            <td>
+            <p>Доильницын Анатолий Анатольевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">378-22-14</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Новоизмайловское&quot;</p>
+            </td>
+            <td>
+            <p>Шубин Сергей Борисович</p>
+            </td>
+            <td>
+            <p>Харченко Александр Николаевич</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">370-45-10</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниц. округ &quot;Пулковский меридиан&quot;</p>
+            </td>
+            <td>
+            <p>Макаров Алексей Алексеевич</p>
+            </td>
+            <td>
+            <p>Морозов Игорь Вячеславович</p>
+            </td>
+            <td class="price_table_last" style="text-align: center;">371-92-57</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;"><strong>5</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Звездное&quot;</p>
+            </td>
+            <td>Зеленков Павел Геннадьевич</td>
+            <td>
+            <p>Тришина Юлия Николаевна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">371-28-72</p>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2"><strong>НЕВСКИЙ РАЙОН</strong></th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Невская застава&quot;</p>
+            </td>
+            <td>Карпов Павел Константинович</td>
+            <td>
+            <p>Пронин Алексей Владимирович</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">365-19-49</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td class="price_table_name">
+            <p>Муниципальный округ &quot;Ивановский&quot;</p>
+            </td>
+            <td>
+            <p>Козлов Сергей Владимирович</p>
+            </td>
+            <td>
+            <p>Силин Борис Георгиевич</p>
+            </td>
+            <td class="price_table_last" style="text-align: center;">560-35-14</td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name" style="text-align: left;">Муниципальный округ &quot;Обуховский&quot;</td>
+            <td>
+            <p>&nbsp;</p>
+            </td>
+            <td>Кудровский Игорь Олегович</td>
+            <td class="price_table_last">
+            <p style="text-align: center;">368-49-45</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">Муниципальный округ &quot;Рыбацкое&quot;</td>
+            <td>
+            <p>Фощан Алексей Владимирович</p>
+            </td>
+            <td>
+            <p>Колесников Владимир</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">700-48-73</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 53</td>
+            <td>Соловьев Кирилл Викторович</td>
+            <td>Бушин Вадим Владимирович</td>
+            <td class="price_table_last" style="text-align: center;">446-39-12</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 54</td>
+            <td>Гусаков Юрий Алексеевич</td>
+            <td>Кошелев Алексей Алексеевич</td>
+            <td class="price_table_last" style="text-align: center;">446-59-40</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>7</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Невский округ&quot;</td>
+            <td>Гаврилов Дмитрий Александрович</td>
+            <td>Ярошевич Константин Викторович</td>
+            <td class="price_table_last" style="text-align: center;">589-27-27</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>8</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Оккервиль&quot;</td>
+            <td>&nbsp;</td>
+            <td>Бондарев Сергей Евгеньевич</td>
+            <td class="price_table_last" style="text-align: center;">584-73-85</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>9</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 57</td>
+            <td>Гордин Эдуард Исаакович</td>
+            <td>Тонкель Игорь Ростиславович</td>
+            <td class="price_table_last" style="text-align: center;">584-43-34</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ПЕТРОДВОРЦОВЫЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td style="text-align: left;">Муницип. образование г. Петергоф</td>
+            <td>Барышников Михаил Иванович</td>
+            <td>Дергачева Нина Анатольевна</td>
+            <td class="price_table_last" style="text-align: center;">450-60-36</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td style="text-align: left;">Муницип. образование г. Ломоносов</td>
+            <td>Мишуткин Александр Алексеевич</td>
+            <td>Рогожина Татьяна Валентиновна</td>
+            <td class="price_table_last" style="text-align: center;">422-57-21</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>3</strong></td>
+            <td style="text-align: left;">Муницип. образование п. Стрельна</td>
+            <td>Крюков Сергей Владиславович</td>
+            <td>Козлов Анатолий Николаевич</td>
+            <td class="price_table_last" style="text-align: center;">421-43-03</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ПЕТРОГРАДСКИЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 58</td>
+            <td>Калядин Олег Степанович</td>
+            <td>Поскребышева Татьяна Евгеньевна</td>
+            <td class="price_table_last" style="text-align: center;">232-51-52</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td style="text-align: left;">Муниципальный округ Кронверкское</td>
+            <td>Блахин Геннадий Николаевич</td>
+            <td>Лысич Борис Иванович</td>
+            <td class="price_table_last" style="text-align: center;">498-58-69</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>3</strong></td>
+            <td style="text-align: left;">Муницип. округ Аптекарский остров</td>
+            <td>Приплад Михаил Юрьевич</td>
+            <td>Мартинович Петр Леонидович</td>
+            <td class="price_table_last" style="text-align: center;">234-64-80</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>4</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 60</td>
+            <td>Панов Юрий Алексеевич</td>
+            <td>Воронцов Ярослав Алексеевич</td>
+            <td class="price_table_last" style="text-align: center;">233-51-69</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муниципальный округ Петровский</td>
+            <td>Бородин Владимир Алексеевич</td>
+            <td>Терешенсков Денис Геннадьевич</td>
+            <td class="price_table_last" style="text-align: center;">232-99-52</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муниципальный округ Чкаловское</td>
+            <td>Мартинович Николай Леонидович</td>
+            <td>Пантела Олег Николаевич</td>
+            <td class="price_table_last" style="text-align: center;">235-67-36</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ПРИМОРСКИЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Лахта-Ольгино&quot;</td>
+            <td>Никольский Евгений Владимирович</td>
+            <td>Богданов Павел Евгеньевич</td>
+            <td class="price_table_last" style="text-align: center;">498-33-24</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 65</td>
+            <td>Белов Александр Юрьевич</td>
+            <td>Красавина Ирина Владимировна</td>
+            <td class="price_table_last" style="text-align: center;">341-03-82</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>3</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Черная речка&quot;</td>
+            <td>Петялин&nbsp; Дмитрий Акселевич</td>
+            <td>Потякин Александр Анатольевич</td>
+            <td class="price_table_last" style="text-align: center;">430-58-30</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>4</strong></td>
+            <td style="text-align: left;">МО &quot;Комендантский аэродром&quot;</td>
+            <td>Соловьев Владимир Николаевич</td>
+            <td>Брызгалова Марина Юрьевна</td>
+            <td class="price_table_last" style="text-align: center;">394-89-49</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Озеро Долгое&quot;</td>
+            <td>Байдалаков Виктор Владимирович</td>
+            <td>Железнов Виктор Иванович</td>
+            <td class="price_table_last" style="text-align: center;">301-05-01</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Юнтолово&quot;</td>
+            <td>Радзевич Андрей Валентинович</td>
+            <td>Гревцева Светлана Кузьминична</td>
+            <td class="price_table_last" style="text-align: center;">307-29-76</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>7</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 70</td>
+            <td>Борисенко Сергей Эдуардович</td>
+            <td>Крылов Владимир Дмитриевич</td>
+            <td class="price_table_last" style="text-align: center;">304-02-06</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>8</strong></td>
+            <td style="text-align: left;">Муницип. образование п. Лисий Нос</td>
+            <td>Шарганов Виктор Вениаминович</td>
+            <td>Курков Александр Анатольевич</td>
+            <td class="price_table_last" style="text-align: center;">434-90-29</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ПУШКИНСКИЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr style="text-align: left;">
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td style="text-align: left;">Муницип. образование г. Пушкин</td>
+            <td>Гребенёв Николай Яковлевич</td>
+            <td>Степанов Иван Павлович</td>
+            <td class="price_table_last" style="text-align: center;">465-81-89</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td style="text-align: left;">Муницип. образование г. Павловск</td>
+            <td>Зибарев Валерий Викторович</td>
+            <td>Гежа Зинаида Владимировна</td>
+            <td class="price_table_last" style="text-align: center;">466-85-59</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>3</strong></td>
+            <td style="text-align: left;">Муницип. образование п. Шушары</td>
+            <td>Бушманов Вячеслав Сергеевич</td>
+            <td>Сызранцев Михаил Юрьевич</td>
+            <td class="price_table_last" style="text-align: center;">723-25-40</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>4</strong></td>
+            <td style="text-align: left;">МО п. Александровский</td>
+            <td>Ларионов Вадим Борисович</td>
+            <td>Спирин Юрий Александрович</td>
+            <td class="price_table_last" style="text-align: center;">451-36-18</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муницип. образование п. Тярлево</td>
+            <td>Бекеров Геннадий Александрович</td>
+            <td>Долгов Александр Иванович</td>
+            <td class="price_table_last" style="text-align: center;">466-79-68</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ФРУНЗЕНСКИЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr style="text-align: left;">
+            <td style="text-align: center;"><strong>1</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Волковское&quot;</td>
+            <td>Яхин Рамиль Анварович</td>
+            <td>Мигас Александр Михайлович</td>
+            <td class="price_table_last" style="text-align: center;">766-03-36</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>2</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 72</td>
+            <td>Стамбирская Наталия Юрьевна</td>
+            <td>Бондарев Илья Анальевич</td>
+            <td class="price_table_last" style="text-align: center;">576-53-18</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>3</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Купчино&quot;</td>
+            <td>Трубицын Юрий Николаевич</td>
+            <td>Татаренко Станислав Николаевич</td>
+            <td class="price_table_last" style="text-align: center;">774-42-87</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>4</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Георгиевский&quot;</td>
+            <td>Окунь Алексей Борисович</td>
+            <td>Сидорова Марина Владиславовна</td>
+            <td class="price_table_last" style="text-align: center;">773-87-94</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муниципальный округ № 75</td>
+            <td>Бородько Юрий Иосифович</td>
+            <td>Беспалов Георгий Анатольевич</td>
+            <td class="price_table_last" style="text-align: center;">706-44-25</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муниципальный округ &quot;Балканский&quot;</td>
+            <td>Науменко Анатолий Григорьевич</td>
+            <td>Галушко Вячеслав Васильевич</td>
+            <td class="price_table_last" style="text-align: center;">778-81-97</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+            <p><strong>ЦЕНТРАЛЬНЫЙ РАЙОН<br />
+            </strong></p>
+            </th>
+            <th>
+            <p><strong>Глава муниципального образования</strong></p>
+            </th>
+            <th>
+            <p><strong>Глава местной администрации</strong></p>
+            </th>
+            <th>
+            <p><strong>Телефон</strong></p>
+            </th>
+        </tr>
+        <tr style="text-align: left;">
+            <td>
+            <p style="text-align: center;"><strong>1</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p>Муницип. округ &quot;Дворцовый округ&quot;</p>
+            </td>
+            <td>
+            <p>Агейчик Елена Васильевна</p>
+            </td>
+            <td>Маткова Татьяна Александровна</td>
+            <td class="price_table_last">
+            <p style="text-align: center;">571-86-23</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>2</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p style="text-align: left;">Муниципальный округ № 78</p>
+            </td>
+            <td>
+            <p>Штраух Валентина Николаевна</p>
+            </td>
+            <td>
+            <p>Дружинина Юлия Николаевна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">310-88-88</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p style="text-align: center;" lang="en-US"><strong>3</strong></p>
+            </td>
+            <td class="price_table_name" style="text-align: left;">Муницип. округ &quot;Литейный округ&quot;</td>
+            <td>
+            <p>Шатуновский Сергей Владимирович</p>
+            </td>
+            <td>
+            <p>Бирюкова Ирина Юрьевна</p>
+            </td>
+            <td class="price_table_last">
+            <p style="text-align: center;">579-84-01</p>
+            </td>
+        </tr>
+        <tr>
+            <td height="15">
+            <p style="text-align: center;" lang="en-US"><strong>4</strong></p>
+            </td>
+            <td class="price_table_name">
+            <p style="text-align: left;">Муниципальный округ &quot;Смольнинское&quot;</p>
+            </td>
+            <td>Аракелов Грант Аракелович</td>
+            <td>Секушин Владимир Иванович</td>
+            <td class="price_table_last">
+            <p style="text-align: center;">274-54-06</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>5</strong></td>
+            <td style="text-align: left;">Муницип. округ &quot;Лиговка-Ямская&quot;</td>
+            <td>Ковалев Константин Иванович</td>
+            <td>Усачева Александра Павловна</td>
+            <td class="price_table_last" style="text-align: center;">717-87-44</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>6</strong></td>
+            <td style="text-align: left;">Муницип. округ &quot;Владимирский округ&quot;</td>
+            <td>Плюснин Иван Иннокентьевич</td>
+            <td>Клименко Лариса Павловна</td>
+            <td class="price_table_last" style="text-align: center;">713-27-88</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;"><strong>Примечание: </strong>Вся информация представлена в ознакомительных целях и не может служить основанием для притензий к ООО &quot;Бригадир&quot;.</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 456px; width: 1px; height: 1px; overflow: hidden;">Владимировна Калиниченко Ирина Владимировна</div>]]></TextContent>
+      <Original_ID>427</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/helpfulinfo/petersburg/municipal]]></Original_URL>
+      <Original_Tpl><![CDATA[inside]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="35" class_id="1" subdivision_id="160" sub_class_id="102">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2013-06-25 12:34:33</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>94.19.109.225</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>Вопрос-ответ</h1>
+<p style="text-align: justify;"><strong>Какова минимальная стоимость вызова мастера?</strong></p>
+<ul style="text-align: justify;">
+    <li style="text-align: justify;">минимальный заказ составляет 1200 рублей.</li>
+</ul>
+<hr />
+<p><strong style="text-align: justify;">Что входит в этот минимальный заказ?</strong></p>
+<ul style="text-align: justify;">
+    <li>как правило, это небольшие работы, которые укладываются в эту сумму, например, замена розетки стоит 300 рублей, таким образом, за эту сумму мастер сможет починить Вам 4 розетки или выключателя.</li>
+</ul>
+<hr />
+<p><strong style="text-align: justify;">Вы работаете официально? Оформляются ли закрывающие документы?</strong></p>
+<ul style="text-align: justify;">
+    <li>все работы ведутся квалифицированными специалистами. По окончании всех работ выдается официальная квитанция, с фамилией исполнителя, наименованием работ, а также печатью организации;</li>
+    <li>по желанию заказчика заключается договор.</li>
+</ul>
+<hr />
+<p><strong>Есть ли гарантия на работы?</strong></p>
+<ul>
+    <li>безусловно, на все работы действует гарантия 1 год.</li>
+</ul>
+<hr />
+<p><strong style="text-align: justify;">Есть ли у Вас лицензии на электромонтажные и сантехнические работы?</strong></p>
+<ul style="text-align: justify;">
+    <li style="text-align: justify;">согласно постановлению губернатора Санкт-Петербурга <span style="color: #008000;"><span style="font-size: small;">№ 13-пг от 16 марта 2007 г.</span> о внесении изменений в распоряжение губернатора Санкт-Петербурга от 06.11.1997 № 1139-Р</span><span style="color: #000000;">,</span><span style="color: #ff0000;"> <span style="color: #000000;">лицензия на данные виды работ</span> <span style="font-size: small; color: #008000;">отменяется</span><span style="color: #000000;">.</span></span></li>
+</ul>
+<hr />
+<p style="text-align: justify;"><strong>Работаете ли Вы по договору? Возможен ли безналичный расчет?</strong></p>
+<ul style="text-align: justify;">
+    <li>вы можете заключить с нами договор, как на разовые работы, так и на долгосрочное сотрудничество. Оплата производится любым удобным для Вас способом.</li>
+</ul>
+<hr />
+<p style="text-align: justify;"><strong>По какому графику Вы работаете?</strong></p>
+<ul style="text-align: justify;">
+    <li>мы работаем с 09.00 до 21.00, всю неделю, без выходных и праздничных дней. Таким образом, Вы можете планировать работы на любое удобное время. <a title="Контактная информация" href="/contactus/">Информация для связи с нами</a>.</li>
+</ul>]]></TextContent>
+      <Original_ID>372</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/helpfulinfo/faq]]></Original_URL>
+      <Original_Tpl><![CDATA[index]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="579" class_id="1" subdivision_id="706" sub_class_id="648">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2017-05-05 15:19:48</Created>
+      <LastUpdated>2017-05-05 15:19:48</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+      <TextContent><![CDATA[<p>test</p>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="34" class_id="1" subdivision_id="223" sub_class_id="168">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>127.0.0.1</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-03-29 11:49:54</Created>
+      <LastUpdated>2014-03-26 16:31:07</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>188.134.45.11</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1>стоимость услуг грузчиков</h1>
+<table border="0" class="price_table">
+    <tbody>
+        <tr>
+            <th><strong>Позиция</strong></th>
+            <th colspan="4"><strong>Наличный расчет, руб.</strong></th>
+            <th colspan="4"><strong>Безналичный расчет, руб.</strong></th>
+            <th colspan="4"><strong>Минимальное время, час.</strong></th>
+        </tr>
+        <tr>
+            <td>1 грузчик</td>
+            <td style="text-align: center;" colspan="4">210</td>
+            <td style="text-align: center;" colspan="4">240</td>
+            <td style="text-align: center;" colspan="4">4</td>
+        </tr>
+        <tr>
+            <td>от 2-х грузчиков</td>
+            <td style="text-align: center;" colspan="4">200</td>
+            <td style="text-align: center;" colspan="4">230</td>
+            <td style="text-align: center;" colspan="4">4</td>
+        </tr>
+        <tr>
+            <td>от 4-х грузчиков</td>
+            <td style="text-align: center;" colspan="4">190</td>
+            <td style="text-align: center;" colspan="4">220</td>
+            <td style="text-align: center;" colspan="4">4</td>
+        </tr>
+        <tr>
+            <td>от 8-х грузчиков</td>
+            <td style="text-align: center;" colspan="4">180</td>
+            <td style="text-align: center;" colspan="4">210</td>
+            <td style="text-align: center;" colspan="4">4</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Примечания:</h2>
+<ul>
+    <li>стоимость услуг в ночное время увеличивается на <strong>20%</strong>;&nbsp;</li>
+    <li>перевозка тяжелых и крупногабаритных вещей оговаривается отдельно;</li>
+    <li>стоимость работ при отсутствии лифта (выше 5 этажа) определяется отдельно;</li>
+    <li>условия работы за чертой города рассчитываются дополнительно.</li>
+</ul>]]></TextContent>
+      <Original_ID>381</Original_ID>
+      <Original_Name><![CDATA[Тарифы: грузчики и такелажные работы]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[/prices/loaders]]></Original_URL>
+      <Original_Tpl><![CDATA[inside]]></Original_Tpl>
+      <Original_Title><![CDATA[Тарифы: грузчики и такелажные работы]]></Original_Title>
+    </message>
+    <message message_id="625" class_id="1" subdivision_id="751" sub_class_id="693">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2017-07-05 00:21:50</Created>
+      <LastUpdated>2018-09-04 22:19:39</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>31.134.137.34</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:61.0) Gecko/20100101 Firefox/61.0</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<div class="table_js table_work">
+<div class="paddd">
+<h1>Покраска изделий из дерева</h1>
+<p class="tajs" style="text-align: justify;">Оперативно организовать покраску деревянных изделий сможет сервисная компания БРИГАДИР: специально оборудованная мастерская и опытный маляр готовы привести в порядок комоды, тумбочки, зеркала, стеллажи, стулья, банкетки, столы и любую другую мебель. Заказать услуги возможно по телефонам в СПб:&nbsp;<strong><span style="color: rgb(0, 128, 0);">300-20-20</span></strong>&nbsp;или&nbsp;<strong><span style="color: rgb(0, 128, 0);">929-09-82</span></strong>.</p>
+<div class="svi">
+<h2>Нами выполняется:</h2>
+<ul>
+    <li>покраска разнообразных изделий из массива и МДФ с нуля (лаком, водными эмалями, акриловой, алкидной и полиуретановой);</li>
+    <li>обновление (реставрация) старой мебели (перекраска выйдет дешевле, чем покупка новой &ndash;&nbsp;проверено);</li>
+    <li>морение (тонирование) дверей, столов, лестниц и мебельных фасадов;</li>
+    <li>создание эффектов и патинирование;</li>
+    <li>лакировка.</li>
+</ul>
+</div>
+<p class="tajs" style="text-align: justify;">Выполняется реставрация (восстановление) тумбочек, банкеток, комодов, зеркал, стеллажей, стульев, ресторанной мебели, а также деревянных и бильярдных столов.</p>
+<h2>Цены на покраску (за 1 квадратный метр):</h2>
+<table class="price_table" border="0">
+    <tbody class="lase">
+        <tr class="gls">
+            <th rowspan="2" style="text-align: center;"><strong>Наименование</strong></th>
+            <th rowspan="2" colspan="2" style="text-align: center;"><strong>Стоимость, руб.</strong></th>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">Удаление старого покрытия</td>
+            <td colspan="2" style="text-align: center;">370</td>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">2 слоя грунта + матовая или полуматовая эмаль</td>
+            <td colspan="2" style="text-align: center;">2000</td>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">2 слоя грунта + эмаль + матовый или полуматовый лак</td>
+            <td colspan="2" style="text-align: center;">3000</td>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">2 слоя грунта + эмаль + глянцевый лак</td>
+            <td colspan="2" style="text-align: center;">3700</td>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">2 слоя матового или полуматового лака с перетиркой</td>
+            <td colspan="2" style="text-align: center;">1600</td>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">Тонировка + 2 слоя матового или полуматового лака</td>
+            <td colspan="2" style="text-align: center;">1800</td>
+        </tr>
+        <tr>
+            <th colspan="3" style="text-align: center;"><strong>Дополнительные услуги:</strong></th>
+        </tr>
+        <tr>
+<th style="text-align: center;"><strong>Наименование</strong></th>
+            <th colspan="2" style="text-align: center;"><strong>Стоимость, руб.</strong></th>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">Подбор цвета</td>
+            <td colspan="2" style="text-align: center;">1500</td>
+        </tr>
+        <tr>
+            <td style="text-align: justify;">Доставка в обе стороны в черте СПб</td>
+            <td colspan="2" style="text-align: center;">350</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="3"><span style="color: rgb(255, 0, 0);"><strong>ПОКРАСКА ВЫПОЛНЯЕТСЯ ТОЛЬКО В МАСТЕРСКОЙ</strong></span></td>
+        </tr>
+    </tbody>
+</table>
+<div class="svi">
+<h2>Расценки на услуги формируются:</h2>
+<ul>
+    <li>снятие старого покрытия (когда оно присутствует);</li>
+    <li>устранение царапин, сколов, щелей и прочих неровностей с помощью шпатлевки и шлифовки;</li>
+    <li>нанесение грунта;</li>
+    <li>подбор цвета эмали / тонировки (если предполагается);</li>
+    <li>межслоевая перетирка и покраска (лакирование в несколько слоев).</li>
+</ul>
+</div>
+<p class="tajs" style="text-align: justify;">Можем упаковать готовые изделия &ndash; в картон, пузырчатую пленку или стрейч (это включено в прайс-лист).</p>
+<p class="tajs" style="text-align: justify;">Все покрасочные работы производятся в профессиональной мастерской. Мы задействуем только качественные расходные материалы и профессиональный инструмент: AEG, Sata, 3M, Sherwin-Williams, Sayerlack, Sata, Mirka и пр.</p>
+<p class="tajs" style="text-align: justify;">Все заказы мы закрываем в срок, но некоторые заявки выполняются и раньше. Прайс-лист конкурентный, а для постоянных клиентов мы формируем индивидуальные расценки. Есть доставка в обе стороны.</p>
+<div class="svi">
+<h2>Важная информация о нас:</h2>
+<ul>
+    <li>малярные работы с опытом 15 лет;</li>
+    <li>собственный цех в центре города;</li>
+    <li>оформление <strong><span style="color: rgb(0, 128, 0);">ДОГОВОРА</span></strong> c последующей <strong><span style="color: rgb(0, 128, 0);">ГАРАНТИЕЙ</span></strong>;</li>
+    <li>гибкий прейскурант.</li>
+</ul>
+</div>
+<p class="tajs" style="text-align: justify;">Номера для связи &ndash;&nbsp;<strong><span style="color: rgb(0, 128, 0);">300-20-20</span></strong>&nbsp;или&nbsp;<strong><span style="color: rgb(0, 128, 0);">929-09-82</span></strong>.</p>
+</div>
+</div>]]></TextContent>
+      <Original_ID/>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    <message message_id="627" class_id="1" subdivision_id="751" sub_class_id="693">
+      <User_ID>1</User_ID>
+      <Priority>3</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:61.0) Gecko/20100101 Firefox/61.0</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2018-09-04 22:36:47</Created>
+      <LastUpdated>2018-09-04 22:36:47</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP>31.134.137.34</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:61.0) Gecko/20100101 Firefox/61.0</LastUserAgent>
+      <Keyword/>
+      <TextContent><![CDATA[<h1 style="text-align: justify;">Установка межкомнатных дверей</h1>
+<p style="text-align: justify;"><img alt="установка межкомнатных дверей" src="/files/woodworker/door_installation.jpg" width="152" height="214" />Современная дверь, независимо от своего назначения, является важнейшим элементом в любом интерьере. Являясь своеобразными воротами, именно дверь дает первое визуальное представление об эстетике помещения.</p>
+<p style="text-align: justify;">Сегодня производители предлагают огромный выбор дверей на любой вкус <span><span>&mdash;</span></span> от металлических и деревянных до новейших пластиковых и даже стеклянных. Несмотря на широкую сферу их использования, самыми востребованными остаются межкомнатные двери, выполненные, как правило, из шпона и ламината.</p>
+<p style="text-align: justify;">Компания <strong>&laquo;Бригадир&raquo;</strong> поможет профессионально <strong>установить любую дверь</strong> в Санкт-Петербурге.</p>
+<p style="text-align: justify;"><strong>В среднем, установка межкомнатной двери занимает около 2 часов и проходит в несколько этапов:</strong></p>
+<ul>
+    <li>демонтаж старой двери и дверного блока (если необходимо);</li>
+    <li>сборка новой дверной коробки;</li>
+    <li>фурнитура: установка петель, врезка механизмов замка и ручки;</li>
+    <li>монтаж и крепление дверной коробки<span style="color: #008000;"><strong>*</strong></span>;</li>
+    <li>навеска двери на петли;</li>
+    <li>установка наличников и монтаж ручки.</li>
+</ul>
+<p style="text-align: justify;"><span style="color: #008000;"><strong>*</strong></span>Крепление дверной коробки на шурупы <span><span>&mdash;</span></span> самый надежный и эффективный способ фиксации, позволяющий подобрать оптимальный зазор между стойками и дверным полотном. В данном случае <strong>установщик межкомнатных дверей</strong> использует традиционную монтажную пену только для заполнения пространства между дверной коробкой и стеной.</p>
+<p style="text-align: justify;">В отличие от входной двери, <strong>установка межкомнатных дверей</strong> является завершающим этапом в <span style="text-decoration: underline;"><a href="/flat/" title="ремонт квартиры под ключ">ремонте квартиры</a></span>. Все <span style="text-decoration: underline;"><a href="/flat/plastering/" title="штукатурные работы">штукатурные работы</a></span>, <span style="text-decoration: underline;"><a href="/flat/laminate/" title="укладка ламината">настил ламината</a></span> и других напольных покрытий должны быть выполнены заранее.</p>
+<h2>Сегодня компания &laquo;Бригадир&raquo; - это:</h2>
+<ul>
+    <li><span style="text-decoration: underline;"><a href="/woodworker/" title="плотницкие работы">плотницкие работы</a></span> с опытом более 10 лет;</li>
+    <li>только профессиональное монтажное оборудование;</li>
+    <li>работа в т.ч. в вечернее время, праздничные и выходные дни.</li>
+</ul>
+<h2>Установка межкомнатных дверей цены</h2>
+<table class="price_table" border="0">
+    <tbody>
+        <tr>
+            <th rowspan="2"><strong>НАИМЕНОВАНИЕ РАБОТ</strong></th>
+            <th colspan="2" rowspan="2"><strong>Стоимость,&nbsp;руб.</strong></th>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>Установка межкомнатной двери<span style="color: #008000;">*</span></td>
+            <td style="text-align: center;" colspan="2">2000</td>
+        </tr>
+        <tr>
+            <td><span>Установка двухстворчатой двери<span style="color: #008000;">*</span></span></td>
+            <td style="text-align: center;" colspan="2">2500</td>
+        </tr>
+        <tr>
+            <td colspan="3"><span style="color: #0000ff;"><span style="color: #008000;">*</span><span style="color: #000000;"><strong>С</strong><strong>тандартная установка двери включает:</strong> демонтаж старой двери, сборка и монтаж дверной коробки в проем, врезка 2-х петель, установка ручки с защелкой и монтаж наличников.</span></span></td>
+        </tr>
+        <tr>
+            <th colspan="3"><strong>Дополнительные работы</strong></th>
+        </tr>
+        <tr>
+            <td>Монтаж замка (накладной / врезной)</td>
+            <td style="text-align: center;" colspan="2">300 / 400</td>
+        </tr>
+        <tr>
+            <td>Монтаж дверного добора</td>
+            <td style="text-align: center;" colspan="2">250</td>
+        </tr>
+        <tr>
+            <td>Подрезка двери (по ширине)</td>
+            <td style="text-align: center;" colspan="2">500</td>
+        </tr>
+        <tr>
+            <td>Установка порожка (деревянного)</td>
+            <td style="text-align: center;" colspan="2">150</td>
+        </tr>
+        <tr>
+            <td>Установка дверного доводчика</td>
+            <td style="text-align: center;" colspan="2">500</td>
+        </tr>
+        <tr>
+            <td>Установка дверного ограничителя</td>
+            <td style="text-align: center;" colspan="2">100</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;"><strong><span style="color: #008000;">Указанные цены не включают в себя расходные материалы</span><br />
+            </strong></td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;"><span>Чтобы получить более подробную информацию, пожалуйста, позвоните нам </span><span><strong>в Петербурге</strong>:&nbsp;</span><strong><span style="color: #008000;">300-20-20</span></strong><span style="color: rgb(0, 0, 0);"> и </span><strong><span style="color: #008000;">929-09-82</span>&nbsp;</strong><span><span><span>&mdash;</span></span> менеджеры с удовольствием ответят на ваши вопросы.</span></p>
+<p style="text-align: center;"><strong><strong><span style="text-decoration: underline;"><span style="color: #008000;"><a href="/about/warranties/" title="Гарантия"><span style="color: #008000;"><strong>На все работы действует гарантия 1 год</strong></span></a></span></span><span style="color: #008000;"><strong>.</strong></span></strong></strong></p>]]></TextContent>
+      <Original_ID>0</Original_ID>
+      <Original_Name><![CDATA[]]></Original_Name>
+      <Original_Right><![CDATA[]]></Original_Right>
+      <Original_URL><![CDATA[]]></Original_URL>
+      <Original_Tpl><![CDATA[]]></Original_Tpl>
+      <Original_Title><![CDATA[]]></Original_Title>
+    </message>
+    
+  </messages>
+  <comments/>
+</netcatml>

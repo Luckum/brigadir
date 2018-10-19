@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<netcatml>
+  <subdivisions>
+    <subdivision subdivision_id="545" catalogue_id="1" parent_sub_id="189">
+      <Subdivision_Name>ИТП - Подготовка к зиме</Subdivision_Name>
+      <EnglishName>podgotovka-itp-k-zime</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="548" catalogue_id="1" parent_sub_id="526">
+      <Subdivision_Name>Выборгский район</Subdivision_Name>
+      <EnglishName>vyzov_santehnika_vyborgskii_raoin</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+    <subdivision subdivision_id="561" catalogue_id="1" parent_sub_id="551">
+      <Subdivision_Name>Просвещения</Subdivision_Name>
+      <EnglishName>vyzov-elektrika-metro-prosvezheniya</EnglishName>
+      <Checked>1</Checked>
+    </subdivision>
+  </subdivisions>
+  <sub_classes>
+    <sub_class sub_class_id="483" subdivision_id="545" class_id="205">
+      <Sub_Class_Name>ИТП - Подготовка к зиме</Sub_Class_Name>
+      <EnglishName>podgotovka-itp-k-zime</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="487" subdivision_id="548" class_id="205">
+      <Sub_Class_Name>Выборгский район</Sub_Class_Name>
+      <EnglishName>vyzov_santehnika_vyborgskii_raoin</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+    <sub_class sub_class_id="502" subdivision_id="561" class_id="205">
+      <Sub_Class_Name>Просвещения</Sub_Class_Name>
+      <EnglishName>vyzov-elektrika-metro-prosvezheniya</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+  </sub_classes>
+  <fields/>
+  <messages>
+    <message message_id="1" class_id="205" subdivision_id="545" sub_class_id="483">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2016-06-23 01:47:03</Created>
+      <LastUpdated>2016-06-23 01:47:03</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+    </message>
+    <message message_id="2" class_id="205" subdivision_id="545" sub_class_id="483">
+      <User_ID>1</User_ID>
+      <Priority>2</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2016-06-23 01:47:43</Created>
+      <LastUpdated>2016-06-23 01:47:43</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+    </message>
+    <message message_id="3" class_id="205" subdivision_id="545" sub_class_id="483">
+      <User_ID>1</User_ID>
+      <Priority>3</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2016-06-23 01:51:08</Created>
+      <LastUpdated>2016-06-23 01:51:08</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+    </message>
+    <message message_id="4" class_id="205" subdivision_id="548" sub_class_id="487">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2017-01-04 00:22:38</Created>
+      <LastUpdated>2017-01-04 00:22:37</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP/>
+      <LastUserAgent/>
+      <Keyword/>
+    </message>
+    <message message_id="6" class_id="205" subdivision_id="561" sub_class_id="502">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>1</Checked>
+      <IP>31.134.137.34</IP>
+      <UserAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2017-03-09 09:33:29</Created>
+      <LastUpdated>2017-03-09 09:33:28</LastUpdated>
+      <LastUser_ID>0</LastUser_ID>
+      <LastIP></LastIP>
+      <LastUserAgent></LastUserAgent>
+      <Keyword></Keyword>
+    </message>
+  </messages>
+  <comments/>
+</netcatml>

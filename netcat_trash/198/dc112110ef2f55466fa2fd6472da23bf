@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<netcatml>
+  <subdivisions>
+    <subdivision subdivision_id="1" catalogue_id="1" parent_sub_id="0">
+      <Subdivision_Name>Главная страница</Subdivision_Name>
+      <EnglishName>index</EnglishName>
+      <Checked>0</Checked>
+    </subdivision>
+  </subdivisions>
+  <sub_classes>
+    <sub_class sub_class_id="212" subdivision_id="1" class_id="198">
+      <Sub_Class_Name>Блок Информация</Sub_Class_Name>
+      <EnglishName>binfo</EnglishName>
+      <Checked>1</Checked>
+    </sub_class>
+  </sub_classes>
+  <fields>
+    <field field_id="1603" type_of_data_id="1">
+      <Field_Name>Link</Field_Name>
+      <Description>Адрес ссылки</Description>
+    </field>
+    <field field_id="1599" type_of_data_id="1">
+      <Field_Name>Text</Field_Name>
+      <Description>Текст ссылки</Description>
+    </field>
+    <field field_id="1600" type_of_data_id="6">
+      <Field_Name>Image</Field_Name>
+      <Description>Картинки с которой идет ссылка</Description>
+    </field>
+    <field field_id="1601" type_of_data_id="1">
+      <Field_Name>Alt</Field_Name>
+      <Description>alt атрибут для картинки</Description>
+    </field>
+    <field field_id="1602" type_of_data_id="1">
+      <Field_Name>Tt</Field_Name>
+      <Description>title атрибут ссылки</Description>
+    </field>
+  </fields>
+  <messages>
+    <message message_id="5" class_id="198" subdivision_id="1" sub_class_id="212">
+      <User_ID>1</User_ID>
+      <Priority>1</Priority>
+      <Checked>0</Checked>
+      <IP>94.19.109.225</IP>
+      <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36</UserAgent>
+      <Parent_Message_ID>0</Parent_Message_ID>
+      <Created>2013-06-28 16:12:18</Created>
+      <LastUpdated>2013-08-22 23:41:32</LastUpdated>
+      <LastUser_ID>1</LastUser_ID>
+      <LastIP>94.19.109.225</LastIP>
+      <LastUserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36</LastUserAgent>
+      <Keyword/>
+      <Link><![CDATA[/letters/]]></Link>
+      <Text><![CDATA[]]></Text>
+      <Image path="/netcat_files/1/212/5_0.jpg">5.jpg:image/jpeg:33496:1/212/5_0.jpg</Image>
+      <Alt><![CDATA[]]></Alt>
+      <Tt><![CDATA[]]></Tt>
+    </message>
+  </messages>
+  <comments/>
+</netcatml>

@@ -1,0 +1,53 @@
+DirectoryIndex index.php
+AddDefaultCharset utf-8
+
+# Если NetCat стоит в подпапке, например mysite, то
+# ErrorDocument 404 /mysite/netcat/require/e404.php
+# в противном случае
+ErrorDocument 404 /netcat/require/e404.php
+
+Options -Indexes
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+
+
+<IfModule mod_php5.c>
+php_flag magic_quotes_gpc on
+php_flag display_errors off
+php_value error_reporting 0
+php_value arg_separator.output "&amp;"
+php_value mbstring.internal_encoding UTF-8
+php_value short_open_tag on
+
+</IfModule>
+
+
+
+<ifModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+# Если NetCat стоит в подпапке, например mysite, то
+# RewriteRule ^(.+)$ /mysite/netcat/require/e404.php
+# в противном случае
+
+
+
+#RewriteCond %{REQUEST_URI} ^(.+)$
+#RewriteRule ^(.+)$ /netcat/require/e404.php?REQUEST_URI=imported/?param=$2 [L,QSA]
+# ?REQUEST_URI=imported/?param=$1
+
+#RewriteCond %{REQUEST_URI} ^(.+)([^\/])$
+#RewriteCond %{REQUEST_URI} !^(.+)html$
+#RewriteRule ^(.+)$ /netcat/require/e404.php?REQUEST_URI=imported/?param=$1
+
+
+RewriteRule ^(.+)$ /netcat/require/e404.php
+
+RewriteRule .* - [E=HTTP_IF_MODIFIED_SINCE:%{HTTP:If-Modified-Since}]
+RewriteRule .* - [E=HTTP_IF_NONE_MATCH:%{HTTP:If-None-Match}]
+</ifModule>
+
+# RewriteCond %{ENV:HTTPS} !on
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

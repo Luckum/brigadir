@@ -1,0 +1,63 @@
+<p>Информация о заказе:</p>
+<p>&nbsp;</p>
+<table cellspacing="0" cellpadding="5" border="1" style="border-collapse:collapse;border:grey">
+    <thead>
+        <tr>
+            <th scope="col">Артикул</th>
+            <th scope="col">Товар</th>
+            <th scope="col">Цена, руб</th>
+            <th scope="col">Кол-во</th>
+            <th scope="col">Сумма, руб</th>
+        </tr>
+    </thead>
+    <tbody>
+{items}    
+        <tr>
+            <td>{ItemID}</td>
+            <td><a href="{Link}"><img src="{Image}" align="top" /></a> <a href="{Link}">{Name}</a></td>
+            <td>{Price}</td>
+            <td>{Qty}</td>
+            <td>{Summa}</td>
+        </tr>
+{/items}
+         <tr>
+             <td colspan="5">Всего заказано: {zakazano} на общую сумму {total} руб.</td>
+         </tr>    
+    </tbody>
+</table>
+<br>
+<h3>Контактные данные:</h3>
+<table cellpadding="3" cellspacing="0">
+<tr>
+    <td>Форма оплаты:</td>
+    <td>{field1}</td>
+</tr>
+<tr>
+    <td>Фамилия и имя:</td>
+    <td>{field2} {field3}</td>
+</tr>
+<tr>
+    <td>Телефон:</td>
+    <td>+7 ({field4}) {field5}-{field6}-{field7}</td>
+</tr>
+<tr>
+    <td>Email:</td>
+    <td>{field8}</td>
+</tr>
+<tr>
+    <td>Способ оплаты:</td>
+    <td>{field10}</td>
+</tr>
+<tr>
+    <td>Способ доставки::</td>
+    <td>{field12}</td>
+</tr>
+<tr>
+    <td>Адрес:</td>
+    <td>Улица: {field15}, дом: {field16}, корп: {field17}, {field18}</td>
+</tr>
+<tr>
+    <td>Примечания:</td>
+    <td>{field19}</td>
+</tr>
+</table>

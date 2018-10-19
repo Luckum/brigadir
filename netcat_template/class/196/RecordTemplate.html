@@ -1,0 +1,14 @@
+<?/* Служебная часть */for ($f_RowNum = 0; $f_RowNum < $rowCount; $f_RowNum++) {    if($fetch_row[$f_RowNum] instanceof Iterator) {        extract($fetch_row[$f_RowNum]->to_array(), EXTR_PREFIX_ALL, "f");    } else {        extract($fetch_row[$f_RowNum], EXTR_PREFIX_ALL, "f");    }    foreach($iteration_RecordTemplate[$f_RowNum] as $value) {        extract($value);    }    eval($cc_env["convert2txt"]);    ob_start();/* Конец служебной части */?>
+<div class='col col1 active'>
+    <div class='h2 h2-icon1'><img class="none" src="/brigadir/images/menu1.svg"><?= str_replace('<br />', ' ', $f_Header1) ;?></div>
+    <?= $f_Text1 ;?>
+</div>
+<div class='col col2'>
+    <div class='h2 h2-icon2'><img class="none" src="/brigadir/images/menu2.svg"><?= str_replace('<br />', ' ', $f_Header2) ;?></div>
+    <?= $f_Text2 ;?>
+</div>
+<div class='col col3'>
+    <div class='h2 h2-icon3'><img class="none" src="/brigadir/images/menu3.svg"><?= str_replace('<br />', ' ', $f_Header3) ;?></div>
+    <?= $f_Text3 ;?>
+</div>
+<?/* Служебная часть */    echo nc_finishing_RecordTemplate(ob_get_clean(), $inside_admin, $classID, $f_RowID, $parent_message, $cc, $cc_env["Class_Name"], $no_cache_marks);}/* Конец служебной части */?>

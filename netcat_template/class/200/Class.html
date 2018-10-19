@@ -1,0 +1,21 @@
+<!-- FormPrefix --><?= $f_AdminCommon ;?>
+<?
+$item = array(
+    'name' => 'menu',
+    'caption' => '',
+    'query' => 'select Message_ID as value, Name as name from Message201 order by Name',
+    'sprav' => ''
+);
+?>
+
+<?= parent_filter_form('Меню', $item) ;?><!-- /FormPrefix -->
+
+<!-- RecordTemplate --><?= $f_AdminButtons ;?>
+<?
+$data = db_get(db_row, '*', 'Subdivision', "Subdivision_ID = ".$f_Sub_ID."");
+?>
+
+<b><?= opt_case($f_Anchor, $f_Anchor, "--название раздела--") ;?></b><br>
+ссылка: <?= $data['Hidden_URL'] ;?>, <?= $data['Subdivision_Name'] ;?><!-- /RecordTemplate -->
+
+<!-- FormSuffix --><!-- /FormSuffix -->

@@ -1,0 +1,79 @@
+    <script>
+         $(document).ready(function () {
+           var doFullpage = document.documentElement.clientWidth;
+           if (doFullpage < 1050) {
+               var js_1_bl = $('.js_1_bl');
+            var js_2_bl = $('.js_2_bl');
+            var js_3_bl = $('.js_3_bl');
+            var js_4_bl = $('.js_4_bl');
+            var js_5_bl = $('.js_5_bl');
+            var js_6_bl = $('.js_6_bl');
+            var js_menu_in = $('.js_menu_in');
+            var js_bot = $('.js_bot');
+            var div_post_js = $('.div_post_js');
+            var table_js = $('.table_js');
+         
+            $('.js_1').prepend(js_1_bl);
+            $('.js_2').prepend(js_2_bl);
+            $('.js_3').prepend(js_3_bl);
+            $('.js_4').prepend(js_4_bl);
+            $('.js_5').prepend(js_5_bl);
+            $('.js_6').prepend(js_6_bl);
+            $('.js_menu_out').prepend(js_bot);
+            $('.js_menu_out').prepend(js_menu_in);
+            $('.div_post_js_in').prepend(div_post_js);
+            $('.table_js_in').prepend(table_js);
+         
+            $('.imb, .in_js').addClass('block');
+            $('.js_4 .h2, .news .h2').addClass('head white');
+            $('.newsbox').addClass('block');
+            $('.button ').addClass('all-news');
+            $('.important-moments.js_5_bl > .none').addClass('head ');
+            $('.table_js > h1').addClass('head blue');
+            $('.table_js').addClass('table');
+            $('.table_js table tr.gls').addClass('row1 price');
+            $('.pre-works.white h2').addClass('head');
+            $('.table_js.table_work.table h2').addClass('head');
+            $('.svi').addClass('pre-works');
+            $('.table_js .paddd > h1').addClass('head blue');
+         
+            $('.js_5 img, .js_4 img').each( function(){ this.src = this.getAttribute('data-src'); } );
+           };
+         
+         });
+  </script>
+  <nav class="pushy pushy-left" data-focus="#first-link">
+    <div class="pushy-content js_menu_out">
+
+    </div>
+</nav>
+
+<div id="container">
+    <div class="mean-bar">
+        <a class="menu-btn">
+            <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        <a class="logo-img" href="/">
+            <img src="/brigadir/images/logo-mobile.svg">
+        </a>
+        <nav class="mean-nav"></nav>
+    </div>
+    <div class="phone-line">
+        <div class="phone">
+            <h2>Санкт-Петербург</h2>
+            <h3><a name="format-detection" content="telephone=no" href="tel:+78123002020">(812) 300-20-20</a></h3>
+            <h3><a name="format-detection" content="telephone=no" href="tel:+78129290982">(812) 929-09-82</a></h3>
+        </div>
+        <div class="phone">
+            <h3 style="margin-top:17px;"><a name="format-detection" content="telephone=no" href="tel:+78129290982">(812) 929-09-82</a></h3>
+        </div>
+        <div class="recall">
+            <a href="/order/"> <img src="/images/button.svg" class="call-img-new"></a>
+            <a href="/order/">вызов мастера</a>
+        </div>
+    </div>
+</div>
