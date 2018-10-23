@@ -1,4 +1,4 @@
-@media (min-width: 1051px) {
+﻿@media (min-width: 1051px) {
     table#aside1 tr:nth-child(2){
         display: none;
     }
@@ -958,7 +958,7 @@ a.bg-btn2:hover{
 
     .button.orange {
        background-color: #ffa13b;
-       margin-top: 0px;
+       margin-top: 29px;
        color: white;
    }
    .gradi_bot a.button{    
@@ -1201,6 +1201,10 @@ a.bg-btn2:hover{
 .right_t{
     text-align: right;
 }
+.d-hid {
+ 	display: none;
+ }
 }
  .price_table tr.gls {height: 100%;}
  .price_table tr {height: 100%;}
+ 

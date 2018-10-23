@@ -1,4 +1,4 @@
-.mobile, #container, .none{
+﻿.mobile, #container, .none{
 	display: none;
 }
 .rel_bot{
@@ -1432,7 +1432,7 @@ section, article, header{
 	}
 
 	.questions2 input {
-		width: calc(30.32% - 42px);
+		width: calc(47% - 42px);
 		float: left;
 		line-height: 46px;
 		background: transparent;
@@ -1549,7 +1549,7 @@ section, article, header{
   	content: "";
   	width: 5px;
   	height: 5px;
-  	background-color: #22a7d8;
+  	background-color: #8adff0;
   	border-radius: 50px;
   	margin-top: 5.4px;
   	display: block;
@@ -3122,13 +3122,19 @@ tr#myAffix > th:first-child, tr > td:first-child, tr > th:first-child {
     	border-radius: 50px;
     	color: white;
     	background-color: white;
-33    	text-align: center;
+    	text-align: center;
     	font-size: 15px;
     	font-family: GothamProLight;
     	padding-top: 0px;
     	text-transform: uppercase;
     	border-color: #66aad7;
     	margin-right: calc(34.83% + 0px);
+    	font-weight: 700;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		cursor: pointer;
+		display: inline-block;
+		overflow: hidden;
 /*    width: 0 !important;
 border: 0px;*/
 }
@@ -3146,6 +3152,13 @@ border: 0px;*/
 	width: auto;
 	padding: 0 10px;
 	color: rgb(61, 187, 232); 
+	display: inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: top;
+	cursor: pointer;
+	line-height: 48px;
 }
 
 .table_js.table_work.table tr:first-child th, .table_js.table_work.table tr:nth-child(2) th {
@@ -3671,9 +3684,33 @@ strong span {
 .block_2_js li:hover span, .block_2_js li:hover a, .block_2_js li span:hover, .block_2_js li:hover {
 	text-decoration: none!important;
 }
-
-
-
+.phone-h3-2 {
+	margin-top: 12px !important;
+}
+.m-head {
+	font-size: 18px !important;
+  	font-family: GothamProBold !important;
+  	color: rgb(0, 101, 167) !important;
+  	font-weight: bold;
+  	text-transform: uppercase;	
+  	text-align: center !important;
+}
+.feedback-cnt {
+	padding: 0 !important;
+	margin-top: 55px !important;
+}
+.m-hid {
+	display: none !important;
+}
+.feedback-lnk {
+	font-size: inherit !important;
+	line-height: 1 !important;
+	background-color: inherit !important;
+	box-shadow: none !important;
+	float: none !important;
+	padding: 0 !important;
+	text-transform: none !important;
+}
 } 
 
 @media (max-width: 780px) {
@@ -3867,7 +3904,7 @@ strong span {
 	.phone-line .recall a:nth-child(1){
 		display: block;
 		margin-right: -5px;
-		padding-left: 100px;
+		margin-left: 100px;
 		margin-top: -54.5px;
 	}
 
@@ -4612,7 +4649,10 @@ strong span {
 			// 	position: relative;
 			// 	top: -0px;
 			// }
-		}
+        .phone-h3-2 {
+            margin-top: 17px !important;
+        }
+	}
 
 		@media (max-width: 330px) {
 			.contacts h1 {
@@ -4638,7 +4678,7 @@ strong span {
 			}
 
 			.inputfile-6 + label strong{
-				font-size: 9px;
+				font-size: 10px;
 			}
 
 			.note .block p {
@@ -4744,3 +4784,32 @@ strong span {
 	    width: 100%;
 	}
 	}*/
+@media all and (min-width:407px) and (max-width:450px){
+	.recall a {
+		margin-top: 0 !important;
+	}
+}
+@media all and (min-width:478px) and (max-width:638px){
+	.recall a {
+		margin-top: 0 !important;
+	}
+}
+@media all and (min-width:571px) and (max-width:1050px){
+	.logo-img {
+		top: 22px;
+		right: 86px;
+	}
+	.logo-img img {
+		height: 28px;
+	}
+}
+@media all and (min-width:485px) and (max-width:1050px){
+	.block1.main h1 {
+		margin-top: 16px;
+	}
+}
+@media all and (min-width:571px) and (max-width:1050px){
+	.block1.main h1 {
+		margin-top: 40px;
+	}
+}

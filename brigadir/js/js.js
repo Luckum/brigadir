@@ -228,6 +228,10 @@ $(document).ready(function(){
 	    $(this).parent().parent().find(".price-menu").slideToggle();
 		$(this).parent().parent().find(".price-arrows").toggleClass('flip');
 	});
+    
+    $(".question-button").click( function () {
+        $("#sendFeedback-m").submit();
+    })
 });
 
 $(window).scroll(function() {    
