@@ -1,1 +1,4 @@
+
+<? if (!$isBlock): ?><div class="js_1_bl" id="more-news"></div><? endif; ?>
+<? if (!$isBlock): ?><a class="add-news js_1_bl d-hid" data-start="10">загрузить еще</a><? endif; ?>
 <?= (($prevLink || $nextLink) && !$isBlock ? browse_messages($cc_env, 10) : '') ;?>

@@ -26,8 +26,7 @@ if ($s) {
     $smenu = $s;
 }
 ?>
-
-<? if($tpl == 'index' && !in_array($sub, array(83, 100, 2, 106, 108, 233, 186, 89))) :?>
+<? if($tpl == 'index' && !in_array($sub, array(83, 2, 106, 108, 233, 186, 89))) :?>
     <?= $this->partial('Moments') ;?>
 <? endif ?>
 <div class="clr"></div>

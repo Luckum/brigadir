@@ -198,7 +198,7 @@ function browse_messages($cc_env, $range, $user_template = false) {
             eval("\$result .= \"" . $browse_msg['divider'] . "\";");
         }
     }
-
+    
     eval("\$result .= \"" . $browse_msg['suffix'] . "\";");
 
     $last = $maxRows * ($page_count - 1);

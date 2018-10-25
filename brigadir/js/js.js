@@ -231,7 +231,16 @@ $(document).ready(function(){
     
     $(".question-button").click( function () {
         $("#sendFeedback-m").submit();
-    })
+    });
+    
+    $(".add-news").click( function () {
+        var obj = $(this);
+        var vals = {start: obj.attr("data-start")};
+        $.post('/ajax/news.php?isNaked=1&action=add_news', vals, function (data){
+            $("#more-news").append(data);
+            obj.attr("data-start", parseInt(obj.attr("data-start")) + 10);
+        });
+    });
 });
 
 $(window).scroll(function() {    

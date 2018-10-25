@@ -1373,10 +1373,11 @@ section, article, header{
 		float: left;
 		padding: 20px!important;
 	}
-
+	
 	.newsbox.block:nth-child(3n) {
 		display: none!important;
 	}
+	
 	.news p{
 		font-size: 14px;
 		font-family: GothamProLight;
@@ -2055,11 +2056,11 @@ display: block;
 	margin: 5px 20px 20px;
 }
 
-.all-news .short-news {
+.short-news {
 	margin: 0px 0 20px;
 }
 
-.all-news .short-news .date{
+.newsbox .all-news-date{
 	padding-left: 0px;
 	background-position: left;
 	background-size: 19px 18px;
@@ -2073,12 +2074,12 @@ display: block;
 	text-align: right;
 }
 
-.all-news .short-news .context{
+.newsbox .context{
 	border-top: 1px solid #a6a6a6;
 	padding: 15px 0;
 }
 
-.all-news .short-news .context a h3{
+.newsbox .context h3 a{
 	font-size: 20px;
 	color: rgb(0, 101, 167);
 	font-weight: bold;
@@ -2089,7 +2090,7 @@ display: block;
 	text-decoration: underline;
 }
 
-.all-news .short-news .context a h3:hover{
+.newsbox .context h3 a:hover{
 	color: #2690d5;
 	text-decoration: none;
 }
@@ -2102,7 +2103,7 @@ display: block;
 	text-align: justify;
 }
 
-.all-news .add-news{
+.add-news{
 	font-size: 12px;
 	font-family: GothamProLight;
 	color: rgb(255, 255, 255);
@@ -2120,6 +2121,7 @@ display: block;
 	display: inline-block;
 	width: 122px;
 	cursor: pointer;
+	float: none !important;
 }
 
 .all-news.hide{
@@ -3695,6 +3697,17 @@ strong span {
   	text-transform: uppercase;	
   	text-align: center !important;
 }
+.m-head-com {
+	font-size: 18px !important;
+  	font-family: GothamProBold !important;
+  	color: rgb(0, 101, 167) !important;
+  	font-weight: bold;
+  	text-transform: uppercase;	
+  	text-align: left !important;
+  	margin-top: 10px !important;
+  	border-bottom: 1px solid #dbdbdb;
+  	padding-bottom: 9px;
+}
 .feedback-cnt {
 	padding: 0 !important;
 	margin-top: 55px !important;
@@ -4667,7 +4680,7 @@ strong span {
 			.block1 h2{
 				font-size: 18px;
 			}
-			.all-news .short-news .context a h3{
+			.newsbox .context h3 a{
 				font-size: 18px;
 			}
 			.head.blue{

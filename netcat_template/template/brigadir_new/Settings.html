@@ -10,6 +10,12 @@ $linksUL['suffix'] = "</ul>";
 $linksUL['active'] = "<li><a href='%URL'>%NAME</a></li>\n";
 $linksUL['unactive'] = "<li><a href='%URL'>%NAME</a></li>\n";
 
+$browse_msg['prefix'] = "<div class='pagination'><p>Страницы:&nbsp;";
+$browse_msg['suffix'] = "</p></div>";
+$browse_msg['active'] = "<strong>%PAGE</strong>";
+$browse_msg['unactive'] = "<a href=%URL>%PAGE</a>";
+$browse_msg['divider'] = "";
+
 // Анализируем оригинальные данные
 $u = mysql_real_escape_string($_SERVER['REQUEST_URI']);
 if (substr($u, -1) == '/' and $u != '/') {

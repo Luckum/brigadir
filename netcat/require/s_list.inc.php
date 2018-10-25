@@ -52,10 +52,12 @@ function nc_objects_list($sub, $cc, $query_string = "", $show_in_admin_mode = fa
     // *** Необходимые локальные переменные ***
 
     $nc_core = nc_Core::get_object();
+    //var_dump($nc_core->modules);
+    //die();
     $db = $nc_core->db;
 
     // modules variables
-    $MODULE_VARS = $nc_core->modules->get_module_vars();
+    //$MODULE_VARS = $nc_core->modules->get_module_vars();
     // system variables
     $FILES_FOLDER      = $nc_core->get_variable("FILES_FOLDER");
     $HTTP_ROOT_PATH    = $nc_core->get_variable("HTTP_ROOT_PATH");
@@ -846,6 +848,7 @@ function nc_objects_list($sub, $cc, $query_string = "", $show_in_admin_mode = fa
     unset($component_body);
 
 
+    //echo $message_select;
     // *** Выполнение запроса к БД ***
 
     $db->last_error = "";
