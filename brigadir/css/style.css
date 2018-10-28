@@ -993,7 +993,7 @@ a.bg-btn2:hover{
     margin-bottom: 8px;
 }
 
-.content .gadget .button {
+.content .gadget .button, .button-news {
     float: right;
     line-height: 20px;
     border-radius: 50px;
@@ -1207,4 +1207,6 @@ a.bg-btn2:hover{
 }
  .price_table tr.gls {height: 100%;}
  .price_table tr {height: 100%;}
- 
+ .right {
+ 	float: right;
+ }

@@ -213,7 +213,7 @@ body.admin_form {
     padding: 5px 30px 5px 30px;
 }
 .admin_table>tbody>tr>td.button {
-	padding:5px;
+    padding:5px;
 }
 
 .admin_table>tbody>tr>th {
@@ -660,14 +660,14 @@ div.nc_idtab_handler {
 }
 
 div.nc_idtab_messageid, div.nc_idtab_priority, div.nc_idtab_adduser, div.nc_idtab_edituser {
-	display:inline;
-	margin:0;
+    display:inline;
+    margin:0;
         padding:0;
-	white-space:nowrap;
-	font:normal 11px;
-	color:#000;
-	padding:0 7px 0 5px;
-	background:no-repeat 5px 4px;
+    white-space:nowrap;
+    font:normal 11px;
+    color:#000;
+    padding:0 7px 0 5px;
+    background:no-repeat 5px 4px;
 }
 div.nc_idtab_adduser {
   background-image:url('../img/i_obj_adduser.gif');
@@ -683,7 +683,7 @@ div.nc_idtab_priority {
     margin-right: 0px;
 }
 div.nc_idtab_id {
-	float:left;
+    float:left;
   vertical-align:middle;
   width:20%;
   padding-top:6px;
@@ -703,12 +703,12 @@ div.nc_idtab_buttons .icons{
 }
 
 div.nc_idtab_buttons img {
-	border:none;
-	margin:3px 2px;
+    border:none;
+    margin:3px 2px;
 }
 div.nc_idtab_buttons input {
-	border:none;
-	margin:6px 2px !important;
+    border:none;
+    margin:6px 2px !important;
   _margin:2px !important;
   vertical-align:top;
   padding:0;
@@ -763,22 +763,22 @@ div.nc_idtab_buttons_delete {
     height: 19px;
 }
 div.nc_clear {
-	clear:both;
+    clear:both;
 }
 
 div.nc_idtab_ccid, div.nc_idtab_ccname {
-	display:inline;
-	margin:0;
+    display:inline;
+    margin:0;
   padding:0;
-	white-space:nowrap;
-	font:bolder 11px;
-	color:black;
-	padding:0px 0px 0px 15px;
-	background:no-repeat 5px 3px;
+    white-space:nowrap;
+    font:bolder 11px;
+    color:black;
+    padding:0px 0px 0px 15px;
+    background:no-repeat 5px 3px;
 }
 div.nc_idtab_ccname {
-	padding:0px 7px 0px 0px;
-	font-weight:normal;
+    padding:0px 7px 0px 0px;
+    font-weight:normal;
 }
 
 div.nc_idtab_ccid {
@@ -1496,14 +1496,14 @@ a.ajax_link:hover{ border:none; text-decoration:none;outline:none;}
 
 /* УКРУПНЯЕМ ШРИФТЫ */
 .nc_admin_fieldset_head, div.nc_admin_fieldset div.nc_admin_fieldset_head {
-	font-size:20px;
-	font-weight:normal;
-	line-height:20px;
-	padding:20px 0 10px 0;
+    font-size:20px;
+    font-weight:normal;
+    line-height:20px;
+    padding:20px 0 10px 0;
 }
 
 .admin_form div.nc_admin_fieldset, .admin_form div.nc_admin_fieldset td {
-	font-size:13px;
+    font-size:13px;
 }
 
 #url_to_audit, #url_to_audit_select {min-width: 250px;}
@@ -1525,5 +1525,3 @@ a.ajax_link:hover{ border:none; text-decoration:none;outline:none;}
 .image_crop_dimension input { float: left; margin: 10px 0px; width: 40px!important;}
 .image_crop_dimension .drop {cursor: pointer; float: left; margin: 15px 5px 5px 5px; }
 .image_crop_dimension span {float: left; margin: 13px 12px 0px 12px; }
-
-

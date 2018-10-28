@@ -211,7 +211,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$(document).on('click', '.reviews-type-head, .reviews-type-head *',  function(){
-	    $(this).parent().children(".reviews-context").slideToggle();
+	    $(this).parent().children(".reviews-container").slideToggle();
 		$(this).parent().find(".arrows").toggleClass('flip');
 	});
 });
@@ -236,7 +236,7 @@ $(document).ready(function(){
     $(".add-news").click( function () {
         var obj = $(this);
         var vals = {start: obj.attr("data-start")};
-        $.post('/ajax/news.php?isNaked=1&action=add_news', vals, function (data){
+        $.post('/ajax/news.php?action=add_news', vals, function (data){
             $("#more-news").append(data);
             obj.attr("data-start", parseInt(obj.attr("data-start")) + 10);
         });
@@ -308,3 +308,18 @@ fixed.addEventListener('touchmove', function(e) {
 }, false);
 
 
+function showPrevNews(obj)
+{
+    var vals = {current: $(obj).attr("data-current")};
+    $.post('/ajax/news.php?action=prev_news', vals, function (data){
+        $("#one-news-cnt").html(data);
+    });
+}
+
+function showNextNews(obj)
+{
+    var vals = {current: $(obj).attr("data-current")};
+    $.post('/ajax/news.php?action=next_news', vals, function (data){
+        $("#one-news-cnt").html(data);
+    });
+}

@@ -8,31 +8,42 @@ foreach($lines as $line) {
 }
 ?>
 <? if($f_Header != $h and !$oid) :?>
-    <h2><?= $f_Header ;?></h2>
+    <? if (!empty($h)): ?></div></div><? endif; ?>
+    <h2 class="m-hid"><?= $f_Header ?></h2>
+    <div class="reviews-container-main">
+    <div class="reviews-type-head d-hid">
+        <img class="arrows" src="/images/reviews-arrows.svg">
+        <?= $f_Header ?>
+    </div>
+    <div class="reviews-container">
     <? $h = $f_Header ;?>
 <? endif ;?>
 
 
 
-<? if($f_Image) :?>
+<? if($f_Image): ?>
     <? $src = $f_Image ;?>
     <? $small = resize_function($f_Image, 134, 176, 2);?>
 <? endif ?>
 
-						<!--Статья-->
-						<div class="mainbar_two_article">
-							<h3><span><?= $f_Company ;?></span><? if(!$oid) :?><div><?= $f_Date_day."".$f_Date_month."".$f_Date_year ;?></div><? endif ;?></h3>
-							<div class="mainbar_two_article_inner">
-								<div>
-								<? if($f_Image) :?>
-                                    <a href="<?= $src ;?>" class="fancybox" title="<?= str_replace('"', "'", $f_Company) ;?>" style="position:relative; z-index:10">
-                                        <img class="f-left" src="{$small}" alt="" />
-                                    </a>
-                                <? endif ;?>
-<div style="position:relative; top:-5px; margin-left:145px;">
-<?= $f_Short ;?>
+<div class="mainbar_two_article">
+    <h3><span class="review-name"><?= $f_Company ;?></span><? if(!$oid) :?><div class="review-date"><?= $f_Date_day . "." . $f_Date_month . "." . $f_Date_year;?></div><? endif;?></h3>
+    <div class="mainbar_two_article_inner">
+	    <div style="text-align: center;">
+		    <? if ($f_Image): ?>
+                <a href="<?= $src; ?>" class="fancybox m-hid" title="<?= str_replace('"', "'", $f_Company); ?>" style="position:relative; z-index:10">
+                    <img class="f-left" src="<?= $small ?>" alt="" />
+                </a>
+                <img class="f-left d-hid" src="<?= resize_function($f_Image, 445, 629, 2) ?>" alt="" />
+            <? endif; ?>
+            <div style="position:relative; top:-5px; margin-left:145px;" class="m-hid">
+                <?= $f_Short ;?>
+            </div>
+            <div class="d-hid">
+                <?= $f_Short ;?>
+            </div>
+		</div>
+	</div>
 </div>
-								</div>
-							</div>
-						</div>
+
 <?/* Служебная часть */    echo nc_finishing_RecordTemplate(ob_get_clean(), $inside_admin, $classID, $f_RowID, $parent_message, $cc, $cc_env["Class_Name"], $no_cache_marks);}/* Конец служебной части */?>

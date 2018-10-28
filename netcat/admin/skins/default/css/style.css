@@ -103,15 +103,15 @@ input[type=radio] {border: none}
 }
 
 .icon, .icon_with_p-m {
-	cursor:default;
+    cursor:default;
 }
 
 .middle .middle_left .title {background:#eeeeee; padding:16px 0 20px 19px; font-size:20px; color:#333333; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
 .menu_left {width:100%; height:100%; overflow:hidden; position:relative;}
 .menu_left_block {width:100%; height:100%; overflow:hidden; position:relative;}
 .menu_left_block ul {
-	 z-index:2;
-	 position:relative;
+     z-index:2;
+     position:relative;
 }
 .menu_left ul {margin:0px; padding:0px; list-style-type:none;}
 .menu_left ul ul {display:none;}
@@ -148,19 +148,19 @@ input[type=radio] {border: none}
 .slider_block_1 {padding:0px;}
 .slider_block_1 ul {margin:0px; padding:0px; list-style-type:none; height:40px;}
 .slider_block_1 ul li {
-	float:left;
-	margin:0px 29px 0px 0px;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:15px;
-	color:#1a87c2;
-	display:block;
-	text-decoration:none;
-	position:relative;
-	top:2px;
-	line-height:15px;
-	padding-top:13px;
-	cursor: pointer;
-	height:37px;
+    float:left;
+    margin:0px 29px 0px 0px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:15px;
+    color:#1a87c2;
+    display:block;
+    text-decoration:none;
+    position:relative;
+    top:2px;
+    line-height:15px;
+    padding-top:13px;
+    cursor: pointer;
+    height:37px;
 }
 .slider_block_1 li.sel {color:#333; border-bottom:3px solid #333333; height:32px;}
 .slider_block_1 ul li.last {color:#1a87c2; margin-right:0px;}
@@ -226,30 +226,30 @@ div.treeButtons div.button {
 }
 
 .CodeMirror {
-	border:1px solid #DDD;
-	margin:5px 0;
-	width:98%;
-	max-width:98%;
+    border:1px solid #DDD;
+    margin:5px 0;
+    width:98%;
+    max-width:98%;
 }
 
 /* SUPER SLIDER */
 
 .slider_overlay {
-	position:absolute;
-	z-index:10000;
+    position:absolute;
+    z-index:10000;
 }
 
 .slider_overlay .bg {
-	width:600px;
-	background:#000;
-	opacity:0.5;
-	height:100%;
+    width:600px;
+    background:#000;
+    opacity:0.5;
+    height:100%;
 }
 
 .slider_overlay .middle_border_clone {
-	left:auto !important;
-	right:-16px !important;
-	background-color:#FFF;
+    left:auto !important;
+    right:-16px !important;
+    background-color:#FFF;
 }
 
 #mainMenuMessages {
@@ -273,3 +273,4 @@ div.treeButtons div.button {
    filter: Alpha(opacity=50);
 }
 #tree_add_link {margin-top: -1px;position: absolute;right: 25px;}
+.d-hid {display:none;}

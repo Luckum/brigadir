@@ -1,5 +1,26 @@
+<?
+    $hr_class_ar = [1];
+    $hr_class_ar_2 = [89];
+    $hr_class_ar_3 = [83];
+    $hr_class_ar_4 = [100];
+    $hr_class_ar_5 = [116];
+    
+    if (in_array($sub, $hr_class_ar)) {
+        $hr_class = "hr-before-about";
+    } else if (in_array($sub, $hr_class_ar_2)) {
+        $hr_class = "hr-before-about-2";
+    } else if (in_array($sub, $hr_class_ar_3)) {
+        $hr_class = "hr-before-about-3";
+    } else if (in_array($sub, $hr_class_ar_4)) {
+        $hr_class = "hr-before-about-4";
+    } else if (in_array($sub, $hr_class_ar_5)) {
+        $hr_class = "hr-before-about-5";
+    } else {
+        $hr_class = "hr-before-about-1";
+    }
+?>
 <div class="mobile">
-    <div class="block1 main js_1 bb">
+    <div class="block1 main js_1 bb<? if ($sub == 83): ?> reviews-cnt<? endif; ?>">
         <div class="clearfix"></div>
     </div>
 <? if($sub_level_count > 0) {?>
@@ -10,6 +31,7 @@
     </div>
 <? } ?>
    
+    <hr class="<?= $hr_class ?>">
     <div class="about-us js_3">
         <div class="clearfix"></div>
     </div>

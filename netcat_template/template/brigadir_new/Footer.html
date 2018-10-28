@@ -26,9 +26,13 @@ if ($s) {
     $smenu = $s;
 }
 ?>
-<? if($tpl == 'index' && !in_array($sub, array(83, 2, 106, 108, 233, 186, 89))) :?>
+<? if($tpl == 'index' && !in_array($sub, array(2, 106, 108, 233, 186))) :?>
     <?= $this->partial('Moments') ;?>
 <? endif ?>
+
+<? if ($tpl == 'inside' && in_array($sub, [116, 92, 93, 94, 95, 96, 224, 159])): ?>
+    <?= $this->partial('Moments'); ?>
+<? endif; ?>
 <div class="clr"></div>
     </div> <? // End content ;?>
     <div class="clr"></div>
@@ -51,6 +55,18 @@ if ($s) {
 	<? endif ?>
           </div>
 <? endif ?>
+<? if ($tpl == 'inside' && in_array($sub, [116, 92, 93, 94, 95, 96, 224, 159])): ?>
+    <div class="gadget js_4_bl d-hid">
+      <div class='h2'>На заметку</div>
+      <?= nc_objects_list(1, 212) ;?>
+  </div>
+<? endif; ?>
+<? if ($tpl == 'index' && in_array($sub, [83])): ?>
+    <div class="gadget js_4_bl d-hid">
+      <div class='h2'>На заметку</div>
+      <?= nc_objects_list(1, 212) ;?>
+  </div>
+<? endif; ?>
           <div class="clr"></div>
           </div>
 <? if($sub != 83) :?>

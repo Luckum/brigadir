@@ -37,6 +37,15 @@
              </div>
           </div>
     <? endif ;?>
+    <? if ($tpl == 'index' && in_array($sub, [138, 225])): ?>
+        <div class="gadget js_6_bl d-hid">
+            <div class='h2'>Новости</div>
+            <?= nc_objects_list(100, 44, "&recNum=5&isBlock=1") ;?>
+            <div class="clearfix"></div>
+            <a class="button" href="/news/">Все новости</a>
+            <div class="clearfix"></div>
+        </div>
+    <? endif; ?>
     <? if($sub != 83) { ?>
           <div class="mainbar fl<?= ($current_sub['LeftOff'] ? " wide" : NULL) ;?>">
               <div class="article taj">
@@ -45,6 +54,15 @@
           <div class="mainbar_two">
     <? } ?>
 <? }else{ ?>
+    <? if ($tpl == 'inside' && in_array($sub, [116, 92, 93, 94, 95, 96, 224, 159])): ?>
+        <div class="gadget js_6_bl d-hid">
+            <div class='h2'>Новости</div>
+            <?= nc_objects_list(100, 44, "&recNum=5&isBlock=1") ;?>
+            <div class="clearfix"></div>
+            <a class="button" href="/news/">Все новости</a>
+            <div class="clearfix"></div>
+        </div>
+    <? endif; ?>
           <div class="fullbar">
               <div class="article" style="padding-bottom:0;">
 <? } ?>
