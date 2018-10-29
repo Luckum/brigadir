@@ -32,6 +32,7 @@ tbody tr td:first-child p, tbody tr td:first-child, tbody tr td:nth-child(3), tb
 
 .gadget.js_4_bl .h2 {
 	margin-bottom: 10px;
+	letter-spacing: -1px;
 }
 a.in_js {
 	display:  block;
@@ -142,6 +143,7 @@ tr.affix-bottom + tr {
 		}
 		.table_js.table_work.table .paddd  h1 {
 			font-size: 19px;
+			letter-spacing: -1px
 		}
 		.table_js.table_work.table .paddd  p {
 			margin-top: 10px;
@@ -185,6 +187,7 @@ tr.affix-bottom + tr {
 			display: block;
 			margin-top: 0px;
 			/* height: 100%; */
+			letter-spacing: -1px;
 		}
 		.table_js.table .svi.pre-works li:before {
 			margin-left: -15px;
@@ -198,6 +201,8 @@ tr.affix-bottom + tr {
 			text-align: center!important;
 			padding-left: 0 !important;
 		}
+
+
 */
 		tr.greys td:first-child span {
 			padding-top: 9px;
@@ -253,6 +258,7 @@ tr.affix-bottom + tr {
 		}
 		.table_js.table_work.table .svi.pre-works h2.head {
 			margin-bottom: 13px;
+			letter-spacing: -1px;
 		}
 		.svi.pre-works li {
 			list-style: none;
@@ -940,6 +946,7 @@ section, article, header{
 	color: rgb(37, 138, 223);
 	font-size: 16px;
 	line-height: 16px;
+	letter-spacing: -1px;
 }
 
 .phone-line .phone h3:nth-child(2){
@@ -1087,6 +1094,7 @@ section, article, header{
 		text-align: center;
 		padding-left: 10px;
 		padding-right: 10px;
+		letter-spacing: -1px;
 	}
 	.cont-box .head {
 		margin-top: 10px !important;
@@ -1448,20 +1456,20 @@ section, article, header{
 		border: 1px solid #66aad7;
 		border-radius: 50px;
 		padding: 0px 20px; 
-		color: #66aad7;
+		color: #000;
 		padding-top: 1px;
 		text-align: center;
 		font-size: 15px;
 	}
 
 	.questions2 input::-webkit-input-placeholder { 
-		color: #9cd8ff;
+		color: #000;
 		font-size: 14px;
 		text-transform: uppercase;
 	}
 
 	.questions2 input::-moz-placeholder { 
-		color: #9cd8ff;
+		color: #000;
 		font-size: 14px;
 		text-transform: uppercase;
 	}
@@ -1533,6 +1541,13 @@ section, article, header{
 
 	.pre-works p:nth-child(2){
 		margin-top: 20px;
+	}
+	.write-us .pre-works p:nth-child(2){
+		margin-top: 10px;
+	}
+	.write-us .pre-works p:nth-child(3), .write-us .pre-works p:nth-child(4){
+		margin-top: 0;
+		padding-top: 5px;
 	}
 
 	.pre-works p{
@@ -2066,7 +2081,7 @@ display: block;
 }
 
 .short-news {
-	margin: 0px 0 20px;
+	margin: 0px 0 5px;
 }
 
 .newsbox .all-news-date{
@@ -2097,6 +2112,7 @@ display: block;
 	margin-bottom: 10px;
 	font-family: GothamProBold;
 	text-decoration: underline;
+	letter-spacing: -1px;
 }
 
 .newsbox .context h3 a:hover{
@@ -2161,6 +2177,7 @@ display: block;
 	line-height: 1;
 	padding: 18.5px 8px 16.5px;
 	margin-top: 0px;
+	letter-spacing: -1px;
 }
 
 .reviews-type-head p{
@@ -2334,6 +2351,7 @@ display: block;
 	width: 122px;
 	cursor: pointer;
 	position: absolute;
+	letter-spacing: -1px;
 }
 
 
@@ -2843,7 +2861,7 @@ tr#myAffix > th:first-child, tr > td:first-child, tr > th:first-child {
     	max-height: 100px;
     	resize: none; /* Запрещаем изменять размер */
     	text-align:  center;
-    	color: #66aad7;
+    	color: #000;
     	outline: none; 
     	font-weight: 100;
     	font-family: GothamProLight;
@@ -2859,13 +2877,13 @@ tr#myAffix > th:first-child, tr > td:first-child, tr > th:first-child {
     }
 
     input::-webkit-input-placeholder {color: rgb(61, 187, 232); -webkit-text-alig:left;}
-    textarea::-webkit-input-placeholder {color: rgb(61, 187, 232); -webkit-text-alig:left; line-height: 101px;}  
+    textarea::-webkit-input-placeholder {color: #000; -webkit-text-alig:left; line-height: 101px;}  
 
     input::-moz-placeholder {color: rgb(61, 187, 232); -webkit-text-alig:left;}
-    textarea::-moz-placeholder {color: rgb(61, 187, 232); -webkit-text-alig:left; line-height: 101px;}  
+    textarea::-moz-placeholder {color: #000; -webkit-text-alig:left; line-height: 101px;}  
 
     input::-o-input-placeholder {color: rgb(61, 187, 232); -webkit-text-alig:left;}
-    textarea::-o-input-placeholder {color: rgb(61, 187, 232); -webkit-text-alig:left; line-height: 101px;} 
+    textarea::-o-input-placeholder {color: #000; -webkit-text-alig:left; line-height: 101px;} 
 
     .btn-wr{
     	width: 100%;
@@ -2999,6 +3017,7 @@ tr#myAffix > th:first-child, tr > td:first-child, tr > th:first-child {
     	padding-left: 0;
     	text-align: center;
     	padding-right: 0;
+    	letter-spacing: -1px;
     }
 
     .write_us .pre-works.ord .head{
@@ -3064,6 +3083,7 @@ tr#myAffix > th:first-child, tr > td:first-child, tr > th:first-child {
     .questions2.ord .head{
     	padding-bottom: 15px;
     	padding-top: 0px;
+    	letter-spacing: -1px;
     }
 
     .questions2.ord2 input {
@@ -3076,7 +3096,7 @@ tr#myAffix > th:first-child, tr > td:first-child, tr > th:first-child {
     	border: 1px solid #66aad7;
     	border-radius: 50px;
     	padding: 0px 20px;
-    	color: #66aad7;
+    	color: #000;
     	padding-top: 1px;
     	text-align: center;
     	font-size: 15px;
@@ -3497,7 +3517,12 @@ strong span {
 	line-height: 1.2;
 	text-align: justify;
 	font-weight: 600;
+	letter-spacing: -1px;
 }
+
+strong {letter-spacing: -1px;}
+
+
 .block_2_js li:hover span, .block_2_js li:hover a, .block_2_js li span:hover, .block_2_js li:hover {
 	text-decoration: none!important;
 }
@@ -3724,7 +3749,7 @@ strong span {
 }
 .feedback-cnt {
 	padding: 0 !important;
-	margin-top: 55px !important;
+	margin-top: 130px !important;
 }
 .reviews-cnt {
 	padding: 0 !important;
@@ -3766,6 +3791,11 @@ strong span {
 }
 .col_cont .cont-box br {
 	margin-bottom: 5px;
+}
+.col_cont .cont-box .head {
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "GothamPro";
 }
 .list_dot {
 	border-top: 1px solid #a6a6a6;
@@ -3839,6 +3869,12 @@ strong span {
 .hr-before-about-5 {
 	margin: 5px 10px 10px 10px;
 }
+.reviews-container-main {
+	margin-top: 1px;
+}
+.paddd h2.head {
+	font-size: 18px;
+}
 } 
 
 @media (max-width: 780px) {
@@ -3908,7 +3944,7 @@ strong span {
 	}
 
 	.questions2 input::-moz-placeholder { 
-		color: #9cd8ff;
+		color: #000;
 		font-size: 12px;
 	}
 
@@ -4726,6 +4762,7 @@ strong span {
 
 		.phone-line .phone h3 a{
 			font-size: 14px;
+			letter-spacing: -1px;
 		}
 
 		.phone-line .phone h2{
@@ -4781,25 +4818,32 @@ strong span {
 		@media (max-width: 330px) {
 			.contacts h1 {
 				font-size: 18px;
+				letter-spacing: -1px;
 			}
 			.note .block{
 				font-size: 7px;
+				letter-spacing: -1px;
 			}
 			.block1 h2{
 				font-size: 18px;
+				letter-spacing: -1px;
 			}
 			.newsbox .context h3 a{
 				font-size: 18px;
+				letter-spacing: -1px;
 			}
 			.head.blue{
 				font-size: 18px;
+				letter-spacing: -1px;
 			}
 			.contacts h3{
 				font-size: 18px;
+				letter-spacing: -1px;
 			}
 
 			.inputfile-6 + label strong{
 				font-size: 10px;
+				letter-spacing: -1px;
 			}
 
 			.note .block p {
@@ -4808,6 +4852,7 @@ strong span {
 			}
 			.gradi_bot .col .h2 {
 				font-size: 11px;
+				letter-spacing: -1px;
 			}
 
 		}
@@ -4927,11 +4972,13 @@ strong span {
 @media all and (min-width:485px) and (max-width:1050px){
 	.block1.main h1, .er-404 h1 {
 		margin-top: 16px !important;
+		letter-spacing: -1px;
 	}
 }
 @media all and (min-width:571px) and (max-width:1050px){
 	.block1.main h1, .er-404 h1 {
 		margin-top: 40px !important;
+		letter-spacing: -1px;
 	}
 	.list_dot {
 		margin-left: 20px;

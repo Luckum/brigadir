@@ -111,6 +111,7 @@ a.button_blue_cart_big:hover { background:url(../img/button_cart_big_a.png) no-r
 
 .button_green { display:inline-block; padding:1px 10px 4px; font-size:11px; line-height:14px; color:#fff; text-decoration:none; background:#137e00 url(../img/button_green.png) repeat-x left top; border:1px solid #fff; border-radius:6px; box-shadow:#e2e2e2 2px 2px 2px;}
 h1, h2, div.h2 { margin:0 0 6px; padding:12px 0 8px; font:normal 17px/1.5em Tahoma, Geneva, sans-serif; color:#1968b3; text-transform:uppercase; border-bottom:1px solid #dbdbdb;}
+h2, div.h2 {font-size: 16px;}
 h1.no_border, h2.no_border { margin-bottom:0; border-bottom:none;}
 h1 a, h2 a { text-decoration:none; color:#1968b3;}
 .list_arr ul { padding:4px 0 8px; line-height:20px; color:#0056b5;}
